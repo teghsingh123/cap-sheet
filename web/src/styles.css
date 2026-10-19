@@ -1,0 +1,494 @@
+/* Palette + type lifted from Deadspin's actual Dec 2006 stylesheet
+   (web.archive.org/web/20070104082645/http://deadspin.com/) */
+:root {
+  --accent: #5d627c;
+  --bg: #ffffff;
+  --text: #202601;
+  --link: #788495;
+  --link-hover: #202601;
+  --mount-bg: #ffffff;
+  --mount-border: #dedede;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181c;
+    --text: #d9d9c8;
+    --accent: #9aa0bb;
+    --link: #9aa0bb;
+    --link-hover: #d9d9c8;
+    --mount-bg: #202126;
+    --mount-border: #33343a;
+  }
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+.story {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.story-section {
+  margin-bottom: 8rem;
+}
+
+.story-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.story-section h1 {
+  font-family: "Franklin Gothic Medium", Optima, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 2rem;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.story-section h2,
+.chart-pin h2 {
+  font-family: "Franklin Gothic Medium", Optima, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--accent);
+  font-size: 1.4rem;
+  line-height: 1.25;
+  margin-bottom: 1.1rem;
+}
+
+.story-section p {
+  margin: 0 0 1.1rem;
+}
+
+.story a {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--link);
+}
+
+.story a:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+.chart-pin {
+  margin: 8rem 0;
+  max-width: 900px;
+}
+
+.chart-container {
+  position: relative;
+  background: var(--mount-bg);
+  border: 1px solid var(--mount-border);
+  padding: 4px;
+}
+
+.chart-container svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chart-tooltip {
+  position: absolute;
+  transform: translate(-50%, -120%);
+  background: var(--mount-bg);
+  color: var(--text);
+  border: 1px solid var(--mount-border);
+  border-radius: 0;
+  padding: 0.5rem 0.75rem;
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0 var(--mount-border);
+  z-index: 10;
+  pointer-events: none;
+}
+
+.chart-tooltip-pinned {
+  pointer-events: auto;
+  border-color: var(--accent);
+  box-shadow: 2px 2px 0 var(--accent);
+  padding-right: 1.6rem;
+}
+
+.chart-tooltip-close {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 0.9rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 2px 4px;
+  opacity: 0.6;
+}
+
+.chart-tooltip-close:hover {
+  opacity: 1;
+}
+
+.chart-tooltip-link {
+  color: var(--accent);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  letter-spacing: 0.02em;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.min-scale-table-wrap {
+  margin: 1.5rem 0 2rem;
+}
+
+.min-scale-caption {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.6rem;
+  opacity: 0.7;
+  margin: 0 0 0.75rem;
+}
+
+.min-scale-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.min-scale-row {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.min-scale-label {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.7rem;
+  opacity: 0.8;
+  text-align: right;
+}
+
+.min-scale-track {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  border: 1px solid var(--mount-border);
+  height: 1.3rem;
+  overflow: hidden;
+}
+
+.min-scale-bar {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.min-scale-value {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.explorer-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.explorer-tab {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  padding: 0.4rem 0.7rem;
+  border: 1px solid var(--mount-border);
+  background: var(--mount-bg);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.explorer-tab.active {
+  background: var(--accent);
+  color: var(--mount-bg);
+  border-color: var(--accent);
+}
+
+.explorer-blurb {
+  font-size: 0.75rem;
+  opacity: 0.75;
+  margin: 0 0 1rem;
+}
+
+.prove-it-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.prove-it-row {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 0.6rem;
+  row-gap: 0.15rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.prove-it-label {
+  grid-row: 1 / span 2;
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.72rem;
+  text-align: right;
+}
+
+.prove-it-year {
+  opacity: 0.6;
+}
+
+.prove-it-track {
+  background: color-mix(in srgb, currentColor 8%, transparent);
+  border: 1px solid var(--mount-border);
+  height: 1.2rem;
+  position: relative;
+}
+
+.prove-it-bar {
+  height: 100%;
+  background: var(--accent);
+  transition: width 0.3s ease;
+}
+
+.prove-it-value {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.65rem;
+  opacity: 0.8;
+}
+
+/* photo mount, straight out of Deadspin's img.left / img.right rules --
+   white padding, thin gray border, floated so paragraph text wraps it */
+.float-img {
+  margin: 0 0 0.75rem 1.25rem;
+  padding: 4px;
+  background: #fff;
+  border: 1px solid var(--mount-border);
+  width: 160px;
+}
+
+.float-img-right {
+  float: right;
+}
+
+.float-img-left {
+  float: left;
+  margin-left: 0;
+  margin-right: 1.25rem;
+}
+
+.float-img img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.float-img figcaption {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.62rem;
+  color: #666;
+  text-align: center;
+  margin-top: 3px;
+  line-height: 1.3;
+}
+
+@media (prefers-color-scheme: dark) {
+  .float-img {
+    background: var(--mount-bg);
+  }
+  .float-img figcaption {
+    color: #999;
+  }
+}
+
+.player-search-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  font-size: 0.85rem;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid var(--mount-border);
+  background: var(--mount-bg);
+  color: var(--text);
+}
+
+.player-search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.player-search-results {
+  margin-top: 0.75rem;
+}
+
+.player-search-empty {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.player-search-table-wrap {
+  overflow-x: auto;
+}
+
+.player-search-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75rem;
+}
+
+.player-search-table th,
+.player-search-table td {
+  text-align: left;
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--mount-border);
+  white-space: nowrap;
+}
+
+.player-search-table th {
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 0.62rem;
+  letter-spacing: 0.02em;
+  opacity: 0.65;
+  font-weight: normal;
+}
+
+.player-search-link {
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--link);
+}
+
+.player-search-link:hover {
+  color: var(--link-hover);
+  border-bottom-color: var(--link-hover);
+}
+
+/* ---- blog chrome: masthead + home page post list ---- */
+.site-header {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.4rem 1rem;
+  border-bottom: 1px solid var(--mount-border);
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+}
+
+.site-name {
+  font-family: "Franklin Gothic Medium", Optima, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-tagline {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}
+
+.post-date {
+  display: block;
+  font-family: Verdana, "Trebuchet MS", Trebuchet, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.6rem;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list-item {
+  margin-bottom: 3rem;
+}
+
+.post-list-item h2 {
+  font-family: "Franklin Gothic Medium", Optima, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  margin: 0 0 0.6rem;
+}
+
+.post-list-item h2 a {
+  color: var(--accent);
+  border-bottom: none;
+}
+
+.post-list-item h2 a:hover {
+  color: var(--link-hover);
+}
+
+.post-list-item p {
+  margin: 0;
+}
+
+/* A photo always starts below the previous one, so a left and a right photo
+   in neighboring paragraphs never pinch the text into a sliver between them. */
+.float-img {
+  clear: both;
+}
+
+/* On phones there's no room to wrap text beside a photo: center it instead. */
+@media (max-width: 520px) {
+  .float-img,
+  .float-img-left,
+  .float-img-right {
+    float: none;
+    margin: 0 auto 1.1rem;
+    width: 200px;
+  }
+}
+
+.story-list {
+  margin: 0 0 1.1rem;
+  padding-left: 1.25rem;
+}
+
+.story-list li {
+  margin-bottom: 0.6rem;
+}
+
+.story-list strong {
+  color: var(--accent);
+}

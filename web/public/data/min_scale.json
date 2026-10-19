@@ -1,0 +1,49 @@
+{
+  "season": "2025-26",
+  "scale": [
+    {
+      "yos": 0,
+      "minSalary": 1272870
+    },
+    {
+      "yos": 1,
+      "minSalary": 2048494
+    },
+    {
+      "yos": 2,
+      "minSalary": 2296274
+    },
+    {
+      "yos": 3,
+      "minSalary": 2378870
+    },
+    {
+      "yos": 4,
+      "minSalary": 2461463
+    },
+    {
+      "yos": 5,
+      "minSalary": 2667947
+    },
+    {
+      "yos": 6,
+      "minSalary": 2874436
+    },
+    {
+      "yos": 7,
+      "minSalary": 3080921
+    },
+    {
+      "yos": 8,
+      "minSalary": 3287409
+    },
+    {
+      "yos": 9,
+      "minSalary": 3303774
+    },
+    {
+      "yos": 10,
+      "minSalary": 3634153
+    }
+  ]
+}
