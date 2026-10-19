@@ -79,7 +79,7 @@ export function ProveItChart({ data }: Props) {
             </div>
             <div className="prove-it-value">
               {r.multiple != null && r.nextYearSalary != null
-                ? `${fmt.format(r.vetMinSalary)} → ${fmt.format(r.nextYearSalary)} (${r.multiple}x)`
+                ? `${fmt.format(r.vetMinSalary)} → ${fmt.format(r.nextYearSalary)} (${r.multiple}x the full minimum)`
                 : `${fmt.format(r.vetMinSalary)} → gone within a year`}
             </div>
           </div>

@@ -164,8 +164,14 @@ with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
             next_min is None or next_salary / next_min >= RATIO_MIN
         )
 
+        # compare against the FULL-season minimum, not what a prorated
+        # mid-season deal actually paid -- otherwise a normal minimum deal the
+        # next year looks like a raise (DeAndre Jordan's prorated $592k with
+        # Philly in 2022 was showing as a "bounce back" to his $2.9M Denver
+        # minimum)
+        full_min = max(vetmin_salary, float(row["min_salary"]))
         if next_salary is not None and next_reliable:
-            outcome = "bounced_back" if next_salary > vetmin_salary * 1.5 else "stuck"
+            outcome = "bounced_back" if next_salary > full_min * 1.5 else "stuck"
         else:
             outcome = "flamed_out"
 
@@ -176,7 +182,7 @@ with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
             "age": round(float(row["age_at_signing"]), 2),
             "vetMinSalary": round(vetmin_salary),
             "nextYearSalary": round(next_salary) if (next_salary is not None and next_reliable) else None,
-            "multiple": round(next_salary / vetmin_salary, 2) if (next_salary is not None and next_reliable) else None,
+            "multiple": round(next_salary / full_min, 2) if (next_salary is not None and next_reliable) else None,
             "outcome": outcome,
             "draftPick": draft.get(bref_id),
         })

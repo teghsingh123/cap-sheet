@@ -68,7 +68,7 @@ export default function KumingaLine() {
 
       <div className="chart-pin">
         <h2>{story.chart.heading}</h2>
-        {data ? <VetMinExplorer data={data.signings} highlightBrefId="tskitni01" /> : loading}
+        {data ? <VetMinExplorer data={data.signings} highlightBrefId="bendedr01" /> : loading}
       </div>
 
       <section className="story-section">
@@ -78,9 +78,9 @@ export default function KumingaLine() {
           figures={{
             0: (
               <FloatImg
-                src="https://upload.wikimedia.org/wikipedia/commons/8/8b/NikolozTskitishvili2010.jpg"
-                alt="Nikoloz Tskitishvili"
-                caption="Nikoloz Tskitishvili, the youngest real comp"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Dragan_Bender.JPG/500px-Dragan_Bender.JPG"
+                alt="Dragan Bender playing for Maccabi Tel Aviv"
+                caption="Dragan Bender, the youngest real comp, a year before the draft"
                 side="right"
               />
             ),
@@ -167,6 +167,11 @@ export default function KumingaLine() {
       </section>
 
       <section className="story-section">
+        <h2>{story.missingSeasonsFix.heading}</h2>
+        <Paragraphs paragraphs={story.missingSeasonsFix.paragraphs} />
+      </section>
+
+      <section className="story-section">
         <h2>{story.lookup.heading}</h2>
         <p>{story.lookup.intro}</p>
         {data ? <PlayerSearch data={data.signings} /> : loading}
@@ -174,7 +179,19 @@ export default function KumingaLine() {
 
       <section className="story-section">
         <h2>{story.closing.heading}</h2>
-        <Paragraphs paragraphs={story.closing.paragraphs} />
+        <Paragraphs
+          paragraphs={story.closing.paragraphs}
+          figures={{
+            4: (
+              <FloatImg
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Shaun_Livingston_with_Warriors_%28cropped%29.jpg/500px-Shaun_Livingston_with_Warriors_%28cropped%29.jpg"
+                alt="Shaun Livingston with the Warriors"
+                caption="Shaun Livingston: knee injury, minimum deals, three titles"
+                side="right"
+              />
+            ),
+          }}
+        />
       </section>
     </article>
   );

@@ -20,7 +20,7 @@ export const posts: PostMeta[] = [
     slug: "kuminga-line",
     title: "The Kuminga Line",
     date: "2026-08-24",
-    dek: "Has a former lottery pick ever fallen to the veteran's minimum this far, this fast, while still this young? Every vet-min signing since 1991, checked.",
+    dek: "Has a former top-10 pick ever fallen to the veteran's minimum this far, this fast, while still this young? Every vet-min signing since 1991, checked.",
     Component: lazy(() => import("./kuminga-line/KumingaLine")),
   },
 ];
