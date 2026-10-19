@@ -10,15 +10,6 @@
       "draftPick": 38
     },
     {
-      "player": "Tyrell Terry",
-      "brefId": "terryty01",
-      "year": 2022,
-      "age": 21.01,
-      "salary": 351457,
-      "team": "MEM",
-      "draftPick": 31
-    },
-    {
       "player": "Juan Hernangomez",
       "brefId": "hernaju01",
       "year": 2017,
@@ -26,6 +17,15 @@
       "salary": 1987440,
       "team": "DEN",
       "draftPick": 15
+    },
+    {
+      "player": "Tyrell Terry",
+      "brefId": "terryty01",
+      "year": 2022,
+      "age": 21.01,
+      "salary": 351457,
+      "team": "MEM",
+      "draftPick": 31
     },
     {
       "player": "Jaden Springer",
@@ -37,13 +37,13 @@
       "draftPick": 28
     },
     {
-      "player": "James Bouknight",
-      "brefId": "bouknja01",
-      "year": 2022,
+      "player": "Kyle Anderson",
+      "brefId": "anderky01",
+      "year": 2015,
       "age": 21.03,
-      "salary": 4154400,
-      "team": "CHA",
-      "draftPick": 11
+      "salary": 1093680,
+      "team": "SAS",
+      "draftPick": 30
     },
     {
       "player": "Daniel Oturu",
@@ -55,15 +55,6 @@
       "draftPick": 33
     },
     {
-      "player": "Kyle Anderson",
-      "brefId": "anderky01",
-      "year": 2015,
-      "age": 21.03,
-      "salary": 1093680,
-      "team": "SAS",
-      "draftPick": 30
-    },
-    {
       "player": "Precious Achiuwa",
       "brefId": "achiupr01",
       "year": 2021,
@@ -73,15 +64,6 @@
       "draftPick": 20
     },
     {
-      "player": "Wendell Moore",
-      "brefId": "moorewe01",
-      "year": 2023,
-      "age": 21.03,
-      "salary": 2306520,
-      "team": "MIN",
-      "draftPick": 26
-    },
-    {
       "player": "Robert Woodard",
       "brefId": "woodaro01",
       "year": 2021,
@@ -89,6 +71,24 @@
       "salary": 1500000,
       "team": "SAC",
       "draftPick": 40
+    },
+    {
+      "player": "James Bouknight",
+      "brefId": "bouknja01",
+      "year": 2022,
+      "age": 21.03,
+      "salary": 4154400,
+      "team": "CHA",
+      "draftPick": 11
+    },
+    {
+      "player": "Wendell Moore",
+      "brefId": "moorewe01",
+      "year": 2023,
+      "age": 21.03,
+      "salary": 2306520,
+      "team": "MIN",
+      "draftPick": 26
     },
     {
       "player": "Udoka Azubuike",
@@ -127,15 +127,6 @@
       "draftPick": 36
     },
     {
-      "player": "Donovan Mitchell",
-      "brefId": "mitchdo01",
-      "year": 2018,
-      "age": 21.07,
-      "salary": 2621280,
-      "team": "UTA",
-      "draftPick": 13
-    },
-    {
       "player": "TJ Warren",
       "brefId": "warretj01",
       "year": 2015,
@@ -143,6 +134,15 @@
       "salary": 1953120,
       "team": "PHX",
       "draftPick": 14
+    },
+    {
+      "player": "Donovan Mitchell",
+      "brefId": "mitchdo01",
+      "year": 2018,
+      "age": 21.07,
+      "salary": 2621280,
+      "team": "UTA",
+      "draftPick": 13
     },
     {
       "player": "Nickeil Alexander-Walker",
@@ -181,6 +181,15 @@
       "draftPick": 54
     },
     {
+      "player": "Rashad Vaughn",
+      "brefId": "vaughra01",
+      "year": 2018,
+      "age": 21.13,
+      "salary": 2172396,
+      "team": "NOP",
+      "draftPick": 17
+    },
+    {
       "player": "Bruno Fernando",
       "brefId": "fernabr01",
       "year": 2020,
@@ -208,15 +217,6 @@
       "draftPick": null
     },
     {
-      "player": "Rashad Vaughn",
-      "brefId": "vaughra01",
-      "year": 2018,
-      "age": 21.13,
-      "salary": 2172396,
-      "team": "NOP",
-      "draftPick": 17
-    },
-    {
       "player": "Kessler Edwards",
       "brefId": "edwarke02",
       "year": 2022,
@@ -235,15 +235,6 @@
       "draftPick": 14
     },
     {
-      "player": "Devon Dotson",
-      "brefId": "dotsode01",
-      "year": 2021,
-      "age": 21.17,
-      "salary": 449115,
-      "team": "CHI",
-      "draftPick": null
-    },
-    {
       "player": "Thomas Bryant",
       "brefId": "bryanth01",
       "year": 2019,
@@ -253,13 +244,13 @@
       "draftPick": 42
     },
     {
-      "player": "Troy Brown",
-      "brefId": "browntr01",
+      "player": "Devon Dotson",
+      "brefId": "dotsode01",
       "year": 2021,
-      "age": 21.18,
-      "salary": 3372840,
+      "age": 21.17,
+      "salary": 449115,
       "team": "CHI",
-      "draftPick": 15
+      "draftPick": null
     },
     {
       "player": "Jawun Evans",
@@ -271,13 +262,13 @@
       "draftPick": 39
     },
     {
-      "player": "Maxwell Lewis",
-      "brefId": "lewisma05",
-      "year": 2024,
+      "player": "Troy Brown",
+      "brefId": "browntr01",
+      "year": 2021,
       "age": 21.18,
-      "salary": 1119563,
-      "team": "LAL",
-      "draftPick": 40
+      "salary": 3372840,
+      "team": "CHI",
+      "draftPick": 15
     },
     {
       "player": "Walker Kessler",
@@ -289,6 +280,15 @@
       "draftPick": 22
     },
     {
+      "player": "Maxwell Lewis",
+      "brefId": "lewisma05",
+      "year": 2024,
+      "age": 21.18,
+      "salary": 1119563,
+      "team": "LAL",
+      "draftPick": 40
+    },
+    {
       "player": "Omari Spellman",
       "brefId": "spellom01",
       "year": 2019,
@@ -298,22 +298,13 @@
       "draftPick": 30
     },
     {
-      "player": "Ben Simmons",
-      "brefId": "simmobe01",
+      "player": "Cameron Oliver",
+      "brefId": "oliveca01",
       "year": 2018,
-      "age": 21.2,
-      "salary": 6168840,
-      "team": "PHI",
-      "draftPick": 1
-    },
-    {
-      "player": "Dante Exum",
-      "brefId": "exumda01",
-      "year": 2017,
       "age": 21.22,
-      "salary": 3940320,
-      "team": "UTA",
-      "draftPick": 5
+      "salary": 300000,
+      "team": "HOU",
+      "draftPick": null
     },
     {
       "player": "Shai Gilgeous-Alexander",
@@ -325,15 +316,6 @@
       "draftPick": 11
     },
     {
-      "player": "Jordan Mickey",
-      "brefId": "mickejo01",
-      "year": 2016,
-      "age": 21.23,
-      "salary": 1170960,
-      "team": "BOS",
-      "draftPick": 33
-    },
-    {
       "player": "Grant Jerrett",
       "brefId": "jerregr01",
       "year": 2015,
@@ -341,6 +323,15 @@
       "salary": 816482,
       "team": "UTA",
       "draftPick": 40
+    },
+    {
+      "player": "Jordan Mickey",
+      "brefId": "mickejo01",
+      "year": 2016,
+      "age": 21.23,
+      "salary": 1170960,
+      "team": "BOS",
+      "draftPick": 33
     },
     {
       "player": "Marquese Chriss",
@@ -352,13 +343,13 @@
       "draftPick": 8
     },
     {
-      "player": "Olivier-Maxence Prosper",
-      "brefId": "prospol01",
-      "year": 2024,
+      "player": "Isaiah Joe",
+      "brefId": "joeis01",
+      "year": 2021,
       "age": 21.25,
-      "salary": 2733720,
-      "team": "DAL",
-      "draftPick": 24
+      "salary": 898310,
+      "team": "PHI",
+      "draftPick": 49
     },
     {
       "player": "Ryan Rollins",
@@ -370,13 +361,13 @@
       "draftPick": 44
     },
     {
-      "player": "Isaiah Joe",
-      "brefId": "joeis01",
-      "year": 2021,
+      "player": "Olivier-Maxence Prosper",
+      "brefId": "prospol01",
+      "year": 2024,
       "age": 21.25,
-      "salary": 898310,
-      "team": "PHI",
-      "draftPick": 49
+      "salary": 2733720,
+      "team": "DAL",
+      "draftPick": 24
     },
     {
       "player": "Damian Jones",
@@ -386,15 +377,6 @@
       "salary": 1171560,
       "team": "GSW",
       "draftPick": 30
-    },
-    {
-      "player": "Michael Porter",
-      "brefId": "portemi01",
-      "year": 2020,
-      "age": 21.26,
-      "salary": 3389400,
-      "team": "DEN",
-      "draftPick": 14
     },
     {
       "player": "Julian Champagnie",
@@ -415,15 +397,6 @@
       "draftPick": 12
     },
     {
-      "player": "Vit Krejci",
-      "brefId": "krejcvi01",
-      "year": 2022,
-      "age": 21.28,
-      "salary": 925258,
-      "team": "OKC",
-      "draftPick": 37
-    },
-    {
       "player": "Saben Lee",
       "brefId": "leesa01",
       "year": 2021,
@@ -431,6 +404,15 @@
       "salary": 516836,
       "team": "DET",
       "draftPick": 38
+    },
+    {
+      "player": "Vit Krejci",
+      "brefId": "krejcvi01",
+      "year": 2022,
+      "age": 21.28,
+      "salary": 925258,
+      "team": "OKC",
+      "draftPick": 37
     },
     {
       "player": "Gui Santos",
@@ -451,6 +433,15 @@
       "draftPick": 28
     },
     {
+      "player": "Immanuel Quickley",
+      "brefId": "quickim01",
+      "year": 2021,
+      "age": 21.29,
+      "salary": 2105520,
+      "team": "NYK",
+      "draftPick": 25
+    },
+    {
       "player": "Trey Murphy",
       "brefId": "murphtr02",
       "year": 2022,
@@ -460,13 +451,13 @@
       "draftPick": 17
     },
     {
-      "player": "Immanuel Quickley",
-      "brefId": "quickim01",
-      "year": 2021,
-      "age": 21.29,
-      "salary": 2105520,
-      "team": "NYK",
-      "draftPick": 25
+      "player": "Justin Patton",
+      "brefId": "pattoju01",
+      "year": 2019,
+      "age": 21.3,
+      "salary": 2667600,
+      "team": "PHI",
+      "draftPick": 16
     },
     {
       "player": "Theo Maledon",
@@ -485,15 +476,6 @@
       "salary": 1900000,
       "team": "HOU",
       "draftPick": 34
-    },
-    {
-      "player": "Justin Patton",
-      "brefId": "pattoju01",
-      "year": 2019,
-      "age": 21.3,
-      "salary": 2667600,
-      "team": "PHI",
-      "draftPick": 16
     },
     {
       "player": "Paul Reed",
@@ -568,15 +550,6 @@
       "draftPick": 17
     },
     {
-      "player": "Quentin Grimes",
-      "brefId": "grimequ01",
-      "year": 2022,
-      "age": 21.4,
-      "salary": 2168640,
-      "team": "NYK",
-      "draftPick": 25
-    },
-    {
       "player": "Sam Dekker",
       "brefId": "dekkesa01",
       "year": 2016,
@@ -584,6 +557,33 @@
       "salary": 1646400,
       "team": "HOU",
       "draftPick": 18
+    },
+    {
+      "player": "Timoth\u00e9 Luwawu-Cabarrot",
+      "brefId": "luwawti01",
+      "year": 2017,
+      "age": 21.4,
+      "salary": 1326960,
+      "team": "PHI",
+      "draftPick": 24
+    },
+    {
+      "player": "Dzanan Musa",
+      "brefId": "musadz01",
+      "year": 2021,
+      "age": 21.4,
+      "salary": 2002800,
+      "team": "DET",
+      "draftPick": 29
+    },
+    {
+      "player": "Quentin Grimes",
+      "brefId": "grimequ01",
+      "year": 2022,
+      "age": 21.4,
+      "salary": 2168640,
+      "team": "NYK",
+      "draftPick": 25
     },
     {
       "player": "Domantas Sabonis",
@@ -604,15 +604,6 @@
       "draftPick": 14
     },
     {
-      "player": "Chet Holmgren",
-      "brefId": "holmgch01",
-      "year": 2024,
-      "age": 21.42,
-      "salary": 10386000,
-      "team": "OKC",
-      "draftPick": 2
-    },
-    {
       "player": "Moritz Wagner",
       "brefId": "wagnemo01",
       "year": 2019,
@@ -622,15 +613,6 @@
       "draftPick": 25
     },
     {
-      "player": "Julian Strawther",
-      "brefId": "strawju01",
-      "year": 2024,
-      "age": 21.45,
-      "salary": 2431044,
-      "team": "DEN",
-      "draftPick": 29
-    },
-    {
       "player": "Caleb Swanigan",
       "brefId": "swanica01",
       "year": 2019,
@@ -638,6 +620,15 @@
       "salary": 1740000,
       "team": "SAC",
       "draftPick": 26
+    },
+    {
+      "player": "Julian Strawther",
+      "brefId": "strawju01",
+      "year": 2024,
+      "age": 21.45,
+      "salary": 2431044,
+      "team": "DEN",
+      "draftPick": 29
     },
     {
       "player": "Wendell Carter",
@@ -667,15 +658,6 @@
       "draftPick": 12
     },
     {
-      "player": "Saddiq Bey",
-      "brefId": "beysa01",
-      "year": 2021,
-      "age": 21.48,
-      "salary": 2689920,
-      "team": "DET",
-      "draftPick": 19
-    },
-    {
       "player": "Tyler Lydon",
       "brefId": "lydonty01",
       "year": 2018,
@@ -683,6 +665,15 @@
       "salary": 1579440,
       "team": "DEN",
       "draftPick": 24
+    },
+    {
+      "player": "Saddiq Bey",
+      "brefId": "beysa01",
+      "year": 2021,
+      "age": 21.48,
+      "salary": 2689920,
+      "team": "DET",
+      "draftPick": 19
     },
     {
       "player": "Spencer Dinwiddie",
@@ -766,15 +757,6 @@
       "draftPick": 16
     },
     {
-      "player": "Jalen Smith",
-      "brefId": "smithja04",
-      "year": 2022,
-      "age": 21.54,
-      "salary": 4458000,
-      "team": "IND",
-      "draftPick": 10
-    },
-    {
       "player": "Ivica Zubac",
       "brefId": "zubaciv01",
       "year": 2019,
@@ -782,6 +764,15 @@
       "salary": 1544951,
       "team": "LAC",
       "draftPick": 32
+    },
+    {
+      "player": "Jalen Smith",
+      "brefId": "smithja04",
+      "year": 2022,
+      "age": 21.54,
+      "salary": 4458000,
+      "team": "IND",
+      "draftPick": 10
     },
     {
       "player": "Johnny Juzang",
@@ -811,22 +802,13 @@
       "draftPick": 26
     },
     {
-      "player": "Keon Johnson",
-      "brefId": "johnske07",
-      "year": 2024,
+      "player": "Raymond Spalding",
+      "brefId": "spaldra01",
+      "year": 2019,
       "age": 21.56,
-      "salary": 534045,
-      "team": "BKN",
-      "draftPick": 21
-    },
-    {
-      "player": "Keon Johnson",
-      "brefId": "johnske07",
-      "year": 2024,
-      "age": 21.56,
-      "salary": 2808720,
-      "team": "PHX",
-      "draftPick": 21
+      "salary": 838464,
+      "team": "DAL",
+      "draftPick": 56
     },
     {
       "player": "Carsen Edwards",
@@ -844,15 +826,6 @@
       "age": 21.56,
       "salary": 462629,
       "team": "CHA",
-      "draftPick": 56
-    },
-    {
-      "player": "Raymond Spalding",
-      "brefId": "spaldra01",
-      "year": 2019,
-      "age": 21.56,
-      "salary": 838464,
-      "team": "DAL",
       "draftPick": 56
     },
     {
@@ -874,13 +847,22 @@
       "draftPick": 23
     },
     {
-      "player": "Isaiah Whitehead",
-      "brefId": "whiteis01",
-      "year": 2017,
-      "age": 21.57,
-      "salary": 1074145,
+      "player": "Keon Johnson",
+      "brefId": "johnske07",
+      "year": 2024,
+      "age": 21.56,
+      "salary": 534045,
       "team": "BKN",
-      "draftPick": 42
+      "draftPick": 21
+    },
+    {
+      "player": "Keon Johnson",
+      "brefId": "johnske07",
+      "year": 2024,
+      "age": 21.56,
+      "salary": 2808720,
+      "team": "PHX",
+      "draftPick": 21
     },
     {
       "player": "Emmanuel Mudiay",
@@ -890,6 +872,15 @@
       "salary": 3381480,
       "team": "NYK",
       "draftPick": 7
+    },
+    {
+      "player": "Isaiah Whitehead",
+      "brefId": "whiteis01",
+      "year": 2017,
+      "age": 21.57,
+      "salary": 1074145,
+      "team": "BKN",
+      "draftPick": 42
     },
     {
       "player": "Joel Ayayi",
@@ -908,6 +899,15 @@
       "salary": 535294,
       "team": "DEN",
       "draftPick": null
+    },
+    {
+      "player": "Marquis Teague",
+      "brefId": "teaguma01",
+      "year": 2015,
+      "age": 21.59,
+      "salary": 1120920,
+      "team": "PHI",
+      "draftPick": 29
     },
     {
       "player": "Tyrese Haliburton",
@@ -964,21 +964,21 @@
       "draftPick": 17
     },
     {
-      "player": "Adama Sanogo",
-      "brefId": "sanogad01",
-      "year": 2024,
-      "age": 21.63,
-      "salary": 559782,
-      "team": "CHI",
-      "draftPick": null
-    },
-    {
       "player": "Daishen Nix",
       "brefId": "nixda01",
       "year": 2024,
       "age": 21.63,
       "salary": 559782,
       "team": "MIN",
+      "draftPick": null
+    },
+    {
+      "player": "Adama Sanogo",
+      "brefId": "sanogad01",
+      "year": 2024,
+      "age": 21.63,
+      "salary": 559782,
+      "team": "CHI",
       "draftPick": null
     },
     {
@@ -1018,15 +1018,6 @@
       "draftPick": 24
     },
     {
-      "player": "Jalen McDaniels",
-      "brefId": "mcdanja01",
-      "year": 2020,
-      "age": 21.66,
-      "salary": 898310,
-      "team": "CHA",
-      "draftPick": 52
-    },
-    {
       "player": "Donte DiVincenzo",
       "brefId": "divindo01",
       "year": 2019,
@@ -1034,6 +1025,15 @@
       "salary": 2484360,
       "team": "MIL",
       "draftPick": 17
+    },
+    {
+      "player": "Jalen McDaniels",
+      "brefId": "mcdanja01",
+      "year": 2020,
+      "age": 21.66,
+      "salary": 898310,
+      "team": "CHA",
+      "draftPick": 52
     },
     {
       "player": "Isaiah Roby",
@@ -1072,15 +1072,6 @@
       "draftPick": 37
     },
     {
-      "player": "Ayo Dosunmu",
-      "brefId": "dosunay01",
-      "year": 2022,
-      "age": 21.71,
-      "salary": 925258,
-      "team": "CHI",
-      "draftPick": 38
-    },
-    {
       "player": "Henry Ellenson",
       "brefId": "ellenhe01",
       "year": 2019,
@@ -1097,6 +1088,15 @@
       "salary": 815615,
       "team": "HOU",
       "draftPick": 43
+    },
+    {
+      "player": "Ayo Dosunmu",
+      "brefId": "dosunay01",
+      "year": 2022,
+      "age": 21.71,
+      "salary": 925258,
+      "team": "CHI",
+      "draftPick": 38
     },
     {
       "player": "Xavier Tillman",
@@ -1198,13 +1198,13 @@
       "draftPick": 3
     },
     {
-      "player": "De'Andre Hunter",
-      "brefId": "huntede01",
-      "year": 2020,
-      "age": 21.83,
-      "salary": 7068360,
-      "team": "ATL",
-      "draftPick": 4
+      "player": "Josh Christopher",
+      "brefId": "chrisjo01",
+      "year": 2024,
+      "age": 21.81,
+      "salary": 2485200,
+      "team": "MEM",
+      "draftPick": 24
     },
     {
       "player": "Deyonta Davis",
@@ -1214,6 +1214,15 @@
       "salary": 1544951,
       "team": "SAC",
       "draftPick": 31
+    },
+    {
+      "player": "De'Andre Hunter",
+      "brefId": "huntede01",
+      "year": 2020,
+      "age": 21.83,
+      "salary": 7068360,
+      "team": "ATL",
+      "draftPick": 4
     },
     {
       "player": "Talen Horton-Tucker",
@@ -1232,6 +1241,15 @@
       "salary": 1449000,
       "team": "DAL",
       "draftPick": 21
+    },
+    {
+      "player": "Dragan Bender",
+      "brefId": "bendedr01",
+      "year": 2020,
+      "age": 21.87,
+      "salary": 1678854,
+      "team": "MIL",
+      "draftPick": 4
     },
     {
       "player": "Bol Bol",
@@ -1297,6 +1315,15 @@
       "draftPick": 12
     },
     {
+      "player": "Chinanu Onuaku",
+      "brefId": "onuakch01",
+      "year": 2019,
+      "age": 21.91,
+      "salary": 1544951,
+      "team": "DAL",
+      "draftPick": 37
+    },
+    {
       "player": "Evan Fournier",
       "brefId": "fournev01",
       "year": 2015,
@@ -1315,15 +1342,6 @@
       "draftPick": 53
     },
     {
-      "player": "Lonzo Ball",
-      "brefId": "balllo01",
-      "year": 2020,
-      "age": 21.93,
-      "salary": 8719320,
-      "team": "NOP",
-      "draftPick": 2
-    },
-    {
       "player": "Andrew Harrison",
       "brefId": "harrian01",
       "year": 2017,
@@ -1340,6 +1358,15 @@
       "salary": 543471,
       "team": "POR",
       "draftPick": null
+    },
+    {
+      "player": "Lonzo Ball",
+      "brefId": "balllo01",
+      "year": 2020,
+      "age": 21.93,
+      "salary": 8719320,
+      "team": "NOP",
+      "draftPick": 2
     },
     {
       "player": "RJ Hunter",
@@ -1369,13 +1396,13 @@
       "draftPick": 23
     },
     {
-      "player": "Marko Simonovic",
-      "brefId": "simonma01",
-      "year": 2022,
-      "age": 21.96,
-      "salary": 925258,
-      "team": "CHI",
-      "draftPick": 44
+      "player": "Isaiah Todd",
+      "brefId": "toddis01",
+      "year": 2024,
+      "age": 21.95,
+      "salary": 1836096,
+      "team": "MEM",
+      "draftPick": 31
     },
     {
       "player": "Richaun Holmes",
@@ -1387,13 +1414,13 @@
       "draftPick": 37
     },
     {
-      "player": "David Duke",
-      "brefId": "dukeda01",
+      "player": "Marko Simonovic",
+      "brefId": "simonma01",
       "year": 2022,
-      "age": 21.97,
-      "salary": 462629,
-      "team": "BKN",
-      "draftPick": null
+      "age": 21.96,
+      "salary": 925258,
+      "team": "CHI",
+      "draftPick": 44
     },
     {
       "player": "Moses Brown",
@@ -1402,6 +1429,24 @@
       "age": 21.97,
       "salary": 1701593,
       "team": "DAL",
+      "draftPick": null
+    },
+    {
+      "player": "Justin Robinson",
+      "brefId": "robinju01",
+      "year": 2020,
+      "age": 21.97,
+      "salary": 395866,
+      "team": "WAS",
+      "draftPick": null
+    },
+    {
+      "player": "David Duke",
+      "brefId": "dukeda01",
+      "year": 2022,
+      "age": 21.97,
+      "salary": 462629,
+      "team": "BKN",
       "draftPick": null
     },
     {
@@ -1423,15 +1468,6 @@
       "draftPick": 8
     },
     {
-      "player": "Aaron Holiday",
-      "brefId": "holidaa01",
-      "year": 2019,
-      "age": 22.0,
-      "salary": 1914480,
-      "team": "IND",
-      "draftPick": 23
-    },
-    {
       "player": "Shane Larkin",
       "brefId": "larkish01",
       "year": 2015,
@@ -1439,6 +1475,15 @@
       "salary": 1606080,
       "team": "NYK",
       "draftPick": 18
+    },
+    {
+      "player": "Aaron Holiday",
+      "brefId": "holidaa01",
+      "year": 2019,
+      "age": 22.0,
+      "salary": 1914480,
+      "team": "IND",
+      "draftPick": 23
     },
     {
       "player": "Daniel Gafford",
@@ -1450,15 +1495,6 @@
       "draftPick": 38
     },
     {
-      "player": "Terry Taylor",
-      "brefId": "taylote01",
-      "year": 2022,
-      "age": 22.02,
-      "salary": 895125,
-      "team": "IND",
-      "draftPick": null
-    },
-    {
       "player": "Rayjon Tucker",
       "brefId": "tuckera01",
       "year": 2020,
@@ -1468,6 +1504,24 @@
       "draftPick": null
     },
     {
+      "player": "Terry Taylor",
+      "brefId": "taylote01",
+      "year": 2022,
+      "age": 22.02,
+      "salary": 895125,
+      "team": "IND",
+      "draftPick": null
+    },
+    {
+      "player": "Devyn Marble",
+      "brefId": "marblde01",
+      "year": 2015,
+      "age": 22.03,
+      "salary": 884879,
+      "team": "ORL",
+      "draftPick": 56
+    },
+    {
       "player": "Bruno Caboclo",
       "brefId": "cabocbr01",
       "year": 2018,
@@ -1475,6 +1529,15 @@
       "salary": 2451224,
       "team": "SAC",
       "draftPick": 20
+    },
+    {
+      "player": "Dakari Johnson",
+      "brefId": "johnsda04",
+      "year": 2018,
+      "age": 22.03,
+      "salary": 815615,
+      "team": "OKC",
+      "draftPick": 48
     },
     {
       "player": "Daniel Oturu",
@@ -1493,24 +1556,6 @@
       "salary": 2711280,
       "team": "TOR",
       "draftPick": 20
-    },
-    {
-      "player": "Dakari Johnson",
-      "brefId": "johnsda04",
-      "year": 2018,
-      "age": 22.03,
-      "salary": 815615,
-      "team": "OKC",
-      "draftPick": 48
-    },
-    {
-      "player": "Devyn Marble",
-      "brefId": "marblde01",
-      "year": 2015,
-      "age": 22.03,
-      "salary": 884879,
-      "team": "ORL",
-      "draftPick": 56
     },
     {
       "player": "Josh Richardson",
@@ -1558,13 +1603,13 @@
       "draftPick": 45
     },
     {
-      "player": "Cam Reddish",
-      "brefId": "reddica01",
-      "year": 2022,
+      "player": "Brandon Ingram",
+      "brefId": "ingrabr01",
+      "year": 2020,
       "age": 22.08,
-      "salary": 4670160,
-      "team": "NYK",
-      "draftPick": 10
+      "salary": 7265485,
+      "team": "NOP",
+      "draftPick": 2
     },
     {
       "player": "Jalen Brunson",
@@ -1576,6 +1621,15 @@
       "draftPick": 33
     },
     {
+      "player": "Cam Reddish",
+      "brefId": "reddica01",
+      "year": 2022,
+      "age": 22.08,
+      "salary": 4670160,
+      "team": "NYK",
+      "draftPick": 10
+    },
+    {
       "player": "Greg Brown",
       "brefId": "browngr01",
       "year": 2024,
@@ -1583,24 +1637,6 @@
       "salary": 559782,
       "team": "DAL",
       "draftPick": 43
-    },
-    {
-      "player": "Brandon Ingram",
-      "brefId": "ingrabr01",
-      "year": 2020,
-      "age": 22.08,
-      "salary": 7265485,
-      "team": "NOP",
-      "draftPick": 2
-    },
-    {
-      "player": "Mikal Bridges",
-      "brefId": "bridgmi01",
-      "year": 2019,
-      "age": 22.09,
-      "salary": 3557400,
-      "team": "PHX",
-      "draftPick": 10
     },
     {
       "player": "Dwayne Bacon",
@@ -1612,22 +1648,22 @@
       "draftPick": 40
     },
     {
-      "player": "Nate Darling",
-      "brefId": "darlina01",
-      "year": 2021,
+      "player": "Melvin Frazier",
+      "brefId": "frazime01",
+      "year": 2019,
       "age": 22.09,
-      "salary": 449115,
-      "team": "CHA",
-      "draftPick": null
+      "salary": 1050000,
+      "team": "ORL",
+      "draftPick": 35
     },
     {
-      "player": "Malcolm Cazalon",
-      "brefId": "cazalma01",
-      "year": 2024,
+      "player": "Mikal Bridges",
+      "brefId": "bridgmi01",
+      "year": 2019,
       "age": 22.09,
-      "salary": 559782,
-      "team": "DET",
-      "draftPick": null
+      "salary": 3557400,
+      "team": "PHX",
+      "draftPick": 10
     },
     {
       "player": "DaQuan Jeffries",
@@ -1636,6 +1672,15 @@
       "age": 22.09,
       "salary": 898310,
       "team": "SAC",
+      "draftPick": null
+    },
+    {
+      "player": "Nate Darling",
+      "brefId": "darlina01",
+      "year": 2021,
+      "age": 22.09,
+      "salary": 449115,
+      "team": "CHA",
       "draftPick": null
     },
     {
@@ -1648,13 +1693,13 @@
       "draftPick": 47
     },
     {
-      "player": "Melvin Frazier",
-      "brefId": "frazime01",
-      "year": 2019,
+      "player": "Malcolm Cazalon",
+      "brefId": "cazalma01",
+      "year": 2024,
       "age": 22.09,
-      "salary": 1050000,
-      "team": "ORL",
-      "draftPick": 35
+      "salary": 559782,
+      "team": "DET",
+      "draftPick": null
     },
     {
       "player": "Caris LeVert",
@@ -1738,15 +1783,6 @@
       "draftPick": 42
     },
     {
-      "player": "Mfiondu Kabengele",
-      "brefId": "kabenmf01",
-      "year": 2020,
-      "age": 22.13,
-      "salary": 1977000,
-      "team": "LAC",
-      "draftPick": 27
-    },
-    {
       "player": "Yante Maten",
       "brefId": "matenya01",
       "year": 2019,
@@ -1754,6 +1790,15 @@
       "salary": 385000,
       "team": "MIA",
       "draftPick": null
+    },
+    {
+      "player": "Mfiondu Kabengele",
+      "brefId": "kabenmf01",
+      "year": 2020,
+      "age": 22.13,
+      "salary": 1977000,
+      "team": "LAC",
+      "draftPick": 27
     },
     {
       "player": "Jalen Harris",
@@ -1781,6 +1826,15 @@
       "salary": 1637966,
       "team": "SAC",
       "draftPick": 44
+    },
+    {
+      "player": "Jason Preston",
+      "brefId": "prestja01",
+      "year": 2022,
+      "age": 22.14,
+      "salary": 1062303,
+      "team": "LAC",
+      "draftPick": 33
     },
     {
       "player": "Cameron Payne",
@@ -1837,15 +1891,6 @@
       "draftPick": 16
     },
     {
-      "player": "Chris Clemons",
-      "brefId": "clemoch01",
-      "year": 2020,
-      "age": 22.19,
-      "salary": 563346,
-      "team": "HOU",
-      "draftPick": null
-    },
-    {
       "player": "Kyle Kuzma",
       "brefId": "kuzmaky01",
       "year": 2018,
@@ -1855,6 +1900,15 @@
       "draftPick": 27
     },
     {
+      "player": "Chris Clemons",
+      "brefId": "clemoch01",
+      "year": 2020,
+      "age": 22.19,
+      "salary": 563346,
+      "team": "HOU",
+      "draftPick": null
+    },
+    {
       "player": "Omari Spellman",
       "brefId": "spellom01",
       "year": 2020,
@@ -1862,6 +1916,15 @@
       "salary": 1897800,
       "team": "MIN",
       "draftPick": 30
+    },
+    {
+      "player": "Ty-Shon Alexander",
+      "brefId": "alexaty01",
+      "year": 2021,
+      "age": 22.21,
+      "salary": 449115,
+      "team": "PHX",
+      "draftPick": null
     },
     {
       "player": "AJ Lawson",
@@ -1880,15 +1943,6 @@
       "salary": 2537172,
       "team": "IND",
       "draftPick": 26
-    },
-    {
-      "player": "Ty-Shon Alexander",
-      "brefId": "alexaty01",
-      "year": 2021,
-      "age": 22.21,
-      "salary": 449115,
-      "team": "PHX",
-      "draftPick": null
     },
     {
       "player": "Neemias Queta",
@@ -1927,15 +1981,6 @@
       "draftPick": null
     },
     {
-      "player": "Zion Williamson",
-      "brefId": "willizi01",
-      "year": 2023,
-      "age": 22.24,
-      "salary": 13534817,
-      "team": "NOP",
-      "draftPick": 1
-    },
-    {
       "player": "DeAndre Bembry",
       "brefId": "bembrde01",
       "year": 2017,
@@ -1943,6 +1988,15 @@
       "salary": 1499760,
       "team": "ATL",
       "draftPick": 21
+    },
+    {
+      "player": "Marquese Chriss",
+      "brefId": "chrisma01",
+      "year": 2020,
+      "age": 22.25,
+      "salary": 1413272,
+      "team": "GSW",
+      "draftPick": 8
     },
     {
       "player": "Brice Johnson",
@@ -1963,15 +2017,6 @@
       "draftPick": 30
     },
     {
-      "player": "Vit Krejci",
-      "brefId": "krejcvi01",
-      "year": 2023,
-      "age": 22.28,
-      "salary": 1563518,
-      "team": "ATL",
-      "draftPick": 37
-    },
-    {
       "player": "Oshae Brissett",
       "brefId": "brissos01",
       "year": 2021,
@@ -1979,6 +2024,15 @@
       "salary": 955493,
       "team": "IND",
       "draftPick": null
+    },
+    {
+      "player": "Vit Krejci",
+      "brefId": "krejcvi01",
+      "year": 2023,
+      "age": 22.28,
+      "salary": 1563518,
+      "team": "ATL",
+      "draftPick": 37
     },
     {
       "player": "Christian Koloko",
@@ -2008,13 +2062,13 @@
       "draftPick": null
     },
     {
-      "player": "Theo Maledon",
-      "brefId": "maledth01",
-      "year": 2024,
+      "player": "Justin Patton",
+      "brefId": "pattoju01",
+      "year": 2020,
       "age": 22.3,
-      "salary": 559782,
-      "team": "PHX",
-      "draftPick": 34
+      "salary": 1620564,
+      "team": "DAL",
+      "draftPick": 16
     },
     {
       "player": "Justin Patton",
@@ -2035,13 +2089,13 @@
       "draftPick": 23
     },
     {
-      "player": "Trent Forrest",
-      "brefId": "forretr01",
-      "year": 2021,
-      "age": 22.31,
-      "salary": 470690,
-      "team": "UTA",
-      "draftPick": null
+      "player": "Theo Maledon",
+      "brefId": "maledth01",
+      "year": 2024,
+      "age": 22.3,
+      "salary": 559782,
+      "team": "PHX",
+      "draftPick": 34
     },
     {
       "player": "Davon Reed",
@@ -2059,6 +2113,15 @@
       "age": 22.31,
       "salary": 341481,
       "team": "NOP",
+      "draftPick": null
+    },
+    {
+      "player": "Trent Forrest",
+      "brefId": "forretr01",
+      "year": 2021,
+      "age": 22.31,
+      "salary": 470690,
+      "team": "UTA",
       "draftPick": null
     },
     {
@@ -2089,15 +2152,6 @@
       "draftPick": 8
     },
     {
-      "player": "Willy Hernangomez",
-      "brefId": "hernawi01",
-      "year": 2017,
-      "age": 22.35,
-      "salary": 1375000,
-      "team": "NYK",
-      "draftPick": 35
-    },
-    {
       "player": "Norman Powell",
       "brefId": "powelno01",
       "year": 2016,
@@ -2105,6 +2159,15 @@
       "salary": 650000,
       "team": "TOR",
       "draftPick": 46
+    },
+    {
+      "player": "Willy Hernangomez",
+      "brefId": "hernawi01",
+      "year": 2017,
+      "age": 22.35,
+      "salary": 1375000,
+      "team": "NYK",
+      "draftPick": 35
     },
     {
       "player": "Dereon Seabron",
@@ -2125,6 +2188,15 @@
       "draftPick": 54
     },
     {
+      "player": "Enes Freedom",
+      "brefId": "kanteen01",
+      "year": 2015,
+      "age": 22.37,
+      "salary": 5694674,
+      "team": "OKC",
+      "draftPick": 3
+    },
+    {
       "player": "Terrance Ferguson",
       "brefId": "fergute01",
       "year": 2021,
@@ -2141,6 +2213,15 @@
       "salary": 898310,
       "team": "TOR",
       "draftPick": null
+    },
+    {
+      "player": "Maurice Harkless",
+      "brefId": "harklma01",
+      "year": 2016,
+      "age": 22.39,
+      "salary": 2894059,
+      "team": "POR",
+      "draftPick": 15
     },
     {
       "player": "Khyri Thomas",
@@ -2170,15 +2251,6 @@
       "draftPick": null
     },
     {
-      "player": "Isaiah Hartenstein",
-      "brefId": "harteis01",
-      "year": 2021,
-      "age": 22.41,
-      "salary": 1620564,
-      "team": "CLE",
-      "draftPick": 43
-    },
-    {
       "player": "Frank Jackson",
       "brefId": "jacksfr01",
       "year": 2021,
@@ -2188,13 +2260,13 @@
       "draftPick": 31
     },
     {
-      "player": "Moritz Wagner",
-      "brefId": "wagnemo01",
-      "year": 2020,
-      "age": 22.43,
-      "salary": 2063520,
-      "team": "WAS",
-      "draftPick": 25
+      "player": "Isaiah Hartenstein",
+      "brefId": "harteis01",
+      "year": 2021,
+      "age": 22.41,
+      "salary": 1620564,
+      "team": "CLE",
+      "draftPick": 43
     },
     {
       "player": "Chandler Hutchison",
@@ -2206,6 +2278,15 @@
       "draftPick": 22
     },
     {
+      "player": "Moritz Wagner",
+      "brefId": "wagnemo01",
+      "year": 2020,
+      "age": 22.43,
+      "salary": 2063520,
+      "team": "WAS",
+      "draftPick": 25
+    },
+    {
       "player": "KZ Okpala",
       "brefId": "okpalkz01",
       "year": 2022,
@@ -2215,15 +2296,6 @@
       "draftPick": 32
     },
     {
-      "player": "Alize Johnson",
-      "brefId": "johnsal02",
-      "year": 2019,
-      "age": 22.44,
-      "salary": 838464,
-      "team": "IND",
-      "draftPick": 50
-    },
-    {
       "player": "Harry Giles",
       "brefId": "gilesha01",
       "year": 2021,
@@ -2231,6 +2303,15 @@
       "salary": 1620564,
       "team": "POR",
       "draftPick": 20
+    },
+    {
+      "player": "Alize Johnson",
+      "brefId": "johnsal02",
+      "year": 2019,
+      "age": 22.44,
+      "salary": 838464,
+      "team": "IND",
+      "draftPick": 50
     },
     {
       "player": "Jarrett Allen",
@@ -2269,15 +2350,6 @@
       "draftPick": null
     },
     {
-      "player": "Marques Bolden",
-      "brefId": "boldema01",
-      "year": 2021,
-      "age": 22.46,
-      "salary": 449115,
-      "team": "CLE",
-      "draftPick": null
-    },
-    {
       "player": "Darrun Hilliard",
       "brefId": "hillida01",
       "year": 2016,
@@ -2305,6 +2377,15 @@
       "draftPick": null
     },
     {
+      "player": "Tony Mitchell",
+      "brefId": "mitchto02",
+      "year": 2015,
+      "age": 22.48,
+      "salary": 816482,
+      "team": "PHX",
+      "draftPick": 37
+    },
+    {
       "player": "Nerlens Noel",
       "brefId": "noelne01",
       "year": 2017,
@@ -2312,6 +2393,15 @@
       "salary": 4384490,
       "team": "DAL",
       "draftPick": 6
+    },
+    {
+      "player": "Dario Saric",
+      "brefId": "saricda01",
+      "year": 2017,
+      "age": 22.48,
+      "salary": 2318280,
+      "team": "PHI",
+      "draftPick": 12
     },
     {
       "player": "Cedi Osman",
@@ -2330,15 +2420,6 @@
       "salary": 898310,
       "team": "DEN",
       "draftPick": 49
-    },
-    {
-      "player": "Dario Saric",
-      "brefId": "saricda01",
-      "year": 2017,
-      "age": 22.48,
-      "salary": 2318280,
-      "team": "PHI",
-      "draftPick": 12
     },
     {
       "player": "Frank Kaminsky",
@@ -2377,15 +2458,6 @@
       "draftPick": 27
     },
     {
-      "player": "Justin Jackson",
-      "brefId": "jacksju01",
-      "year": 2018,
-      "age": 22.51,
-      "salary": 2365560,
-      "team": "SAC",
-      "draftPick": 15
-    },
-    {
       "player": "Kay Felder",
       "brefId": "feldeka01",
       "year": 2018,
@@ -2404,13 +2476,13 @@
       "draftPick": 17
     },
     {
-      "player": "David Roddy",
-      "brefId": "roddyda01",
-      "year": 2024,
+      "player": "Justin Jackson",
+      "brefId": "jacksju01",
+      "year": 2018,
       "age": 22.51,
-      "salary": 2718240,
-      "team": "PHX",
-      "draftPick": 23
+      "salary": 2365560,
+      "team": "SAC",
+      "draftPick": 15
     },
     {
       "player": "Admiral Schofield",
@@ -2420,6 +2492,15 @@
       "salary": 1000000,
       "team": "WAS",
       "draftPick": 42
+    },
+    {
+      "player": "David Roddy",
+      "brefId": "roddyda01",
+      "year": 2024,
+      "age": 22.51,
+      "salary": 2718240,
+      "team": "PHX",
+      "draftPick": 23
     },
     {
       "player": "Wenyen Gabriel",
@@ -2458,15 +2539,6 @@
       "draftPick": null
     },
     {
-      "player": "Skal Labissiere",
-      "brefId": "labissk01",
-      "year": 2019,
-      "age": 22.54,
-      "salary": 1544951,
-      "team": "POR",
-      "draftPick": 28
-    },
-    {
       "player": "Kris Dunn",
       "brefId": "dunnkr01",
       "year": 2017,
@@ -2474,6 +2546,15 @@
       "salary": 3872520,
       "team": "MIN",
       "draftPick": 5
+    },
+    {
+      "player": "Skal Labissiere",
+      "brefId": "labissk01",
+      "year": 2019,
+      "age": 22.54,
+      "salary": 1544951,
+      "team": "POR",
+      "draftPick": 28
     },
     {
       "player": "Anthony Bennett",
@@ -2492,15 +2573,6 @@
       "salary": 11312114,
       "team": "DET",
       "draftPick": 2
-    },
-    {
-      "player": "Joel Embiid",
-      "brefId": "embiijo01",
-      "year": 2017,
-      "age": 22.55,
-      "salary": 4826160,
-      "team": "PHI",
-      "draftPick": 3
     },
     {
       "player": "Zach LaVine",
@@ -2530,15 +2602,6 @@
       "draftPick": 39
     },
     {
-      "player": "Josh Hart",
-      "brefId": "hartjo01",
-      "year": 2018,
-      "age": 22.57,
-      "salary": 1394520,
-      "team": "LAL",
-      "draftPick": 30
-    },
-    {
       "player": "Jake Layman",
       "brefId": "laymaja01",
       "year": 2017,
@@ -2548,22 +2611,13 @@
       "draftPick": 47
     },
     {
-      "player": "Obi Toppin",
-      "brefId": "toppiob01",
-      "year": 2021,
-      "age": 22.58,
-      "salary": 4862040,
-      "team": "NYK",
-      "draftPick": 8
-    },
-    {
-      "player": "Killian Tillie",
-      "brefId": "tilliki02",
-      "year": 2021,
-      "age": 22.58,
-      "salary": 449115,
-      "team": "MEM",
-      "draftPick": null
+      "player": "Josh Hart",
+      "brefId": "hartjo01",
+      "year": 2018,
+      "age": 22.57,
+      "salary": 1394520,
+      "team": "LAL",
+      "draftPick": 30
     },
     {
       "player": "Matisse Thybulle",
@@ -2575,6 +2629,24 @@
       "draftPick": 20
     },
     {
+      "player": "Killian Tillie",
+      "brefId": "tilliki02",
+      "year": 2021,
+      "age": 22.58,
+      "salary": 449115,
+      "team": "MEM",
+      "draftPick": null
+    },
+    {
+      "player": "Obi Toppin",
+      "brefId": "toppiob01",
+      "year": 2021,
+      "age": 22.58,
+      "salary": 4862040,
+      "team": "NYK",
+      "draftPick": 8
+    },
+    {
       "player": "Cassius Winston",
       "brefId": "winstca01",
       "year": 2021,
@@ -2584,15 +2656,6 @@
       "draftPick": 53
     },
     {
-      "player": "Jerome Robinson",
-      "brefId": "robinje01",
-      "year": 2020,
-      "age": 22.6,
-      "salary": 3567720,
-      "team": "WAS",
-      "draftPick": 13
-    },
-    {
       "player": "Fred VanVleet",
       "brefId": "vanvlfr01",
       "year": 2017,
@@ -2600,6 +2663,15 @@
       "salary": 543471,
       "team": "TOR",
       "draftPick": null
+    },
+    {
+      "player": "Jerome Robinson",
+      "brefId": "robinje01",
+      "year": 2020,
+      "age": 22.6,
+      "salary": 3567720,
+      "team": "WAS",
+      "draftPick": 13
     },
     {
       "player": "Jarrett Culver",
@@ -2620,15 +2692,6 @@
       "draftPick": 18
     },
     {
-      "player": "Tyler Dorsey",
-      "brefId": "dorsety01",
-      "year": 2019,
-      "age": 22.62,
-      "salary": 1378242,
-      "team": "MEM",
-      "draftPick": 41
-    },
-    {
       "player": "Paul Zipser",
       "brefId": "zipsepa01",
       "year": 2017,
@@ -2638,13 +2701,13 @@
       "draftPick": 48
     },
     {
-      "player": "Tyler Bey",
-      "brefId": "beyty01",
-      "year": 2021,
-      "age": 22.64,
-      "salary": 449115,
-      "team": "DAL",
-      "draftPick": 36
+      "player": "Tyler Dorsey",
+      "brefId": "dorsety01",
+      "year": 2019,
+      "age": 22.62,
+      "salary": 1378242,
+      "team": "MEM",
+      "draftPick": 41
     },
     {
       "player": "Sterling Brown",
@@ -2663,6 +2726,15 @@
       "salary": 7059480,
       "team": "MEM",
       "draftPick": 4
+    },
+    {
+      "player": "Tyler Bey",
+      "brefId": "beyty01",
+      "year": 2021,
+      "age": 22.64,
+      "salary": 449115,
+      "team": "DAL",
+      "draftPick": 36
     },
     {
       "player": "RJ Hampton",
@@ -2692,15 +2764,6 @@
       "draftPick": 35
     },
     {
-      "player": "Tre Mann",
-      "brefId": "manntr01",
-      "year": 2024,
-      "age": 22.66,
-      "salary": 3191400,
-      "team": "CHA",
-      "draftPick": 18
-    },
-    {
       "player": "Branden Dawson",
       "brefId": "dawsobr01",
       "year": 2016,
@@ -2710,6 +2773,15 @@
       "draftPick": 56
     },
     {
+      "player": "Tre Mann",
+      "brefId": "manntr01",
+      "year": 2024,
+      "age": 22.66,
+      "salary": 3191400,
+      "team": "CHA",
+      "draftPick": 18
+    },
+    {
       "player": "Markel Brown",
       "brefId": "brownma02",
       "year": 2015,
@@ -2717,6 +2789,15 @@
       "salary": 507336,
       "team": "BKN",
       "draftPick": 44
+    },
+    {
+      "player": "Joel Bolomboy",
+      "brefId": "bolomjo01",
+      "year": 2017,
+      "age": 22.67,
+      "salary": 600000,
+      "team": "UTA",
+      "draftPick": 52
     },
     {
       "player": "Payton Pritchard",
@@ -2735,15 +2816,6 @@
       "salary": 559782,
       "team": "IND",
       "draftPick": 55
-    },
-    {
-      "player": "Joel Bolomboy",
-      "brefId": "bolomjo01",
-      "year": 2017,
-      "age": 22.67,
-      "salary": 600000,
-      "team": "UTA",
-      "draftPick": 52
     },
     {
       "player": "Justin James",
@@ -2791,6 +2863,15 @@
       "draftPick": 31
     },
     {
+      "player": "Pat Connaughton",
+      "brefId": "connapa01",
+      "year": 2016,
+      "age": 22.73,
+      "salary": 625093,
+      "team": "POR",
+      "draftPick": 41
+    },
+    {
       "player": "Jordan Bell",
       "brefId": "belljo01",
       "year": 2018,
@@ -2809,6 +2890,15 @@
       "draftPick": 28
     },
     {
+      "player": "Luka Samanic",
+      "brefId": "samanlu01",
+      "year": 2023,
+      "age": 22.73,
+      "salary": 538317,
+      "team": "UTA",
+      "draftPick": 19
+    },
+    {
       "player": "KJ Martin",
       "brefId": "martike04",
       "year": 2024,
@@ -2818,15 +2908,6 @@
       "draftPick": 52
     },
     {
-      "player": "Pat Connaughton",
-      "brefId": "connapa01",
-      "year": 2016,
-      "age": 22.73,
-      "salary": 625093,
-      "team": "POR",
-      "draftPick": 41
-    },
-    {
       "player": "Keon Ellis",
       "brefId": "elliske01",
       "year": 2023,
@@ -2834,15 +2915,6 @@
       "salary": 508891,
       "team": "SAC",
       "draftPick": null
-    },
-    {
-      "player": "Luka Samanic",
-      "brefId": "samanlu01",
-      "year": 2023,
-      "age": 22.73,
-      "salary": 538317,
-      "team": "UTA",
-      "draftPick": 19
     },
     {
       "player": "Doug McDermott",
@@ -2881,6 +2953,15 @@
       "draftPick": null
     },
     {
+      "player": "Jonah Bolden",
+      "brefId": "boldejo01",
+      "year": 2019,
+      "age": 22.75,
+      "salary": 1690000,
+      "team": "PHI",
+      "draftPick": 36
+    },
+    {
       "player": "Georgios Kalaitzakis",
       "brefId": "kalaige01",
       "year": 2022,
@@ -2899,15 +2980,6 @@
       "draftPick": 55
     },
     {
-      "player": "Jonah Bolden",
-      "brefId": "boldejo01",
-      "year": 2019,
-      "age": 22.75,
-      "salary": 1690000,
-      "team": "PHI",
-      "draftPick": 36
-    },
-    {
       "player": "Luka Garza",
       "brefId": "garzalu01",
       "year": 2022,
@@ -2924,6 +2996,15 @@
       "salary": 1201440,
       "team": "MEM",
       "draftPick": 26
+    },
+    {
+      "player": "Nick Johnson",
+      "brefId": "johnsni01",
+      "year": 2016,
+      "age": 22.77,
+      "salary": 845059,
+      "team": "DEN",
+      "draftPick": 42
     },
     {
       "player": "Eric Moreland",
@@ -2971,15 +3052,6 @@
       "draftPick": null
     },
     {
-      "player": "Kelly Oubre",
-      "brefId": "oubreke01",
-      "year": 2019,
-      "age": 22.81,
-      "salary": 3208630,
-      "team": "PHX",
-      "draftPick": 15
-    },
-    {
       "player": "Dion Waiters",
       "brefId": "waitedi01",
       "year": 2015,
@@ -2987,6 +3059,15 @@
       "salary": 4062000,
       "team": "OKC",
       "draftPick": 4
+    },
+    {
+      "player": "Kelly Oubre",
+      "brefId": "oubreke01",
+      "year": 2019,
+      "age": 22.81,
+      "salary": 3208630,
+      "team": "PHX",
+      "draftPick": 15
     },
     {
       "player": "Dewan Hernandez",
@@ -3016,15 +3097,6 @@
       "draftPick": 8
     },
     {
-      "player": "Nick Richards",
-      "brefId": "richani01",
-      "year": 2021,
-      "age": 22.84,
-      "salary": 1000000,
-      "team": "CHA",
-      "draftPick": 42
-    },
-    {
       "player": "Malik Beasley",
       "brefId": "beaslma01",
       "year": 2020,
@@ -3032,6 +3104,15 @@
       "salary": 2731713,
       "team": "MIN",
       "draftPick": 19
+    },
+    {
+      "player": "Nick Richards",
+      "brefId": "richani01",
+      "year": 2021,
+      "age": 22.84,
+      "salary": 1000000,
+      "team": "CHA",
+      "draftPick": 42
     },
     {
       "player": "Dennis Smith",
@@ -3043,21 +3124,21 @@
       "draftPick": 9
     },
     {
-      "player": "Dean Wade",
-      "brefId": "wadede01",
-      "year": 2020,
-      "age": 22.86,
-      "salary": 375000,
-      "team": "CLE",
-      "draftPick": null
-    },
-    {
       "player": "Tarik Black",
       "brefId": "blackta01",
       "year": 2015,
       "age": 22.86,
       "salary": 507336,
       "team": "LAL",
+      "draftPick": null
+    },
+    {
+      "player": "Dean Wade",
+      "brefId": "wadede01",
+      "year": 2020,
+      "age": 22.86,
+      "salary": 375000,
+      "team": "CLE",
       "draftPick": null
     },
     {
@@ -3106,15 +3187,6 @@
       "draftPick": null
     },
     {
-      "player": "Jalen Wilson",
-      "brefId": "wilsoja03",
-      "year": 2024,
-      "age": 22.9,
-      "salary": 850000,
-      "team": "BKN",
-      "draftPick": 51
-    },
-    {
       "player": "Eric Paschall",
       "brefId": "pascher01",
       "year": 2020,
@@ -3122,6 +3194,15 @@
       "salary": 898310,
       "team": "GSW",
       "draftPick": 41
+    },
+    {
+      "player": "Jalen Wilson",
+      "brefId": "wilsoja03",
+      "year": 2024,
+      "age": 22.9,
+      "salary": 850000,
+      "team": "BKN",
+      "draftPick": 51
     },
     {
       "player": "Jeremiah RobinsonEarl",
@@ -3178,15 +3259,6 @@
       "draftPick": 28
     },
     {
-      "player": "Darius Days",
-      "brefId": "daysda01",
-      "year": 2023,
-      "age": 22.95,
-      "salary": 508891,
-      "team": "HOU",
-      "draftPick": null
-    },
-    {
       "player": "Terance Mann",
       "brefId": "mannte01",
       "year": 2020,
@@ -3205,13 +3277,13 @@
       "draftPick": 58
     },
     {
-      "player": "Aaron Nesmith",
-      "brefId": "nesmiaa01",
+      "player": "Darius Days",
+      "brefId": "daysda01",
       "year": 2023,
-      "age": 22.96,
-      "salary": 3804360,
-      "team": "IND",
-      "draftPick": 14
+      "age": 22.95,
+      "salary": 508891,
+      "team": "HOU",
+      "draftPick": null
     },
     {
       "player": "Jakob Poeltl",
@@ -3223,13 +3295,13 @@
       "draftPick": 9
     },
     {
-      "player": "Moses Brown",
-      "brefId": "brownmo01",
+      "player": "Aaron Nesmith",
+      "brefId": "nesmiaa01",
       "year": 2023,
-      "age": 22.97,
-      "salary": 508891,
-      "team": "LAC",
-      "draftPick": null
+      "age": 22.96,
+      "salary": 3804360,
+      "team": "IND",
+      "draftPick": 14
     },
     {
       "player": "Anthony Brown",
@@ -3239,6 +3311,15 @@
       "salary": 525093,
       "team": "LAL",
       "draftPick": 34
+    },
+    {
+      "player": "Moses Brown",
+      "brefId": "brownmo01",
+      "year": 2023,
+      "age": 22.97,
+      "salary": 508891,
+      "team": "LAC",
+      "draftPick": null
     },
     {
       "player": "Michael Carter-Williams",
@@ -3313,6 +3394,15 @@
       "draftPick": null
     },
     {
+      "player": "Dylan Windler",
+      "brefId": "windldy01",
+      "year": 2020,
+      "age": 23.02,
+      "salary": 2035800,
+      "team": "CLE",
+      "draftPick": 26
+    },
+    {
       "player": "Rayjon Tucker",
       "brefId": "tuckera01",
       "year": 2021,
@@ -3340,42 +3430,6 @@
       "draftPick": 49
     },
     {
-      "player": "Nathan Knight",
-      "brefId": "knighna01",
-      "year": 2021,
-      "age": 23.03,
-      "salary": 522989,
-      "team": "ATL",
-      "draftPick": null
-    },
-    {
-      "player": "Dejounte Murray",
-      "brefId": "murrade01",
-      "year": 2020,
-      "age": 23.03,
-      "salary": 2321735,
-      "team": "SAS",
-      "draftPick": 29
-    },
-    {
-      "player": "Chris Silva",
-      "brefId": "silvach01",
-      "year": 2020,
-      "age": 23.03,
-      "salary": 466918,
-      "team": "MIA",
-      "draftPick": null
-    },
-    {
-      "player": "Marcus Sasser",
-      "brefId": "sassema01",
-      "year": 2024,
-      "age": 23.03,
-      "salary": 2624028,
-      "team": "DET",
-      "draftPick": 25
-    },
-    {
       "player": "Bruno Caboclo",
       "brefId": "cabocbr01",
       "year": 2019,
@@ -3383,6 +3437,15 @@
       "salary": 705361,
       "team": "MEM",
       "draftPick": 20
+    },
+    {
+      "player": "Dakari Johnson",
+      "brefId": "johnsda04",
+      "year": 2019,
+      "age": 23.03,
+      "salary": 459414,
+      "team": "MEM",
+      "draftPick": 48
     },
     {
       "player": "Brandon Clarke",
@@ -3394,13 +3457,40 @@
       "draftPick": 21
     },
     {
-      "player": "Jevon Carter",
-      "brefId": "carteje01",
-      "year": 2019,
-      "age": 23.05,
-      "salary": 838464,
-      "team": "MEM",
-      "draftPick": 32
+      "player": "Chris Silva",
+      "brefId": "silvach01",
+      "year": 2020,
+      "age": 23.03,
+      "salary": 466918,
+      "team": "MIA",
+      "draftPick": null
+    },
+    {
+      "player": "Nathan Knight",
+      "brefId": "knighna01",
+      "year": 2021,
+      "age": 23.03,
+      "salary": 522989,
+      "team": "ATL",
+      "draftPick": null
+    },
+    {
+      "player": "Robert Woodard",
+      "brefId": "woodaro01",
+      "year": 2023,
+      "age": 23.03,
+      "salary": 300000,
+      "team": "OKC",
+      "draftPick": 40
+    },
+    {
+      "player": "Marcus Sasser",
+      "brefId": "sassema01",
+      "year": 2024,
+      "age": 23.03,
+      "salary": 2624028,
+      "team": "DET",
+      "draftPick": 25
     },
     {
       "player": "Cheick Diallo",
@@ -3412,13 +3502,13 @@
       "draftPick": 33
     },
     {
-      "player": "Skylar Mays",
-      "brefId": "mayssk01",
-      "year": 2021,
-      "age": 23.07,
-      "salary": 532218,
-      "team": "ATL",
-      "draftPick": 50
+      "player": "Jevon Carter",
+      "brefId": "carteje01",
+      "year": 2019,
+      "age": 23.05,
+      "salary": 838464,
+      "team": "MEM",
+      "draftPick": 32
     },
     {
       "player": "Joe Harris",
@@ -3428,6 +3518,15 @@
       "salary": 884879,
       "team": "CLE",
       "draftPick": 33
+    },
+    {
+      "player": "Skylar Mays",
+      "brefId": "mayssk01",
+      "year": 2021,
+      "age": 23.07,
+      "salary": 532218,
+      "team": "ATL",
+      "draftPick": 50
     },
     {
       "player": "Davion Mitchell",
@@ -3466,6 +3565,15 @@
       "draftPick": 7
     },
     {
+      "player": "Pierre Jackson",
+      "brefId": "jackspi01",
+      "year": 2015,
+      "age": 23.09,
+      "salary": 400000,
+      "team": "PHI",
+      "draftPick": 42
+    },
+    {
       "player": "DaQuan Jeffries",
       "brefId": "jeffrda01",
       "year": 2021,
@@ -3484,15 +3592,6 @@
       "draftPick": 9
     },
     {
-      "player": "Jared Rhoden",
-      "brefId": "rhodeja01",
-      "year": 2023,
-      "age": 23.1,
-      "salary": 307089,
-      "team": "DET",
-      "draftPick": null
-    },
-    {
       "player": "Jared Butler",
       "brefId": "butleja02",
       "year": 2024,
@@ -3502,6 +3601,15 @@
       "draftPick": 40
     },
     {
+      "player": "Jared Rhoden",
+      "brefId": "rhodeja01",
+      "year": 2023,
+      "age": 23.1,
+      "salary": 307089,
+      "team": "DET",
+      "draftPick": null
+    },
+    {
       "player": "Joe Wieskamp",
       "brefId": "wieskjo01",
       "year": 2023,
@@ -3509,15 +3617,6 @@
       "salary": 734261,
       "team": "TOR",
       "draftPick": 41
-    },
-    {
-      "player": "Kendall Marshall",
-      "brefId": "marshke01",
-      "year": 2015,
-      "age": 23.12,
-      "salary": 915243,
-      "team": "PHX",
-      "draftPick": 13
     },
     {
       "player": "Kris Murray",
@@ -3565,13 +3664,13 @@
       "draftPick": 9
     },
     {
-      "player": "Jason Preston",
-      "brefId": "prestja01",
-      "year": 2023,
-      "age": 23.14,
-      "salary": 1563518,
-      "team": "LAC",
-      "draftPick": 33
+      "player": "Furkan Aldemir",
+      "brefId": "aldemfu01",
+      "year": 2015,
+      "age": 23.15,
+      "salary": 2810305,
+      "team": "PHI",
+      "draftPick": 53
     },
     {
       "player": "Daniel Hamilton",
@@ -3583,13 +3682,13 @@
       "draftPick": 56
     },
     {
-      "player": "Furkan Aldemir",
-      "brefId": "aldemfu01",
-      "year": 2015,
-      "age": 23.15,
-      "salary": 2810305,
-      "team": "PHI",
-      "draftPick": 53
+      "player": "Kristaps Porzingis",
+      "brefId": "porzikr01",
+      "year": 2019,
+      "age": 23.16,
+      "salary": 5697054,
+      "team": "DAL",
+      "draftPick": 4
     },
     {
       "player": "Alex Abrines",
@@ -3646,6 +3745,15 @@
       "draftPick": 45
     },
     {
+      "player": "Omari Spellman",
+      "brefId": "spellom01",
+      "year": 2021,
+      "age": 23.2,
+      "salary": 1988280,
+      "team": "NYK",
+      "draftPick": 30
+    },
+    {
       "player": "Goga Bitadze",
       "brefId": "bitadgo01",
       "year": 2023,
@@ -3653,15 +3761,6 @@
       "salary": 612181,
       "team": "ORL",
       "draftPick": 18
-    },
-    {
-      "player": "Troy Daniels",
-      "brefId": "danietr01",
-      "year": 2015,
-      "age": 23.21,
-      "salary": 816482,
-      "team": "CHA",
-      "draftPick": null
     },
     {
       "player": "Tobias Harris",
@@ -3673,6 +3772,15 @@
       "draftPick": 19
     },
     {
+      "player": "Troy Daniels",
+      "brefId": "danietr01",
+      "year": 2015,
+      "age": 23.21,
+      "salary": 816482,
+      "team": "CHA",
+      "draftPick": null
+    },
+    {
       "player": "Shabazz Napier",
       "brefId": "napiesh01",
       "year": 2015,
@@ -3680,15 +3788,6 @@
       "salary": 1238640,
       "team": "MIA",
       "draftPick": 24
-    },
-    {
-      "player": "Isaiah Taylor",
-      "brefId": "taylois01",
-      "year": 2018,
-      "age": 23.23,
-      "salary": 1312611,
-      "team": "ATL",
-      "draftPick": null
     },
     {
       "player": "Jordan Mickey",
@@ -3709,12 +3808,12 @@
       "draftPick": null
     },
     {
-      "player": "Lamar Stevens",
-      "brefId": "stevela01",
-      "year": 2021,
+      "player": "Isaiah Taylor",
+      "brefId": "taylois01",
+      "year": 2018,
       "age": 23.23,
-      "salary": 1000000,
-      "team": "CLE",
+      "salary": 1312611,
+      "team": "ATL",
       "draftPick": null
     },
     {
@@ -3727,13 +3826,13 @@
       "draftPick": 24
     },
     {
-      "player": "Derrick White",
-      "brefId": "whitede01",
-      "year": 2018,
-      "age": 23.25,
-      "salary": 1404600,
-      "team": "SAS",
-      "draftPick": 29
+      "player": "Lamar Stevens",
+      "brefId": "stevela01",
+      "year": 2021,
+      "age": 23.23,
+      "salary": 1000000,
+      "team": "CLE",
+      "draftPick": null
     },
     {
       "player": "Marquese Chriss",
@@ -3745,6 +3844,15 @@
       "draftPick": 8
     },
     {
+      "player": "Derrick White",
+      "brefId": "whitede01",
+      "year": 2018,
+      "age": 23.25,
+      "salary": 1404600,
+      "team": "SAS",
+      "draftPick": 29
+    },
+    {
       "player": "Isaiah Joe",
       "brefId": "joeis01",
       "year": 2023,
@@ -3752,6 +3860,15 @@
       "salary": 1836090,
       "team": "OKC",
       "draftPick": 49
+    },
+    {
+      "player": "Joe Young",
+      "brefId": "youngjo01",
+      "year": 2016,
+      "age": 23.26,
+      "salary": 1000000,
+      "team": "IND",
+      "draftPick": 43
     },
     {
       "player": "Brice Johnson",
@@ -3781,6 +3898,15 @@
       "draftPick": 38
     },
     {
+      "player": "Maurice Ndour",
+      "brefId": "ndourma01",
+      "year": 2016,
+      "age": 23.29,
+      "salary": 525094,
+      "team": "DAL",
+      "draftPick": null
+    },
+    {
       "player": "Georges Niang",
       "brefId": "niangge01",
       "year": 2017,
@@ -3790,22 +3916,13 @@
       "draftPick": 50
     },
     {
-      "player": "Omer Yurtseven",
-      "brefId": "yurtsom01",
-      "year": 2022,
+      "player": "Jacob Evans",
+      "brefId": "evansja02",
+      "year": 2021,
       "age": 23.29,
-      "salary": 1489065,
-      "team": "MIA",
-      "draftPick": null
-    },
-    {
-      "player": "Hunter Tyson",
-      "brefId": "tysonhu01",
-      "year": 2024,
-      "age": 23.3,
-      "salary": 1119563,
-      "team": "DEN",
-      "draftPick": 37
+      "salary": 2017320,
+      "team": "NYK",
+      "draftPick": 28
     },
     {
       "player": "RJ Barrett",
@@ -3833,6 +3950,15 @@
       "salary": 363015,
       "team": "TOR",
       "draftPick": null
+    },
+    {
+      "player": "Hunter Tyson",
+      "brefId": "tysonhu01",
+      "year": 2024,
+      "age": 23.3,
+      "salary": 1119563,
+      "team": "DEN",
+      "draftPick": 37
     },
     {
       "player": "Sviatoslav Mykhailiuk",
@@ -3970,6 +4096,15 @@
       "draftPick": 46
     },
     {
+      "player": "Timoth\u00e9 Luwawu-Cabarrot",
+      "brefId": "luwawti01",
+      "year": 2019,
+      "age": 23.4,
+      "salary": 1544951,
+      "team": "CHI",
+      "draftPick": 24
+    },
+    {
       "player": "Quentin Grimes",
       "brefId": "grimequ01",
       "year": 2024,
@@ -4006,6 +4141,15 @@
       "draftPick": 52
     },
     {
+      "player": "Sam Dekker",
+      "brefId": "dekkesa01",
+      "year": 2018,
+      "age": 23.41,
+      "salary": 1794600,
+      "team": "LAC",
+      "draftPick": 18
+    },
+    {
       "player": "Dorian Finney-Smith",
       "brefId": "finnedo01",
       "year": 2017,
@@ -4013,15 +4157,6 @@
       "salary": 543471,
       "team": "DAL",
       "draftPick": null
-    },
-    {
-      "player": "Isaiah Hartenstein",
-      "brefId": "harteis01",
-      "year": 2022,
-      "age": 23.41,
-      "salary": 1729217,
-      "team": "LAC",
-      "draftPick": 43
     },
     {
       "player": "Damyean Dotson",
@@ -4033,13 +4168,22 @@
       "draftPick": 44
     },
     {
-      "player": "Sam Dekker",
-      "brefId": "dekkesa01",
-      "year": 2018,
+      "player": "Isaiah Hartenstein",
+      "brefId": "harteis01",
+      "year": 2022,
       "age": 23.41,
-      "salary": 1794600,
+      "salary": 1729217,
       "team": "LAC",
-      "draftPick": 18
+      "draftPick": 43
+    },
+    {
+      "player": "Kevin Porter",
+      "brefId": "porteke02",
+      "year": 2024,
+      "age": 23.41,
+      "salary": 15860000,
+      "team": "OKC",
+      "draftPick": 30
     },
     {
       "player": "TJ Leaf",
@@ -4069,15 +4213,6 @@
       "draftPick": 25
     },
     {
-      "player": "Henri Drell",
-      "brefId": "drellhe01",
-      "year": 2024,
-      "age": 23.43,
-      "salary": 389274,
-      "team": "CHI",
-      "draftPick": null
-    },
-    {
       "player": "KZ Okpala",
       "brefId": "okpalkz01",
       "year": 2023,
@@ -4085,6 +4220,15 @@
       "salary": 1902133,
       "team": "SAC",
       "draftPick": 32
+    },
+    {
+      "player": "Henri Drell",
+      "brefId": "drellhe01",
+      "year": 2024,
+      "age": 23.43,
+      "salary": 389274,
+      "team": "CHI",
+      "draftPick": null
     },
     {
       "player": "Russ Smith",
@@ -4159,13 +4303,13 @@
       "draftPick": null
     },
     {
-      "player": "Seth Lundy",
-      "brefId": "lundyse01",
-      "year": 2024,
+      "player": "Frank Mason",
+      "brefId": "masonfr01",
+      "year": 2018,
       "age": 23.5,
-      "salary": 559782,
-      "team": "ATL",
-      "draftPick": 46
+      "salary": 1184385,
+      "team": "SAC",
+      "draftPick": 34
     },
     {
       "player": "Jarred Vanderbilt",
@@ -4177,13 +4321,13 @@
       "draftPick": 41
     },
     {
-      "player": "Frank Mason",
-      "brefId": "masonfr01",
-      "year": 2018,
+      "player": "Seth Lundy",
+      "brefId": "lundyse01",
+      "year": 2024,
       "age": 23.5,
-      "salary": 1184385,
-      "team": "SAC",
-      "draftPick": 34
+      "salary": 559782,
+      "team": "ATL",
+      "draftPick": 46
     },
     {
       "player": "Marcus Georges-Hunt",
@@ -4192,6 +4336,15 @@
       "age": 23.51,
       "salary": 1312611,
       "team": "MIN",
+      "draftPick": null
+    },
+    {
+      "player": "Ron Baker",
+      "brefId": "bakerro01",
+      "year": 2017,
+      "age": 23.51,
+      "salary": 543471,
+      "team": "NYK",
       "draftPick": null
     },
     {
@@ -4204,12 +4357,48 @@
       "draftPick": 15
     },
     {
-      "player": "Ron Baker",
-      "brefId": "bakerro01",
-      "year": 2017,
+      "player": "Max Strus",
+      "brefId": "strusma01",
+      "year": 2020,
       "age": 23.51,
-      "salary": 543471,
-      "team": "NYK",
+      "salary": 415414,
+      "team": "BOS",
+      "draftPick": null
+    },
+    {
+      "player": "Admiral Schofield",
+      "brefId": "schofad01",
+      "year": 2021,
+      "age": 23.51,
+      "salary": 1517981,
+      "team": "OKC",
+      "draftPick": 42
+    },
+    {
+      "player": "Shayne Whittington",
+      "brefId": "whittsh01",
+      "year": 2015,
+      "age": 23.52,
+      "salary": 507336,
+      "team": "IND",
+      "draftPick": null
+    },
+    {
+      "player": "Justise Winslow",
+      "brefId": "winslju01",
+      "year": 2020,
+      "age": 23.52,
+      "salary": 13000000,
+      "team": "MEM",
+      "draftPick": 10
+    },
+    {
+      "player": "TJ McConnell",
+      "brefId": "mccontj01",
+      "year": 2016,
+      "age": 23.52,
+      "salary": 525093,
+      "team": "PHI",
       "draftPick": null
     },
     {
@@ -4222,31 +4411,13 @@
       "draftPick": null
     },
     {
-      "player": "Shayne Whittington",
-      "brefId": "whittsh01",
-      "year": 2015,
-      "age": 23.52,
-      "salary": 507336,
-      "team": "IND",
-      "draftPick": null
-    },
-    {
-      "player": "TJ McConnell",
-      "brefId": "mccontj01",
+      "player": "Edy Tavares",
+      "brefId": "tavarwa01",
       "year": 2016,
-      "age": 23.52,
-      "salary": 525093,
-      "team": "PHI",
-      "draftPick": null
-    },
-    {
-      "player": "Justise Winslow",
-      "brefId": "winslju01",
-      "year": 2020,
-      "age": 23.52,
-      "salary": 13000000,
-      "team": "MEM",
-      "draftPick": 10
+      "age": 23.53,
+      "salary": 1000000,
+      "team": "ATL",
+      "draftPick": 43
     },
     {
       "player": "Chimezie Metu",
@@ -4276,33 +4447,6 @@
       "draftPick": null
     },
     {
-      "player": "Tim Hardaway",
-      "brefId": "hardati02",
-      "year": 2016,
-      "age": 23.54,
-      "salary": 1304520,
-      "team": "ATL",
-      "draftPick": 24
-    },
-    {
-      "player": "Skal Labissiere",
-      "brefId": "labissk01",
-      "year": 2020,
-      "age": 23.54,
-      "salary": 2338846,
-      "team": "ATL",
-      "draftPick": 28
-    },
-    {
-      "player": "Kris Dunn",
-      "brefId": "dunnkr01",
-      "year": 2018,
-      "age": 23.54,
-      "salary": 4046760,
-      "team": "CHI",
-      "draftPick": 5
-    },
-    {
       "player": "Thomas Robinson",
       "brefId": "robinth01",
       "year": 2015,
@@ -4321,6 +4465,33 @@
       "draftPick": 5
     },
     {
+      "player": "Tim Hardaway",
+      "brefId": "hardati02",
+      "year": 2016,
+      "age": 23.54,
+      "salary": 1304520,
+      "team": "ATL",
+      "draftPick": 24
+    },
+    {
+      "player": "Kris Dunn",
+      "brefId": "dunnkr01",
+      "year": 2018,
+      "age": 23.54,
+      "salary": 4046760,
+      "team": "CHI",
+      "draftPick": 5
+    },
+    {
+      "player": "Skal Labissiere",
+      "brefId": "labissk01",
+      "year": 2020,
+      "age": 23.54,
+      "salary": 2338846,
+      "team": "ATL",
+      "draftPick": 28
+    },
+    {
       "player": "Anthony Bennett",
       "brefId": "bennean01",
       "year": 2017,
@@ -4330,13 +4501,13 @@
       "draftPick": 1
     },
     {
-      "player": "Landry Shamet",
-      "brefId": "shamela01",
-      "year": 2021,
+      "player": "Reggie Bullock",
+      "brefId": "bullore01",
+      "year": 2015,
       "age": 23.55,
-      "salary": 2090040,
-      "team": "BKN",
-      "draftPick": 26
+      "salary": 1200720,
+      "team": "PHX",
+      "draftPick": 25
     },
     {
       "player": "Jabari Parker",
@@ -4348,13 +4519,13 @@
       "draftPick": 2
     },
     {
-      "player": "Reggie Bullock",
-      "brefId": "bullore01",
-      "year": 2015,
+      "player": "Landry Shamet",
+      "brefId": "shamela01",
+      "year": 2021,
       "age": 23.55,
-      "salary": 1200720,
-      "team": "PHX",
-      "draftPick": 25
+      "salary": 2090040,
+      "team": "BKN",
+      "draftPick": 26
     },
     {
       "player": "Carsen Edwards",
@@ -4375,15 +4546,6 @@
       "draftPick": 39
     },
     {
-      "player": "Tyrese Martin",
-      "brefId": "martity01",
-      "year": 2023,
-      "age": 23.57,
-      "salary": 1017781,
-      "team": "ATL",
-      "draftPick": 51
-    },
-    {
       "player": "Emmanuel Mudiay",
       "brefId": "mudiaem01",
       "year": 2020,
@@ -4391,6 +4553,15 @@
       "salary": 1737145,
       "team": "UTA",
       "draftPick": 7
+    },
+    {
+      "player": "Tyrese Martin",
+      "brefId": "martity01",
+      "year": 2023,
+      "age": 23.57,
+      "salary": 1017781,
+      "team": "ATL",
+      "draftPick": 51
     },
     {
       "player": "Nicolas Brussino",
@@ -4429,15 +4600,6 @@
       "draftPick": 2
     },
     {
-      "player": "Thon Maker",
-      "brefId": "makerth01",
-      "year": 2021,
-      "age": 23.6,
-      "salary": 1737145,
-      "team": "CLE",
-      "draftPick": 10
-    },
-    {
       "player": "Mario Hezonja",
       "brefId": "hezonma01",
       "year": 2019,
@@ -4447,22 +4609,13 @@
       "draftPick": 5
     },
     {
-      "player": "Devonte Graham",
-      "brefId": "grahade01",
-      "year": 2019,
-      "age": 23.61,
-      "salary": 988464,
-      "team": "CHA",
-      "draftPick": 34
-    },
-    {
-      "player": "Trayce Jackson-Davis",
-      "brefId": "jackstr02",
-      "year": 2024,
-      "age": 23.61,
-      "salary": 1119563,
-      "team": "GSW",
-      "draftPick": 57
+      "player": "Thon Maker",
+      "brefId": "makerth01",
+      "year": 2021,
+      "age": 23.6,
+      "salary": 1737145,
+      "team": "CLE",
+      "draftPick": 10
     },
     {
       "player": "Adreian Payne",
@@ -4483,6 +4636,24 @@
       "draftPick": 10
     },
     {
+      "player": "Devonte Graham",
+      "brefId": "grahade01",
+      "year": 2019,
+      "age": 23.61,
+      "salary": 988464,
+      "team": "CHA",
+      "draftPick": 34
+    },
+    {
+      "player": "Trayce Jackson-Davis",
+      "brefId": "jackstr02",
+      "year": 2024,
+      "age": 23.61,
+      "salary": 1119563,
+      "team": "GSW",
+      "draftPick": 57
+    },
+    {
       "player": "Derrick Jones",
       "brefId": "jonesde02",
       "year": 2021,
@@ -4492,24 +4663,6 @@
       "draftPick": null
     },
     {
-      "player": "KJ McDaniels",
-      "brefId": "mcdankj01",
-      "year": 2017,
-      "age": 23.64,
-      "salary": 3333333,
-      "team": "BKN",
-      "draftPick": 32
-    },
-    {
-      "player": "Grant Riller",
-      "brefId": "rillegr01",
-      "year": 2021,
-      "age": 23.64,
-      "salary": 449115,
-      "team": "CHA",
-      "draftPick": 56
-    },
-    {
       "player": "Nikola Mirotic",
       "brefId": "mirotni01",
       "year": 2015,
@@ -4517,6 +4670,15 @@
       "salary": 5305000,
       "team": "CHI",
       "draftPick": 23
+    },
+    {
+      "player": "KJ McDaniels",
+      "brefId": "mcdankj01",
+      "year": 2017,
+      "age": 23.64,
+      "salary": 3333333,
+      "team": "BKN",
+      "draftPick": 32
     },
     {
       "player": "Bobby Portis",
@@ -4544,6 +4706,15 @@
       "salary": 6250000,
       "team": "PHX",
       "draftPick": 25
+    },
+    {
+      "player": "Grant Riller",
+      "brefId": "rillegr01",
+      "year": 2021,
+      "age": 23.64,
+      "salary": 449115,
+      "team": "CHA",
+      "draftPick": 56
     },
     {
       "player": "Malik Monk",
@@ -4609,15 +4780,6 @@
       "draftPick": null
     },
     {
-      "player": "Tony Bradley",
-      "brefId": "bradlto01",
-      "year": 2022,
-      "age": 23.73,
-      "salary": 1789256,
-      "team": "CHI",
-      "draftPick": 28
-    },
-    {
       "player": "Will Barton",
       "brefId": "bartowi01",
       "year": 2015,
@@ -4625,6 +4787,15 @@
       "salary": 915243,
       "team": "DEN",
       "draftPick": 40
+    },
+    {
+      "player": "Tony Bradley",
+      "brefId": "bradlto01",
+      "year": 2022,
+      "age": 23.73,
+      "salary": 1789256,
+      "team": "CHI",
+      "draftPick": 28
     },
     {
       "player": "Darius Morris",
@@ -4636,15 +4807,6 @@
       "draftPick": 41
     },
     {
-      "player": "Arnoldas Kulboka",
-      "brefId": "kulboar01",
-      "year": 2022,
-      "age": 23.74,
-      "salary": 462629,
-      "team": "CHA",
-      "draftPick": 55
-    },
-    {
       "player": "Collin Sexton",
       "brefId": "sextoco01",
       "year": 2023,
@@ -4652,6 +4814,15 @@
       "salary": 16700000,
       "team": "UTA",
       "draftPick": 8
+    },
+    {
+      "player": "Arnoldas Kulboka",
+      "brefId": "kulboar01",
+      "year": 2022,
+      "age": 23.74,
+      "salary": 462629,
+      "team": "CHA",
+      "draftPick": 55
     },
     {
       "player": "CJ Wilcox",
@@ -4744,15 +4915,6 @@
       "draftPick": 6
     },
     {
-      "player": "Lonnie Walker",
-      "brefId": "walkelo01",
-      "year": 2023,
-      "age": 23.8,
-      "salary": 6479000,
-      "team": "LAL",
-      "draftPick": 18
-    },
-    {
       "player": "Robert Covington",
       "brefId": "covinro01",
       "year": 2015,
@@ -4762,13 +4924,13 @@
       "draftPick": null
     },
     {
-      "player": "Sam Hauser",
-      "brefId": "hausesa01",
-      "year": 2022,
-      "age": 23.81,
-      "salary": 619498,
-      "team": "BOS",
-      "draftPick": null
+      "player": "Lonnie Walker",
+      "brefId": "walkelo01",
+      "year": 2023,
+      "age": 23.8,
+      "salary": 6479000,
+      "team": "LAL",
+      "draftPick": 18
     },
     {
       "player": "Malcolm Brogdon",
@@ -4778,6 +4940,15 @@
       "salary": 875000,
       "team": "MIL",
       "draftPick": 36
+    },
+    {
+      "player": "Sam Hauser",
+      "brefId": "hausesa01",
+      "year": 2022,
+      "age": 23.81,
+      "salary": 619498,
+      "team": "BOS",
+      "draftPick": null
     },
     {
       "player": "Cameron Bairstow",
@@ -4798,15 +4969,6 @@
       "draftPick": null
     },
     {
-      "player": "Gary Payton",
-      "brefId": "paytoga02",
-      "year": 2017,
-      "age": 23.83,
-      "salary": 543471,
-      "team": "HOU",
-      "draftPick": null
-    },
-    {
       "player": "Rakeem Christmas",
       "brefId": "chrisra01",
       "year": 2016,
@@ -4814,6 +4976,15 @@
       "salary": 1007026,
       "team": "IND",
       "draftPick": 36
+    },
+    {
+      "player": "Gary Payton",
+      "brefId": "paytoga02",
+      "year": 2017,
+      "age": 23.83,
+      "salary": 543471,
+      "team": "HOU",
+      "draftPick": null
     },
     {
       "player": "Kenrich Williams",
@@ -4825,15 +4996,6 @@
       "draftPick": null
     },
     {
-      "player": "Oscar Tshiebwe",
-      "brefId": "tshieos01",
-      "year": 2024,
-      "age": 23.84,
-      "salary": 559782,
-      "team": "IND",
-      "draftPick": null
-    },
-    {
       "player": "Julius Randle",
       "brefId": "randlju01",
       "year": 2019,
@@ -4841,6 +5003,15 @@
       "salary": 8641000,
       "team": "NOP",
       "draftPick": 7
+    },
+    {
+      "player": "Oscar Tshiebwe",
+      "brefId": "tshieos01",
+      "year": 2024,
+      "age": 23.84,
+      "salary": 559782,
+      "team": "IND",
+      "draftPick": null
     },
     {
       "player": "Dennis Smith",
@@ -4861,22 +5032,13 @@
       "draftPick": null
     },
     {
-      "player": "Bol Bol",
-      "brefId": "bolbo01",
-      "year": 2024,
+      "player": "Arnett Moultrie",
+      "brefId": "moultar01",
+      "year": 2015,
       "age": 23.87,
-      "salary": 2165000,
-      "team": "PHX",
-      "draftPick": 44
-    },
-    {
-      "player": "Gary Clark",
-      "brefId": "clarkga01",
-      "year": 2019,
-      "age": 23.87,
-      "salary": 674122,
-      "team": "HOU",
-      "draftPick": null
+      "salary": 1136160,
+      "team": "NYK",
+      "draftPick": 27
     },
     {
       "player": "Zach Collins",
@@ -4888,6 +5050,24 @@
       "draftPick": 10
     },
     {
+      "player": "Gary Clark",
+      "brefId": "clarkga01",
+      "year": 2019,
+      "age": 23.87,
+      "salary": 674122,
+      "team": "HOU",
+      "draftPick": null
+    },
+    {
+      "player": "Bol Bol",
+      "brefId": "bolbo01",
+      "year": 2024,
+      "age": 23.87,
+      "salary": 2165000,
+      "team": "PHX",
+      "draftPick": 44
+    },
+    {
       "player": "Jontay Porter",
       "brefId": "portejo01",
       "year": 2024,
@@ -4895,24 +5075,6 @@
       "salary": 411794,
       "team": "TOR",
       "draftPick": null
-    },
-    {
-      "player": "Drew Peterson",
-      "brefId": "peterdr01",
-      "year": 2024,
-      "age": 23.89,
-      "salary": 395708,
-      "team": "BOS",
-      "draftPick": null
-    },
-    {
-      "player": "Davis Bertans",
-      "brefId": "bertada01",
-      "year": 2017,
-      "age": 23.89,
-      "salary": 543471,
-      "team": "SAS",
-      "draftPick": 42
     },
     {
       "player": "Trey Burke",
@@ -4924,12 +5086,21 @@
       "draftPick": 9
     },
     {
-      "player": "Theo Pinson",
-      "brefId": "pinsoth01",
-      "year": 2020,
-      "age": 23.9,
-      "salary": 1445697,
-      "team": "NYK",
+      "player": "Davis Bertans",
+      "brefId": "bertada01",
+      "year": 2017,
+      "age": 23.89,
+      "salary": 543471,
+      "team": "SAS",
+      "draftPick": 42
+    },
+    {
+      "player": "Drew Peterson",
+      "brefId": "peterdr01",
+      "year": 2024,
+      "age": 23.89,
+      "salary": 395708,
+      "team": "BOS",
       "draftPick": null
     },
     {
@@ -4940,6 +5111,15 @@
       "salary": 5500000,
       "team": "SAS",
       "draftPick": 12
+    },
+    {
+      "player": "Theo Pinson",
+      "brefId": "pinsoth01",
+      "year": 2020,
+      "age": 23.9,
+      "salary": 1445697,
+      "team": "NYK",
+      "draftPick": null
     },
     {
       "player": "Dalano Banton",
@@ -5032,21 +5212,21 @@
       "draftPick": null
     },
     {
-      "player": "David Duke",
-      "brefId": "dukeda01",
-      "year": 2024,
-      "age": 23.97,
-      "salary": 395708,
-      "team": "SAS",
-      "draftPick": null
-    },
-    {
       "player": "Moses Brown",
       "brefId": "brownmo01",
       "year": 2024,
       "age": 23.97,
       "salary": 2165000,
       "team": "POR",
+      "draftPick": null
+    },
+    {
+      "player": "David Duke",
+      "brefId": "dukeda01",
+      "year": 2024,
+      "age": 23.97,
+      "salary": 395708,
+      "team": "SAS",
       "draftPick": null
     },
     {
@@ -5077,6 +5257,15 @@
       "draftPick": 21
     },
     {
+      "player": "Jordan Hamilton",
+      "brefId": "hamiljo02",
+      "year": 2015,
+      "age": 23.99,
+      "salary": 948163,
+      "team": "UTA",
+      "draftPick": 26
+    },
+    {
       "player": "Quincy Acy",
       "brefId": "acyqu01",
       "year": 2015,
@@ -5086,13 +5275,13 @@
       "draftPick": 37
     },
     {
-      "player": "Jordan Hamilton",
-      "brefId": "hamiljo02",
-      "year": 2015,
-      "age": 23.99,
-      "salary": 948163,
-      "team": "UTA",
-      "draftPick": 26
+      "player": "Wayne Selden",
+      "brefId": "seldewa01",
+      "year": 2019,
+      "age": 24.0,
+      "salary": 1544951,
+      "team": "CHI",
+      "draftPick": null
     },
     {
       "player": "Brandon Goodwin",
@@ -5104,13 +5293,13 @@
       "draftPick": null
     },
     {
-      "player": "Wayne Selden",
-      "brefId": "seldewa01",
-      "year": 2019,
-      "age": 24.0,
-      "salary": 1544951,
-      "team": "CHI",
-      "draftPick": null
+      "player": "Juan Hernangomez",
+      "brefId": "hernaju01",
+      "year": 2020,
+      "age": 24.01,
+      "salary": 3321029,
+      "team": "MIN",
+      "draftPick": 15
     },
     {
       "player": "Caleb Martin",
@@ -5131,31 +5320,13 @@
       "draftPick": 36
     },
     {
-      "player": "Juan Hernangomez",
-      "brefId": "hernaju01",
-      "year": 2020,
-      "age": 24.01,
-      "salary": 3321029,
-      "team": "MIN",
-      "draftPick": 15
-    },
-    {
-      "player": "Dylan Windler",
-      "brefId": "windldy01",
-      "year": 2021,
+      "player": "Perry Jones",
+      "brefId": "jonespe01",
+      "year": 2016,
       "age": 24.02,
-      "salary": 2137440,
-      "team": "CLE",
-      "draftPick": 26
-    },
-    {
-      "player": "Tyler Cook",
-      "brefId": "cookty01",
-      "year": 2022,
-      "age": 24.02,
-      "salary": 462629,
-      "team": "CHI",
-      "draftPick": null
+      "salary": 2038206,
+      "team": "BOS",
+      "draftPick": 28
     },
     {
       "player": "Abdel Nader",
@@ -5167,12 +5338,12 @@
       "draftPick": 58
     },
     {
-      "player": "Nathan Knight",
-      "brefId": "knighna01",
+      "player": "Tyler Cook",
+      "brefId": "cookty01",
       "year": 2022,
-      "age": 24.03,
+      "age": 24.02,
       "salary": 462629,
-      "team": "MIN",
+      "team": "CHI",
       "draftPick": null
     },
     {
@@ -5185,12 +5356,12 @@
       "draftPick": 8
     },
     {
-      "player": "Chris Silva",
-      "brefId": "silvach01",
-      "year": 2021,
+      "player": "Travis Wear",
+      "brefId": "weartr01",
+      "year": 2015,
       "age": 24.03,
-      "salary": 1517981,
-      "team": "SAC",
+      "salary": 507336,
+      "team": "NYK",
       "draftPick": null
     },
     {
@@ -5203,12 +5374,21 @@
       "draftPick": 20
     },
     {
-      "player": "Travis Wear",
-      "brefId": "weartr01",
-      "year": 2015,
+      "player": "Chris Silva",
+      "brefId": "silvach01",
+      "year": 2021,
       "age": 24.03,
-      "salary": 507336,
-      "team": "NYK",
+      "salary": 1517981,
+      "team": "SAC",
+      "draftPick": null
+    },
+    {
+      "player": "Nathan Knight",
+      "brefId": "knighna01",
+      "year": 2022,
+      "age": 24.03,
+      "salary": 462629,
+      "team": "MIN",
       "draftPick": null
     },
     {
@@ -5266,15 +5446,6 @@
       "draftPick": 33
     },
     {
-      "player": "Cam Reddish",
-      "brefId": "reddica01",
-      "year": 2024,
-      "age": 24.08,
-      "salary": 2165000,
-      "team": "LAL",
-      "draftPick": 10
-    },
-    {
       "player": "Josh Okogie",
       "brefId": "okogijo01",
       "year": 2023,
@@ -5282,6 +5453,15 @@
       "salary": 1968175,
       "team": "PHX",
       "draftPick": 20
+    },
+    {
+      "player": "Cam Reddish",
+      "brefId": "reddica01",
+      "year": 2024,
+      "age": 24.08,
+      "salary": 2165000,
+      "team": "LAL",
+      "draftPick": 10
     },
     {
       "player": "Nickeil Alexander-Walker",
@@ -5302,15 +5482,6 @@
       "draftPick": 7
     },
     {
-      "player": "Kevin Huerter",
-      "brefId": "huertke01",
-      "year": 2023,
-      "age": 24.1,
-      "salary": 14508929,
-      "team": "SAC",
-      "draftPick": 19
-    },
-    {
       "player": "Noah Vonleh",
       "brefId": "vonleno01",
       "year": 2020,
@@ -5318,6 +5489,15 @@
       "salary": 2000000,
       "team": "DEN",
       "draftPick": 9
+    },
+    {
+      "player": "Lorenzo Brown",
+      "brefId": "brownlo01",
+      "year": 2015,
+      "age": 24.1,
+      "salary": 390082,
+      "team": "MIN",
+      "draftPick": 52
     },
     {
       "player": "AJ Hammons",
@@ -5329,13 +5509,13 @@
       "draftPick": 46
     },
     {
-      "player": "Lorenzo Brown",
-      "brefId": "brownlo01",
-      "year": 2015,
+      "player": "Kevin Huerter",
+      "brefId": "huertke01",
+      "year": 2023,
       "age": 24.1,
-      "salary": 390082,
-      "team": "MIN",
-      "draftPick": 52
+      "salary": 14508929,
+      "team": "SAC",
+      "draftPick": 19
     },
     {
       "player": "Cory Joseph",
@@ -5356,6 +5536,15 @@
       "draftPick": 13
     },
     {
+      "player": "Carrick Felix",
+      "brefId": "felixca01",
+      "year": 2015,
+      "age": 24.12,
+      "salary": 816482,
+      "team": "UTA",
+      "draftPick": 33
+    },
+    {
       "player": "Okaro White",
       "brefId": "whiteok01",
       "year": 2017,
@@ -5365,15 +5554,6 @@
       "draftPick": null
     },
     {
-      "player": "Bruno Fernando",
-      "brefId": "fernabr01",
-      "year": 2023,
-      "age": 24.13,
-      "salary": 2717391,
-      "team": "ATL",
-      "draftPick": 34
-    },
-    {
       "player": "Bruce Brown",
       "brefId": "brownbr01",
       "year": 2021,
@@ -5381,6 +5561,15 @@
       "salary": 1663861,
       "team": "BKN",
       "draftPick": 42
+    },
+    {
+      "player": "Bruno Fernando",
+      "brefId": "fernabr01",
+      "year": 2023,
+      "age": 24.13,
+      "salary": 2717391,
+      "team": "ATL",
+      "draftPick": 34
     },
     {
       "player": "Lamar Patterson",
@@ -5401,15 +5590,6 @@
       "draftPick": 9
     },
     {
-      "player": "Jason Preston",
-      "brefId": "prestja01",
-      "year": 2024,
-      "age": 24.14,
-      "salary": 315280,
-      "team": "UTA",
-      "draftPick": 33
-    },
-    {
       "player": "Kyle Guy",
       "brefId": "guyky01",
       "year": 2022,
@@ -5419,22 +5599,13 @@
       "draftPick": 55
     },
     {
-      "player": "Kristaps Porzingis",
-      "brefId": "porzikr01",
-      "year": 2020,
-      "age": 24.16,
-      "salary": 27285000,
-      "team": "DAL",
-      "draftPick": 4
-    },
-    {
-      "player": "Kendrick Nunn",
-      "brefId": "nunnke01",
-      "year": 2020,
-      "age": 24.16,
-      "salary": 1416852,
-      "team": "MIA",
-      "draftPick": null
+      "player": "Jason Preston",
+      "brefId": "prestja01",
+      "year": 2024,
+      "age": 24.14,
+      "salary": 315280,
+      "team": "UTA",
+      "draftPick": 33
     },
     {
       "player": "Miye Oni",
@@ -5482,15 +5653,6 @@
       "draftPick": 24
     },
     {
-      "player": "Neemias Queta",
-      "brefId": "quetane01",
-      "year": 2024,
-      "age": 24.22,
-      "salary": 641035,
-      "team": "BOS",
-      "draftPick": 39
-    },
-    {
       "player": "Dante Exum",
       "brefId": "exumda01",
       "year": 2020,
@@ -5500,6 +5662,15 @@
       "draftPick": 5
     },
     {
+      "player": "Isaiah Taylor",
+      "brefId": "taylois01",
+      "year": 2019,
+      "age": 24.22,
+      "salary": 950000,
+      "team": "CLE",
+      "draftPick": null
+    },
+    {
       "player": "Marshall Plumlee",
       "brefId": "plumlma02",
       "year": 2017,
@@ -5507,6 +5678,15 @@
       "salary": 543471,
       "team": "NYK",
       "draftPick": null
+    },
+    {
+      "player": "Neemias Queta",
+      "brefId": "quetane01",
+      "year": 2024,
+      "age": 24.22,
+      "salary": 641035,
+      "team": "BOS",
+      "draftPick": 39
     },
     {
       "player": "Jae Crowder",
@@ -5536,15 +5716,6 @@
       "draftPick": null
     },
     {
-      "player": "Damian Jones",
-      "brefId": "jonesda03",
-      "year": 2020,
-      "age": 24.25,
-      "salary": 2305057,
-      "team": "ATL",
-      "draftPick": 30
-    },
-    {
       "player": "James Ennis",
       "brefId": "ennisja01",
       "year": 2015,
@@ -5552,6 +5723,15 @@
       "salary": 507336,
       "team": "MIA",
       "draftPick": 50
+    },
+    {
+      "player": "Damian Jones",
+      "brefId": "jonesda03",
+      "year": 2020,
+      "age": 24.25,
+      "salary": 2305057,
+      "team": "ATL",
+      "draftPick": 30
     },
     {
       "player": "Marquese Chriss",
@@ -5563,6 +5743,15 @@
       "draftPick": 8
     },
     {
+      "player": "Jabari Bird",
+      "brefId": "birdja01",
+      "year": 2019,
+      "age": 24.25,
+      "salary": 1349383,
+      "team": "ATL",
+      "draftPick": 56
+    },
+    {
       "player": "Iman Shumpert",
       "brefId": "shumpim01",
       "year": 2015,
@@ -5572,15 +5761,6 @@
       "draftPick": 17
     },
     {
-      "player": "Collin Gillespie",
-      "brefId": "gilleco01",
-      "year": 2024,
-      "age": 24.27,
-      "salary": 559782,
-      "team": "DEN",
-      "draftPick": null
-    },
-    {
       "player": "Luke Kennard",
       "brefId": "kennalu01",
       "year": 2021,
@@ -5588,6 +5768,15 @@
       "salary": 5273826,
       "team": "LAC",
       "draftPick": 12
+    },
+    {
+      "player": "Collin Gillespie",
+      "brefId": "gilleco01",
+      "year": 2024,
+      "age": 24.27,
+      "salary": 559782,
+      "team": "DEN",
+      "draftPick": null
     },
     {
       "player": "Jordan Poole",
@@ -5617,21 +5806,21 @@
       "draftPick": 25
     },
     {
+      "player": "Ray McCallum",
+      "brefId": "mccalra01",
+      "year": 2016,
+      "age": 24.3,
+      "salary": 947276,
+      "team": "SAS",
+      "draftPick": 36
+    },
+    {
       "player": "Trent Forrest",
       "brefId": "forretr01",
       "year": 2023,
       "age": 24.3,
       "salary": 508891,
       "team": "ATL",
-      "draftPick": null
-    },
-    {
-      "player": "Leaky Black",
-      "brefId": "blackle01",
-      "year": 2024,
-      "age": 24.3,
-      "salary": 559782,
-      "team": "CHA",
       "draftPick": null
     },
     {
@@ -5644,13 +5833,13 @@
       "draftPick": 13
     },
     {
-      "player": "Ray McCallum",
-      "brefId": "mccalra01",
-      "year": 2016,
+      "player": "Leaky Black",
+      "brefId": "blackle01",
+      "year": 2024,
       "age": 24.3,
-      "salary": 947276,
-      "team": "SAS",
-      "draftPick": 36
+      "salary": 559782,
+      "team": "CHA",
+      "draftPick": null
     },
     {
       "player": "Sviatoslav Mykhailiuk",
@@ -5671,15 +5860,6 @@
       "draftPick": null
     },
     {
-      "player": "Royce O'Neale",
-      "brefId": "onealro01",
-      "year": 2018,
-      "age": 24.32,
-      "salary": 815615,
-      "team": "UTA",
-      "draftPick": null
-    },
-    {
       "player": "Michael Gbinije",
       "brefId": "gbinimi01",
       "year": 2017,
@@ -5687,6 +5867,15 @@
       "salary": 650000,
       "team": "DET",
       "draftPick": 49
+    },
+    {
+      "player": "Royce O'Neale",
+      "brefId": "onealro01",
+      "year": 2018,
+      "age": 24.32,
+      "salary": 815615,
+      "team": "UTA",
+      "draftPick": null
     },
     {
       "player": "Johnny OBryant",
@@ -5734,15 +5923,6 @@
       "draftPick": 24
     },
     {
-      "player": "Lauri Markkanen",
-      "brefId": "markkla01",
-      "year": 2022,
-      "age": 24.36,
-      "salary": 15690909,
-      "team": "CLE",
-      "draftPick": 7
-    },
-    {
       "player": "Jarell Martin",
       "brefId": "martija01",
       "year": 2019,
@@ -5750,6 +5930,15 @@
       "salary": 2416221,
       "team": "ORL",
       "draftPick": 25
+    },
+    {
+      "player": "Lauri Markkanen",
+      "brefId": "markkla01",
+      "year": 2022,
+      "age": 24.36,
+      "salary": 15690909,
+      "team": "CLE",
+      "draftPick": 7
     },
     {
       "player": "Sam Merrill",
@@ -5768,6 +5957,15 @@
       "salary": 10300000,
       "team": "LAL",
       "draftPick": 6
+    },
+    {
+      "player": "Timoth\u00e9 Luwawu-Cabarrot",
+      "brefId": "luwawti01",
+      "year": 2020,
+      "age": 24.4,
+      "salary": 844170,
+      "team": "BKN",
+      "draftPick": 24
     },
     {
       "player": "Khyri Thomas",
@@ -5797,6 +5995,24 @@
       "draftPick": null
     },
     {
+      "player": "Victor Oladipo",
+      "brefId": "oladivi01",
+      "year": 2017,
+      "age": 24.41,
+      "salary": 6552960,
+      "team": "OKC",
+      "draftPick": 2
+    },
+    {
+      "player": "Sam Dekker",
+      "brefId": "dekkesa01",
+      "year": 2019,
+      "age": 24.41,
+      "salary": 2760094,
+      "team": "WAS",
+      "draftPick": 18
+    },
+    {
       "player": "Jaylen Adams",
       "brefId": "adamsja01",
       "year": 2021,
@@ -5813,24 +6029,6 @@
       "salary": 8854879,
       "team": "NYK",
       "draftPick": 43
-    },
-    {
-      "player": "Sam Dekker",
-      "brefId": "dekkesa01",
-      "year": 2019,
-      "age": 24.41,
-      "salary": 2760094,
-      "team": "WAS",
-      "draftPick": 18
-    },
-    {
-      "player": "Victor Oladipo",
-      "brefId": "oladivi01",
-      "year": 2017,
-      "age": 24.41,
-      "salary": 6552960,
-      "team": "OKC",
-      "draftPick": 2
     },
     {
       "player": "Chandler Hutchison",
@@ -5896,6 +6094,15 @@
       "draftPick": 45
     },
     {
+      "player": "Derrick Walton",
+      "brefId": "waltode01",
+      "year": 2020,
+      "age": 24.5,
+      "salary": 1445697,
+      "team": "ATL",
+      "draftPick": null
+    },
+    {
       "player": "Onuralp Bitim",
       "brefId": "bitimon01",
       "year": 2024,
@@ -5912,15 +6119,6 @@
       "salary": 647098,
       "team": "MIA",
       "draftPick": null
-    },
-    {
-      "player": "Admiral Schofield",
-      "brefId": "schofad01",
-      "year": 2022,
-      "age": 24.51,
-      "salary": 300000,
-      "team": "OKC",
-      "draftPick": 42
     },
     {
       "player": "Admiral Schofield",
@@ -5950,15 +6148,6 @@
       "draftPick": 25
     },
     {
-      "player": "Landry Shamet",
-      "brefId": "shamela01",
-      "year": 2022,
-      "age": 24.55,
-      "salary": 3768342,
-      "team": "PHX",
-      "draftPick": 26
-    },
-    {
       "player": "Jabari Parker",
       "brefId": "parkeja01",
       "year": 2020,
@@ -5966,6 +6155,15 @@
       "salary": 6500000,
       "team": "SAC",
       "draftPick": 2
+    },
+    {
+      "player": "Landry Shamet",
+      "brefId": "shamela01",
+      "year": 2022,
+      "age": 24.55,
+      "salary": 3768342,
+      "team": "PHX",
+      "draftPick": 26
     },
     {
       "player": "Marvin Bagley",
@@ -6013,15 +6211,6 @@
       "draftPick": null
     },
     {
-      "player": "Nicolas Brussino",
-      "brefId": "brussni01",
-      "year": 2018,
-      "age": 24.58,
-      "salary": 393041,
-      "team": "ATL",
-      "draftPick": null
-    },
-    {
       "player": "Jared Sullinger",
       "brefId": "sullija01",
       "year": 2017,
@@ -6029,6 +6218,15 @@
       "salary": 5628000,
       "team": "PHX",
       "draftPick": 21
+    },
+    {
+      "player": "Nicolas Brussino",
+      "brefId": "brussni01",
+      "year": 2018,
+      "age": 24.58,
+      "salary": 393041,
+      "team": "ATL",
+      "draftPick": null
     },
     {
       "player": "Andrew Wiggins",
@@ -6040,15 +6238,6 @@
       "draftPick": 1
     },
     {
-      "player": "Trevelin Queen",
-      "brefId": "queentr01",
-      "year": 2022,
-      "age": 24.6,
-      "salary": 303102,
-      "team": "HOU",
-      "draftPick": null
-    },
-    {
       "player": "Mario Hezonja",
       "brefId": "hezonma01",
       "year": 2020,
@@ -6056,6 +6245,15 @@
       "salary": 1737145,
       "team": "POR",
       "draftPick": 5
+    },
+    {
+      "player": "Trevelin Queen",
+      "brefId": "queentr01",
+      "year": 2022,
+      "age": 24.6,
+      "salary": 303102,
+      "team": "HOU",
+      "draftPick": null
     },
     {
       "player": "Elfrid Payton",
@@ -6076,15 +6274,6 @@
       "draftPick": null
     },
     {
-      "player": "Derrick Jones",
-      "brefId": "jonesde02",
-      "year": 2022,
-      "age": 24.62,
-      "salary": 9720900,
-      "team": "CHI",
-      "draftPick": null
-    },
-    {
       "player": "Kentavious Caldwell-Pope",
       "brefId": "caldwke01",
       "year": 2018,
@@ -6094,6 +6283,15 @@
       "draftPick": 8
     },
     {
+      "player": "Derrick Jones",
+      "brefId": "jonesde02",
+      "year": 2022,
+      "age": 24.62,
+      "salary": 9720900,
+      "team": "CHI",
+      "draftPick": null
+    },
+    {
       "player": "DJ Wilson",
       "brefId": "wilsodj01",
       "year": 2021,
@@ -6101,6 +6299,15 @@
       "salary": 4548280,
       "team": "HOU",
       "draftPick": 17
+    },
+    {
+      "player": "Ben McLemore",
+      "brefId": "mclembe01",
+      "year": 2018,
+      "age": 24.64,
+      "salary": 5200000,
+      "team": "MEM",
+      "draftPick": 7
     },
     {
       "player": "Bobby Portis",
@@ -6121,15 +6328,6 @@
       "draftPick": 4
     },
     {
-      "player": "Ben McLemore",
-      "brefId": "mclembe01",
-      "year": 2018,
-      "age": 24.64,
-      "salary": 5200000,
-      "team": "MEM",
-      "draftPick": 7
-    },
-    {
       "player": "Rui Hachimura",
       "brefId": "hachiru01",
       "year": 2023,
@@ -6146,6 +6344,24 @@
       "salary": 9472219,
       "team": "SAC",
       "draftPick": 11
+    },
+    {
+      "player": "Drew Eubanks",
+      "brefId": "eubandr01",
+      "year": 2022,
+      "age": 24.66,
+      "salary": 477024,
+      "team": "POR",
+      "draftPick": null
+    },
+    {
+      "player": "Drew Eubanks",
+      "brefId": "eubandr01",
+      "year": 2022,
+      "age": 24.66,
+      "salary": 1762796,
+      "team": "TOR",
+      "draftPick": null
     },
     {
       "player": "Charlie Brown",
@@ -6175,42 +6391,6 @@
       "draftPick": 45
     },
     {
-      "player": "Drew Eubanks",
-      "brefId": "eubandr01",
-      "year": 2022,
-      "age": 24.66,
-      "salary": 477024,
-      "team": "POR",
-      "draftPick": null
-    },
-    {
-      "player": "Drew Eubanks",
-      "brefId": "eubandr01",
-      "year": 2022,
-      "age": 24.66,
-      "salary": 1762796,
-      "team": "TOR",
-      "draftPick": null
-    },
-    {
-      "player": "Brodric Thomas",
-      "brefId": "thomabr01",
-      "year": 2022,
-      "age": 24.67,
-      "salary": 462629,
-      "team": "BOS",
-      "draftPick": null
-    },
-    {
-      "player": "Jalen McDaniels",
-      "brefId": "mcdanja01",
-      "year": 2023,
-      "age": 24.67,
-      "salary": 1930681,
-      "team": "PHI",
-      "draftPick": 52
-    },
-    {
       "player": "Donte DiVincenzo",
       "brefId": "divindo01",
       "year": 2022,
@@ -6226,6 +6406,24 @@
       "age": 24.67,
       "salary": 500000,
       "team": "OKC",
+      "draftPick": null
+    },
+    {
+      "player": "Jalen McDaniels",
+      "brefId": "mcdanja01",
+      "year": 2023,
+      "age": 24.67,
+      "salary": 1930681,
+      "team": "PHI",
+      "draftPick": 52
+    },
+    {
+      "player": "Brodric Thomas",
+      "brefId": "thomabr01",
+      "year": 2022,
+      "age": 24.67,
+      "salary": 462629,
+      "team": "BOS",
       "draftPick": null
     },
     {
@@ -6283,15 +6481,6 @@
       "draftPick": 35
     },
     {
-      "player": "Glenn Robinson",
-      "brefId": "robingl02",
-      "year": 2019,
-      "age": 24.73,
-      "salary": 4075000,
-      "team": "DET",
-      "draftPick": 40
-    },
-    {
       "player": "Terrence Jones",
       "brefId": "joneste01",
       "year": 2017,
@@ -6301,13 +6490,22 @@
       "draftPick": 18
     },
     {
-      "player": "Rondae Hollis-Jefferson",
-      "brefId": "holliro01",
+      "player": "Glenn Robinson",
+      "brefId": "robingl02",
+      "year": 2019,
+      "age": 24.73,
+      "salary": 4075000,
+      "team": "DET",
+      "draftPick": 40
+    },
+    {
+      "player": "Jordan Bell",
+      "brefId": "belljo01",
       "year": 2020,
-      "age": 24.74,
-      "salary": 2500000,
-      "team": "TOR",
-      "draftPick": 23
+      "age": 24.73,
+      "salary": 1620564,
+      "team": "MEM",
+      "draftPick": 38
     },
     {
       "player": "Doug McDermott",
@@ -6317,6 +6515,15 @@
       "salary": 2483040,
       "team": "OKC",
       "draftPick": 11
+    },
+    {
+      "player": "Rondae Hollis-Jefferson",
+      "brefId": "holliro01",
+      "year": 2020,
+      "age": 24.74,
+      "salary": 2500000,
+      "team": "TOR",
+      "draftPick": 23
     },
     {
       "player": "Larry Nance",
@@ -6346,6 +6553,15 @@
       "draftPick": null
     },
     {
+      "player": "Sheldon Mac",
+      "brefId": "mcclesh01",
+      "year": 2018,
+      "age": 24.78,
+      "salary": 1312611,
+      "team": "ATL",
+      "draftPick": null
+    },
+    {
       "player": "Jahlil Okafor",
       "brefId": "okafoja01",
       "year": 2021,
@@ -6362,6 +6578,15 @@
       "salary": 2346614,
       "team": "BKN",
       "draftPick": 18
+    },
+    {
+      "player": "Dion Waiters",
+      "brefId": "waitedi01",
+      "year": 2017,
+      "age": 24.81,
+      "salary": 2898000,
+      "team": "MIA",
+      "draftPick": 4
     },
     {
       "player": "Langston Galloway",
@@ -6382,15 +6607,6 @@
       "draftPick": 15
     },
     {
-      "player": "Dion Waiters",
-      "brefId": "waitedi01",
-      "year": 2017,
-      "age": 24.81,
-      "salary": 2898000,
-      "team": "MIA",
-      "draftPick": 4
-    },
-    {
       "player": "Haywood Highsmith",
       "brefId": "highsha01",
       "year": 2022,
@@ -6400,15 +6616,6 @@
       "draftPick": null
     },
     {
-      "player": "Grant Williams",
-      "brefId": "willigr01",
-      "year": 2024,
-      "age": 24.84,
-      "salary": 12405000,
-      "team": "CHA",
-      "draftPick": 22
-    },
-    {
       "player": "Julius Randle",
       "brefId": "randlju01",
       "year": 2020,
@@ -6416,6 +6623,15 @@
       "salary": 18000000,
       "team": "NYK",
       "draftPick": 7
+    },
+    {
+      "player": "Grant Williams",
+      "brefId": "willigr01",
+      "year": 2024,
+      "age": 24.84,
+      "salary": 12405000,
+      "team": "CHA",
+      "draftPick": 22
     },
     {
       "player": "Dennis Smith",
@@ -6454,6 +6670,24 @@
       "draftPick": null
     },
     {
+      "player": "Zylan Cheatham",
+      "brefId": "cheatzy01",
+      "year": 2021,
+      "age": 24.87,
+      "salary": 1445697,
+      "team": "OKC",
+      "draftPick": null
+    },
+    {
+      "player": "Shabazz Muhammad",
+      "brefId": "muhamsh01",
+      "year": 2018,
+      "age": 24.88,
+      "salary": 347525,
+      "team": "MIL",
+      "draftPick": 14
+    },
+    {
       "player": "Trey Burke",
       "brefId": "burketr01",
       "year": 2018,
@@ -6470,15 +6704,6 @@
       "salary": 559782,
       "team": "HOU",
       "draftPick": null
-    },
-    {
-      "player": "Shabazz Muhammad",
-      "brefId": "muhamsh01",
-      "year": 2018,
-      "age": 24.88,
-      "salary": 347525,
-      "team": "MIL",
-      "draftPick": 14
     },
     {
       "player": "Tony Snell",
@@ -6562,15 +6787,6 @@
       "draftPick": null
     },
     {
-      "player": "Festus Ezeli",
-      "brefId": "ezelife01",
-      "year": 2015,
-      "age": 24.94,
-      "salary": 1112880,
-      "team": "GSW",
-      "draftPick": 30
-    },
-    {
       "player": "Rodney Hood",
       "brefId": "hoodro01",
       "year": 2018,
@@ -6589,6 +6805,15 @@
       "draftPick": 37
     },
     {
+      "player": "Michael Carter-Williams",
+      "brefId": "cartemi01",
+      "year": 2017,
+      "age": 24.98,
+      "salary": 3183526,
+      "team": "CHI",
+      "draftPick": 11
+    },
+    {
       "player": "Nik Stauskas",
       "brefId": "stausni01",
       "year": 2019,
@@ -6605,15 +6830,6 @@
       "salary": 1621415,
       "team": "IND",
       "draftPick": 8
-    },
-    {
-      "player": "Michael Carter-Williams",
-      "brefId": "cartemi01",
-      "year": 2017,
-      "age": 24.98,
-      "salary": 3183526,
-      "team": "CHI",
-      "draftPick": 11
     },
     {
       "player": "Devontae Cacok",
@@ -6643,24 +6859,6 @@
       "draftPick": null
     },
     {
-      "player": "Jonathan Isaac",
-      "brefId": "isaacjo01",
-      "year": 2023,
-      "age": 24.99,
-      "salary": 17400000,
-      "team": "ORL",
-      "draftPick": 6
-    },
-    {
-      "player": "Aaron Holiday",
-      "brefId": "holidaa01",
-      "year": 2022,
-      "age": 25.0,
-      "salary": 3980551,
-      "team": "PHX",
-      "draftPick": 23
-    },
-    {
       "player": "Shane Larkin",
       "brefId": "larkish01",
       "year": 2018,
@@ -6677,6 +6875,15 @@
       "salary": 1709719,
       "team": "CHI",
       "draftPick": 55
+    },
+    {
+      "player": "Aaron Holiday",
+      "brefId": "holidaa01",
+      "year": 2022,
+      "age": 25.0,
+      "salary": 3980551,
+      "team": "PHX",
+      "draftPick": 23
     },
     {
       "player": "Daniel Gafford",
