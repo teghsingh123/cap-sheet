@@ -9,6 +9,8 @@ Run the scripts in `pipeline/` in numeric order, from inside `pipeline/`:
 
 ```
 cd pipeline
+py 00c_scrape_transactions.py   # Basketball-Reference season transaction pages -> scrape/transactions_html/
+py 00d_parse_transactions.py    # scrape/transactions_html/*.html -> processed/transactions.csv
 py 01_parse_salary_scale.py     # scrape/salary_scale_html/*.html -> processed/salary_min_scale.csv
 py 02_parse_player_bios.py      # scrape/player_bio_html/*.html   -> processed/player_bios.csv
 py 03_parse_draft_picks.py      # scrape/draft_html/*.html        -> processed/draft_picks.csv

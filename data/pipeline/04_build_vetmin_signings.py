@@ -25,6 +25,28 @@ with open("../source/salary_history.csv", encoding="utf-8") as f:
 for bref_id, rows in by_player.items():
     rows.sort(key=lambda r: int(r["year"]))
 
+# --- load transactions (from 00d_parse_transactions.py), to tell how a player
+#     got to a team: signed, or brought over on an existing contract ---
+# Basketball-Reference uses the team code from the time (SEA, NJN...); the
+# salary data uses the franchise's current code.
+TEAM_CODES = {"BRK": "BKN", "NJN": "BKN", "PHO": "PHX", "CHH": "CHA", "CHO": "CHA",
+              "NOH": "NOP", "NOK": "NOP", "SEA": "OKC", "VAN": "MEM", "WSB": "WAS"}
+transactions = {}
+with open("../processed/transactions.csv", encoding="utf-8") as f:
+    for row in csv.DictReader(f):
+        if row["type"] in ("signed", "traded", "claimed", "expansion"):
+            transactions.setdefault(row["bref_id"], []).append(row)
+
+def arrivals_by_team(bref_id, year, team):
+    """Ways the player joined `team` during the `year` season, June through June.
+    Matched by date, not by which season's page the log filed it on -- late-June
+    trades and early-July signings land on either side inconsistently."""
+    start, end = f"{year - 1}-06-01", f"{year}-06-30"
+    return {
+        t["type"] for t in transactions.get(bref_id, [])
+        if start <= t["date"] <= end and TEAM_CODES.get(t["to_team"], t["to_team"]) == team
+    }
+
 # a (team, salary) pair that closely matches one from an EARLIER season for
 # the same player is almost certainly stretched dead money still being paid
 # out, not a fresh salary for that team -- see the note below where this is
@@ -108,22 +130,17 @@ for bref_id, rows in by_player.items():
 
         # A team change alone doesn't mean a new contract: a player traded,
         # claimed off waivers or taken in an expansion draft brings his old
-        # deal with him. Early in a career, the giveaway is a salary that
-        # stepped exactly up the minimum scale, full rate last season to full
-        # rate this season -- the second year of a multi-year minimum deal
-        # (usually a second-round pick's), not a fresh signing. e.g. Zaza
-        # Pachulia, 2003 #42 pick: ORL rookie min -> MIL 1-year min in 2005
-        # after the expansion draft, same contract.
-        if prev_teams is not None and yos <= 2 and 0.99 <= ratio <= 1.01:
-            prev_min = min_scale.get((year - 1, yos - 1))
-            prev_full_rate = [
-                r for r in rows
-                if int(r["year"]) == year - 1 and prev_min
-                and 0.99 <= float(r["salary"]) / prev_min <= 1.01
-            ]
-            if prev_full_rate:
-                skipped_carried_contract += 1
-                continue
+        # deal with him (Pachulia to MIL in 2004, Middleton to MIL in 2013,
+        # Rollins to WAS in 2023, Livingston to MEM in 2009 -- waived the same
+        # day). So if the transactions log shows he got to this team that
+        # season only that way, with no signing by the team, it's not a new
+        # minimum signing. If the log has no arrival at all, keep the row:
+        # the log isn't complete, and it sometimes records a waiver claim as
+        # "signed" (Jeremy Lin to NYK, 2011), which also keeps the row.
+        arrivals = arrivals_by_team(bref_id, year, row["team"])
+        if arrivals and "signed" not in arrivals:
+            skipped_carried_contract += 1
+            continue
 
         birth = datetime.date.fromisoformat(b["birth_date"])
         season_start = datetime.date(year - 1, 10, 1)
@@ -167,7 +184,7 @@ with open("../processed/vetmin_signings.csv", "w", newline="", encoding="utf-8")
 
 print("salary rows skipped (no bio match):", skipped_no_bio)
 print("skipped (same stint, not a new signing):", skipped_same_stint)
-print("skipped (min deal carried over in a team change):", skipped_carried_contract)
+print("skipped (arrived by trade/claim/expansion, not signed):", skipped_carried_contract)
 print("flagged vet-min rows (yos>=1, new stint):", len(flagged))
 print()
 print("Youngest 20 vet-min signings:")
