@@ -3697,6 +3697,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Zylan Cheatham",
+      "brefId": "cheatzy01",
+      "year": 2021,
+      "age": 24.87,
+      "yearsOfService": 1,
+      "prevSalary": 79568,
+      "salary": 1445697,
+      "dropPct": -1716.9,
+      "ratioOfMin": 1.0,
+      "team": "OKC",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Cole Aldrich",
       "brefId": "aldrico01",
       "year": 2014,
@@ -7977,6 +7991,20 @@
       "dropPct": -1132.1,
       "ratioOfMin": 0.627,
       "team": "WAS",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Josh Gray",
+      "brefId": "grayjo01",
+      "year": 2021,
+      "age": 27.06,
+      "yearsOfService": 3,
+      "prevSalary": 79568,
+      "salary": 1620564,
+      "dropPct": -1936.7,
+      "ratioOfMin": 0.965,
+      "team": "OKC",
       "draftPick": null,
       "isKumingaComp": false
     },

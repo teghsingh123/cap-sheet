@@ -14,6 +14,11 @@ with open("../../../web/public/data/kuminga-line/all_signings.json", encoding="u
     signings = json.load(f)["signings"]
 with open("../../../web/public/data/kuminga-line/prove_it.json", encoding="utf-8") as f:
     prove_it = json.load(f)["signings"]
+with open("../../../web/public/data/kuminga-line/young_fa.json", encoding="utf-8") as f:
+    young_fa = json.load(f)["signings"]
+
+def new_contract(bref_id, year, team):
+    return any(s["brefId"] == bref_id and s["year"] == year and s["team"] == team for s in young_fa)
 
 def signing(bref_id, year, team):
     return next((s for s in signings if s["brefId"] == bref_id and s["year"] == year and s["team"] == team), None)
@@ -75,6 +80,12 @@ checks = [
      abs(signing("bendedr01", 2020, "MIL")["age"] - 21.69) < 0.01),
     ("A prorated deal followed by a normal minimum isn't a bounce-back (Damon Jones 1999-00)",
      outcomes("jonesda01", 2000) == {"stuck"}),
+    ("Young FA chart: a sign-and-trade is a new contract for the new team (Lonzo Ball to CHI, 2021)",
+     new_contract("balllo01", 2022, "CHI")),
+    ("Young FA chart: a plain trade isn't a new contract (Jordan Poole to WAS, 2023)",
+     not new_contract("poolejo01", 2024, "WAS")),
+    ("Young FA chart: a restricted free agent re-signing counts (Deandre Ayton, PHX 2022)",
+     new_contract("aytonde01", 2023, "PHX")),
     ("Pressey's 2015-16 Philadelphia hardship deal still counts as a signing",
      any(s["brefId"] == "pressph01" and s["year"] == 2016 and s["team"] == "PHI" for s in signings)),
     ("No signing from the last season of data has a 'next season' outcome",

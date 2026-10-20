@@ -322,6 +322,17 @@ body {
   line-height: 1.3;
 }
 
+.float-img-credit {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.85em;
+  opacity: 0.8;
+}
+
+.float-img-credit a {
+  color: inherit;
+}
+
 @media (prefers-color-scheme: dark) {
   .float-img {
     background: var(--mount-bg);
