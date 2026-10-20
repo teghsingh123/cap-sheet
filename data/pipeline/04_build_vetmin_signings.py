@@ -32,10 +32,16 @@ for bref_id, rows in by_player.items():
 TEAM_CODES = {"BRK": "BKN", "NJN": "BKN", "PHO": "PHX", "CHH": "CHA", "CHO": "CHA",
               "NOH": "NOP", "NOK": "NOP", "SEA": "OKC", "VAN": "MEM", "WSB": "WAS"}
 transactions = {}
+contract_events = {}  # bref_id -> [(date, team, "two-way" | "regular")], for the two-way check
 with open("../processed/transactions.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         if row["type"] in ("signed", "traded", "claimed", "expansion"):
             transactions.setdefault(row["bref_id"], []).append(row)
+        if row["type"] == "signed" and row["to_team"]:
+            kind = "two-way" if "two-way contract" in row["detail"] else "regular"
+            contract_events.setdefault(row["bref_id"], []).append((row["date"], row["to_team"], kind))
+        elif row["type"] == "converted":  # "converted X from a two-way contract to a regular contract"
+            contract_events.setdefault(row["bref_id"], []).append((row["date"], row["from_team"], "regular"))
 
 def arrivals_by_team(bref_id, year, team):
     """Ways the player joined `team` during the `year` season, June through June.
@@ -46,6 +52,54 @@ def arrivals_by_team(bref_id, year, team):
         t["type"] for t in transactions.get(bref_id, [])
         if start <= t["date"] <= end and TEAM_CODES.get(t["to_team"], t["to_team"]) == team
     }
+
+def signed_before_trade(bref_id, year, team, salary_teams):
+    """The team that signed the player earlier in the `year` season, before he
+    was traded/claimed to `team`, if that team has no salary row of its own
+    that season (so its contract must be the one credited to `team`). Else None."""
+    start, end = f"{year - 1}-06-01", f"{year}-06-30"
+    moves = [t for t in transactions.get(bref_id, []) if start <= t["date"] <= end]
+    arrived = min(t["date"] for t in moves if TEAM_CODES.get(t["to_team"], t["to_team"]) == team)
+    origins = [
+        t for t in moves
+        if t["type"] == "signed" and t["date"] < arrived and t["to_team"]
+        and TEAM_CODES.get(t["to_team"], t["to_team"]) not in salary_teams
+    ]
+    return TEAM_CODES.get(origins[-1]["to_team"], origins[-1]["to_team"]) if origins else None
+
+def ended_on_two_way(bref_id, year, team):
+    """True if the last contract `team` gave the player during the `year` season
+    was a two-way. Uses the last one because players move between deals in a
+    season: Marquese Chriss signed a regular deal with GSW in Sept 2019, went to
+    a two-way in January and was converted back to regular in February (not a
+    two-way); Daishen Nix signed an Exhibit 10 with MIN, then a two-way (two-way)."""
+    start, end = f"{year - 1}-06-01", f"{year}-06-30"
+    events = sorted(
+        (d, kind) for d, t, kind in contract_events.get(bref_id, [])
+        if start <= d <= end and TEAM_CODES.get(t, t) == team
+    )
+    return bool(events) and events[-1][1] == "two-way"
+
+def re_signed(bref_id, year, team):
+    """True if `team` signed the player to a new standard deal during the
+    `year` season (not a two-way, not an extension of the deal he had)."""
+    start, end = f"{year - 1}-06-01", f"{year}-06-30"
+    return any(
+        t["type"] == "signed" and start <= t["date"] <= end
+        and TEAM_CODES.get(t["to_team"], t["to_team"]) == team
+        and "two-way" not in t["detail"] and "extension" not in t["detail"]
+        for t in transactions.get(bref_id, [])
+    )
+
+def signing_date(bref_id, year, team):
+    """Earliest date `team` signed the player during the `year` season, or None."""
+    start, end = f"{year - 1}-06-01", f"{year}-06-30"
+    dates = [
+        t["date"] for t in transactions.get(bref_id, [])
+        if t["type"] == "signed" and start <= t["date"] <= end
+        and TEAM_CODES.get(t["to_team"], t["to_team"]) == team
+    ]
+    return min(dates, default=None)
 
 # a (team, salary) pair that closely matches one from an EARLIER season for
 # the same player is almost certainly stretched dead money still being paid
@@ -94,6 +148,8 @@ flagged = []
 skipped_no_bio = 0
 skipped_same_stint = 0
 skipped_carried_contract = 0
+credited_to_signing_team = 0
+skipped_two_way = 0
 for bref_id, rows in by_player.items():
     b = bio.get(bref_id)
     if not b:
@@ -124,7 +180,11 @@ for bref_id, rows in by_player.items():
 
         prev_teams = teams_by_year.get(year - 1)
         is_new_stint = prev_teams is None or row["team"] not in prev_teams
-        if not is_new_stint:
+        # Same team as last season usually means a later year of the same
+        # deal -- unless the log shows the team signed him again that season:
+        # Indiana re-signed Lavoy Allen to a 1-year, $948,163 minimum in July
+        # 2014 after paying him $3.1M the year before.
+        if not is_new_stint and not re_signed(bref_id, year, row["team"]):
             skipped_same_stint += 1
             continue  # just another year of an existing contract, not a new min signing
 
@@ -137,14 +197,41 @@ for bref_id, rows in by_player.items():
         # minimum signing. If the log has no arrival at all, keep the row:
         # the log isn't complete, and it sometimes records a waiver claim as
         # "signed" (Jeremy Lin to NYK, 2011), which also keeps the row.
-        arrivals = arrivals_by_team(bref_id, year, row["team"])
+        #
+        # One catch: the salary data credits a contract traded mid-season to
+        # the team holding it at the end, and often has no row at all for the
+        # team that signed it. Nik Stauskas signed a 1-year minimum with
+        # Portland in July 2018; the full $1,621,415 sits on Indiana's 2019
+        # row (traded POR -> CLE -> HOU -> IND, then waived) and Portland has
+        # none. Same for Carmelo Anthony (HOU -> CHI, 2019) and Rajon Rondo
+        # (LAL -> CLE, 2022). So if a team with no salary row that season
+        # signed him before he was traded here, this row is that team's
+        # signing -- count it, credited to the team that signed him.
+        team = row["team"]
+        arrivals = arrivals_by_team(bref_id, year, team)
         if arrivals and "signed" not in arrivals:
-            skipped_carried_contract += 1
+            origin = signed_before_trade(bref_id, year, team, teams_by_year[year])
+            if origin is None or (prev_teams is not None and origin in prev_teams):
+                skipped_carried_contract += 1
+                continue
+            team = origin
+            credited_to_signing_team += 1
+
+        # Two-way contracts aren't minimum deals: they're a separate contract
+        # type paying a flat amount (half the rookie minimum since 2023 --
+        # Theo Maledon's $559,782 with Charlotte), which just happens to land
+        # in the prorated-minimum range above.
+        if ended_on_two_way(bref_id, year, team):
+            skipped_two_way += 1
             continue
 
+        # age on the day he signed, from the transactions log; Oct 1 of the
+        # season if the log has no date (Bender signed July 26, 2019: 21.69,
+        # not the 21.87 he'd be by Oct 1)
         birth = datetime.date.fromisoformat(b["birth_date"])
-        season_start = datetime.date(year - 1, 10, 1)
-        age = (season_start - birth).days / 365.25
+        signed_on = signing_date(bref_id, year, team)
+        age_date = datetime.date.fromisoformat(signed_on) if signed_on else datetime.date(year - 1, 10, 1)
+        age = (age_date - birth).days / 365.25
 
         # "salary cliff": what did they earn last season, before this min deal?
         # Exclude rows that are "dead money echoes" -- a near-identical
@@ -169,9 +256,31 @@ for bref_id, rows in by_player.items():
         flagged.append({
             "player": row["player"], "bref_id": bref_id, "year": year,
             "true_yos": yos, "salary": salary, "min_salary": min_sal, "ratio": round(ratio, 3),
-            "team": row["team"], "birth_date": b["birth_date"], "age_at_signing": round(age, 2),
+            "team": team, "birth_date": b["birth_date"], "age_at_signing": round(age, 2),
             "prev_salary": prev_salary, "drop_pct": drop_pct,
         })
+
+# A pay cut only counts once: the first time a player falls to the minimum.
+# If he was already on a minimum deal -- earlier the same season (DeAndre
+# Jordan: Lakers in September 2021, then Philadelphia in March 2022) or the
+# season before (Anthony Bennett: Toronto 2015-16, then Brooklyn 2016-17) --
+# a later minimum signing still counts as a signing, but has no drop. Measured
+# the usual way, its "drop" comes from buyout or stretched money (Bennett's
+# $3.65M Minnesota buyout) or from a salary he'd already lost, and the same
+# fall would show up on the charts twice.
+by_season = {}
+for r in flagged:
+    by_season.setdefault((r["bref_id"], r["year"]), []).append(r)
+skipped_repeat_drop = 0
+for (bref_id, year), rs in by_season.items():
+    # same season: order by signing date; the first deal keeps its drop. A
+    # signing with no date in the log goes last, bigger share of the minimum first
+    rs.sort(key=lambda r: (signing_date(bref_id, year, r["team"]) or "9999", -r["ratio"]))
+    already_min = (bref_id, year - 1) in by_season
+    for i, r in enumerate(rs):
+        if (i > 0 or already_min) and r["drop_pct"] is not None:
+            r["drop_pct"] = None
+            skipped_repeat_drop += 1
 
 flagged.sort(key=lambda r: r["age_at_signing"])
 with open("../processed/vetmin_signings.csv", "w", newline="", encoding="utf-8") as f:
@@ -185,6 +294,9 @@ with open("../processed/vetmin_signings.csv", "w", newline="", encoding="utf-8")
 print("salary rows skipped (no bio match):", skipped_no_bio)
 print("skipped (same stint, not a new signing):", skipped_same_stint)
 print("skipped (arrived by trade/claim/expansion, not signed):", skipped_carried_contract)
+print("credited to the team that signed him (salary data had the trade partner):", credited_to_signing_team)
+print("skipped (two-way contract, not a minimum deal):", skipped_two_way)
+print("drop cleared (already on a minimum deal):", skipped_repeat_drop)
 print("flagged vet-min rows (yos>=1, new stint):", len(flagged))
 print()
 print("Youngest 20 vet-min signings:")

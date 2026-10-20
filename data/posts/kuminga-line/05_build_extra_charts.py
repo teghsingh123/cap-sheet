@@ -168,8 +168,13 @@ with open("../../processed/vetmin_signings.csv", encoding="utf-8") as f:
         # mid-season deal actually paid -- otherwise a normal minimum deal the
         # next year looks like a raise (DeAndre Jordan's prorated $592k with
         # Philly in 2022 was showing as a "bounce back" to his $2.9M Denver
-        # minimum)
-        full_min = max(vetmin_salary, float(row["min_salary"]))
+        # minimum). And use the higher of this season's minimum and NEXT
+        # season's, which is what a minimum deal would actually pay him then:
+        # the scale rises every year and he's gained a year of service. Damon
+        # Jones went from a prorated $106k in 1999-00 to $710k, which cleared
+        # 1.5x that season's minimum but was only 1.42x the next one's --
+        # another minimum-level deal, not a bounce-back.
+        full_min = max(vetmin_salary, float(row["min_salary"]), next_min or 0)
         if next_salary is not None and next_reliable:
             outcome = "bounced_back" if next_salary > full_min * 1.5 else "stuck"
         else:
