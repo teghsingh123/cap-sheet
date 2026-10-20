@@ -10,9 +10,9 @@ rest are the edge cases the article walks through.
 """
 import json, sys
 
-with open("../../web/public/data/all_signings.json", encoding="utf-8") as f:
+with open("../../../web/public/data/kuminga-line/all_signings.json", encoding="utf-8") as f:
     signings = json.load(f)["signings"]
-with open("../../web/public/data/prove_it.json", encoding="utf-8") as f:
+with open("../../../web/public/data/kuminga-line/prove_it.json", encoding="utf-8") as f:
     prove_it = json.load(f)["signings"]
 
 def signing(bref_id, year, team):

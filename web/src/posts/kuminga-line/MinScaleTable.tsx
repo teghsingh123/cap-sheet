@@ -21,7 +21,7 @@ export function MinScaleTable() {
   const [data, setData] = useState<MinScaleData | null>(null);
 
   useEffect(() => {
-    fetch(withBase("/data/min_scale.json"))
+    fetch(withBase("/data/kuminga-line/min_scale.json"))
       .then((r) => r.json())
       .then(setData);
   }, []);

@@ -4,6 +4,7 @@ import { lazy, type ComponentType, type LazyExoticComponent } from "react";
 // under posts/ with a default-exported component, then add an entry here.
 // Name the folder the same as the slug -- the GitHub Pages deploy uses the
 // folder names to create each post's page (see scripts/prepare-pages.cjs).
+// Its JSON goes in public/data/<slug>/, built by data/posts/<slug>/.
 // Each post is lazy-loaded, so its charts and data only download when
 // someone actually opens it.
 

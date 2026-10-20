@@ -23,12 +23,12 @@ cliff scatter:
 import csv, datetime, json
 
 bio = {}
-with open("../processed/player_bios.csv", encoding="utf-8") as f:
+with open("../../processed/player_bios.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         bio[row["bref_id"]] = row
 
 min_scale = {}
-with open("../processed/salary_min_scale.csv", encoding="utf-8") as f:
+with open("../../processed/salary_min_scale.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         start, _ = row["season"].split("-")
         end_year = int(start) + 1
@@ -75,12 +75,12 @@ def is_dead_money_echo(bref_id, player_rows, team, salary, before_year, tol=0.15
     return False
 
 draft = {}
-with open("../processed/draft_picks.csv", encoding="utf-8") as f:
+with open("../../processed/draft_picks.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         draft[row["bref_id"]] = int(row["pick"])
 
 by_player = {}
-with open("../source/salary_history.csv", encoding="utf-8") as f:
+with open("../../source/salary_history.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         by_player.setdefault(row["bref_id"], []).append(row)
 for rows in by_player.values():
@@ -96,7 +96,7 @@ def age_at(bref_id, year):
 
 # ---------- all_signings.json ----------
 all_signings = []
-with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
+with open("../../processed/vetmin_signings.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         drop_pct = float(row["drop_pct"]) if row["drop_pct"] else None
         age = float(row["age_at_signing"])
@@ -115,7 +115,7 @@ with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
             "isKumingaComp": drop_pct is not None and age < 27 and drop_pct > 50,
         })
 all_signings.sort(key=lambda r: r["age"])
-with open("../../web/public/data/all_signings.json", "w", encoding="utf-8") as f:
+with open("../../../web/public/data/kuminga-line/all_signings.json", "w", encoding="utf-8") as f:
     json.dump({"signings": all_signings}, f, indent=2)
 print("all_signings:", len(all_signings))
 
@@ -139,7 +139,7 @@ print("all_signings:", len(all_signings))
 # be mistaking the dataset ending for a real outcome.
 LAST_YEAR = max(int(r["year"]) for rows in by_player.values() for r in rows)
 prove_it = []
-with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
+with open("../../processed/vetmin_signings.csv", encoding="utf-8") as f:
     for row in csv.DictReader(f):
         if not row["drop_pct"] or float(row["drop_pct"]) <= 0:
             continue  # only real cliffs -- "did they recover from THIS"
@@ -187,7 +187,7 @@ with open("../processed/vetmin_signings.csv", encoding="utf-8") as f:
             "draftPick": draft.get(bref_id),
         })
 prove_it.sort(key=lambda r: (r["multiple"] is None, -(r["multiple"] or 0)))
-with open("../../web/public/data/prove_it.json", "w", encoding="utf-8") as f:
+with open("../../../web/public/data/kuminga-line/prove_it.json", "w", encoding="utf-8") as f:
     json.dump({"signings": prove_it}, f, indent=2)
 counts = {k: sum(1 for r in prove_it if r["outcome"] == k) for k in ("bounced_back", "stuck", "flamed_out")}
 print("prove_it:", len(prove_it), counts)
@@ -226,6 +226,6 @@ for bref_id, rows in by_player.items():
             "draftPick": draft.get(bref_id),
         })
 young_fa.sort(key=lambda r: r["age"])
-with open("../../web/public/data/young_fa.json", "w", encoding="utf-8") as f:
+with open("../../../web/public/data/kuminga-line/young_fa.json", "w", encoding="utf-8") as f:
     json.dump({"signings": young_fa}, f, indent=2)
 print("young_fa:", len(young_fa))
