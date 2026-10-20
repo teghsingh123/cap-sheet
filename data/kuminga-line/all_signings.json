@@ -1,20 +1,6 @@
 {
   "signings": [
     {
-      "player": "Isaac Bonga",
-      "brefId": "bongais01",
-      "year": 2020,
-      "age": 19.9,
-      "yearsOfService": 1,
-      "prevSalary": 1000000,
-      "salary": 1416852,
-      "dropPct": -41.7,
-      "ratioOfMin": 0.98,
-      "team": "WAS",
-      "draftPick": 39,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ha Seung-Jin",
       "brefId": "seungha01",
       "year": 2006,
@@ -29,17 +15,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jarred Vanderbilt",
-      "brefId": "vandeja01",
-      "year": 2020,
-      "age": 20.5,
+      "player": "Jamal Sampson",
+      "brefId": "sampsja01",
+      "year": 2004,
+      "age": 20.38,
       "yearsOfService": 1,
-      "prevSalary": 838464,
-      "salary": 1416852,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.98,
-      "team": "MIN",
-      "draftPick": 41,
+      "prevSalary": 349458,
+      "salary": 563679,
+      "dropPct": -61.3,
+      "ratioOfMin": 1.0,
+      "team": "LAL",
+      "draftPick": 47,
       "isKumingaComp": false
     },
     {
@@ -57,17 +43,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Vernon Carey",
-      "brefId": "careyve01",
-      "year": 2022,
-      "age": 20.6,
-      "yearsOfService": 1,
-      "prevSalary": 1350000,
-      "salary": 1517981,
-      "dropPct": -12.4,
-      "ratioOfMin": 1.019,
-      "team": "WAS",
-      "draftPick": 32,
+      "player": "Bruno Sundov",
+      "brefId": "sundobr01",
+      "year": 2001,
+      "age": 20.64,
+      "yearsOfService": 2,
+      "prevSalary": 385000,
+      "salary": 498500,
+      "dropPct": -29.5,
+      "ratioOfMin": 1.0,
+      "team": "IND",
+      "draftPick": 35,
       "isKumingaComp": false
     },
     {
@@ -127,34 +113,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Thomas Bryant",
-      "brefId": "bryanth01",
-      "year": 2019,
-      "age": 21.17,
-      "yearsOfService": 1,
-      "prevSalary": 815615,
-      "salary": 1378242,
-      "dropPct": -69.0,
-      "ratioOfMin": 1.021,
-      "team": "WAS",
-      "draftPick": 42,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ryan Rollins",
-      "brefId": "rolliry01",
-      "year": 2024,
-      "age": 21.25,
-      "yearsOfService": 1,
-      "prevSalary": 1017781,
-      "salary": 1719864,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.955,
-      "team": "WAS",
-      "draftPick": 44,
-      "isKumingaComp": false
-    },
-    {
       "player": "Dontonio Wingfield",
       "brefId": "wingfdo01",
       "year": 1996,
@@ -166,20 +124,6 @@
       "ratioOfMin": 1.0,
       "team": "POR",
       "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jeremy Tyler",
-      "brefId": "tylerje01",
-      "year": 2013,
-      "age": 21.28,
-      "yearsOfService": 1,
-      "prevSalary": 650000,
-      "salary": 762195,
-      "dropPct": -17.3,
-      "ratioOfMin": 1.0,
-      "team": "ATL",
-      "draftPick": 39,
       "isKumingaComp": false
     },
     {
@@ -197,17 +141,45 @@
       "isKumingaComp": true
     },
     {
-      "player": "De'Anthony Melton",
-      "brefId": "meltode01",
-      "year": 2020,
-      "age": 21.34,
+      "player": "Olumide Oyedeji",
+      "brefId": "oyedeol01",
+      "year": 2003,
+      "age": 21.39,
+      "yearsOfService": 2,
+      "prevSalary": 465850,
+      "salary": 587435,
+      "dropPct": -26.1,
+      "ratioOfMin": 1.0,
+      "team": "ORL",
+      "draftPick": 42,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Marko Milic",
+      "brefId": "milicma01",
+      "year": 1999,
+      "age": 21.4,
       "yearsOfService": 1,
-      "prevSalary": 949000,
-      "salary": 1416852,
-      "dropPct": -49.3,
-      "ratioOfMin": 0.98,
-      "team": "MEM",
-      "draftPick": 46,
+      "prevSalary": 242000,
+      "salary": 350000,
+      "dropPct": -44.6,
+      "ratioOfMin": 1.0,
+      "team": "PHX",
+      "draftPick": 34,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Kenny Satterfield",
+      "brefId": "satteke01",
+      "year": 2003,
+      "age": 21.48,
+      "yearsOfService": 1,
+      "prevSalary": 332817,
+      "salary": 512435,
+      "dropPct": -54.0,
+      "ratioOfMin": 1.0,
+      "team": "PHI",
+      "draftPick": 54,
       "isKumingaComp": false
     },
     {
@@ -223,34 +195,6 @@
       "team": "POR",
       "draftPick": 17,
       "isKumingaComp": true
-    },
-    {
-      "player": "Josh Selby",
-      "brefId": "selbyjo01",
-      "year": 2013,
-      "age": 21.52,
-      "yearsOfService": 1,
-      "prevSalary": 550000,
-      "salary": 762195,
-      "dropPct": -38.6,
-      "ratioOfMin": 1.0,
-      "team": "CLE",
-      "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ivica Zubac",
-      "brefId": "zubaciv01",
-      "year": 2019,
-      "age": 21.54,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "LAC",
-      "draftPick": 32,
-      "isKumingaComp": false
     },
     {
       "player": "Usman Garuba",
@@ -309,20 +253,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Gary Trent",
-      "brefId": "trentga02",
-      "year": 2021,
-      "age": 21.7,
-      "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 1663861,
-      "dropPct": -17.4,
-      "ratioOfMin": 1.027,
-      "team": "TOR",
-      "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
       "player": "Henry Ellenson",
       "brefId": "ellenhe01",
       "year": 2019,
@@ -349,20 +279,6 @@
       "team": "CHA",
       "draftPick": 17,
       "isKumingaComp": true
-    },
-    {
-      "player": "Deyonta Davis",
-      "brefId": "davisde01",
-      "year": 2019,
-      "age": 21.83,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "SAC",
-      "draftPick": 31,
-      "isKumingaComp": false
     },
     {
       "player": "Quincy Miller",
@@ -421,76 +337,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Chinanu Onuaku",
-      "brefId": "onuakch01",
-      "year": 2019,
-      "age": 21.91,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "DAL",
-      "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Isaiah Todd",
-      "brefId": "toddis01",
-      "year": 2024,
-      "age": 21.95,
-      "yearsOfService": 2,
-      "prevSalary": 1575000,
-      "salary": 1836096,
-      "dropPct": -16.6,
-      "ratioOfMin": 0.909,
-      "team": "MEM",
-      "draftPick": 31,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Moses Brown",
-      "brefId": "brownmo01",
-      "year": 2022,
-      "age": 21.97,
-      "yearsOfService": 2,
-      "prevSalary": 1250000,
-      "salary": 1701593,
-      "dropPct": -36.1,
-      "ratioOfMin": 1.019,
-      "team": "DAL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Henry Walker",
-      "brefId": "walkebi01",
-      "year": 2010,
-      "age": 21.98,
-      "yearsOfService": 1,
-      "prevSalary": 542114,
-      "salary": 736420,
-      "dropPct": -35.8,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": 47,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Daniel Oturu",
-      "brefId": "oturuda01",
-      "year": 2022,
-      "age": 22.03,
-      "yearsOfService": 1,
-      "prevSalary": 898310,
-      "salary": 1517981,
-      "dropPct": -69.0,
-      "ratioOfMin": 1.019,
-      "team": "MEM",
-      "draftPick": 33,
-      "isKumingaComp": false
-    },
-    {
       "player": "Greg Brown",
       "brefId": "browngr01",
       "year": 2024,
@@ -519,20 +365,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Kessler Edwards",
-      "brefId": "edwarke02",
-      "year": 2023,
-      "age": 22.14,
-      "yearsOfService": 1,
-      "prevSalary": 463211,
-      "salary": 1637966,
-      "dropPct": -253.6,
-      "ratioOfMin": 1.0,
-      "team": "SAC",
-      "draftPick": 44,
-      "isKumingaComp": false
-    },
-    {
       "player": "Daniel Orton",
       "brefId": "ortonda01",
       "year": 2013,
@@ -544,34 +376,6 @@
       "ratioOfMin": 1.0,
       "team": "OKC",
       "draftPick": 29,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Hamidou Diallo",
-      "brefId": "diallha01",
-      "year": 2021,
-      "age": 22.17,
-      "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 1663861,
-      "dropPct": -17.4,
-      "ratioOfMin": 1.027,
-      "team": "DET",
-      "draftPick": 45,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Von Wafer",
-      "brefId": "wafervo01",
-      "year": 2008,
-      "age": 22.2,
-      "yearsOfService": 2,
-      "prevSalary": 24300,
-      "salary": 770610,
-      "dropPct": -3071.2,
-      "ratioOfMin": 1.0,
-      "team": "POR",
-      "draftPick": 39,
       "isKumingaComp": false
     },
     {
@@ -617,34 +421,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Vit Krejci",
-      "brefId": "krejcvi01",
-      "year": 2023,
-      "age": 22.28,
-      "yearsOfService": 1,
-      "prevSalary": 925258,
-      "salary": 1563518,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.955,
-      "team": "ATL",
-      "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Justin Patton",
-      "brefId": "pattoju01",
-      "year": 2020,
-      "age": 22.3,
-      "yearsOfService": 2,
-      "prevSalary": 2667600,
-      "salary": 1620564,
-      "dropPct": 39.3,
-      "ratioOfMin": 1.0,
-      "team": "DAL",
-      "draftPick": 16,
-      "isKumingaComp": false
-    },
-    {
       "player": "Justin Patton",
       "brefId": "pattoju01",
       "year": 2020,
@@ -656,20 +432,6 @@
       "ratioOfMin": 0.298,
       "team": "DET",
       "draftPick": 16,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Theo Maledon",
-      "brefId": "maledth01",
-      "year": 2024,
-      "age": 22.3,
-      "yearsOfService": 3,
-      "prevSalary": 1900000,
-      "salary": 559782,
-      "dropPct": 70.5,
-      "ratioOfMin": 0.268,
-      "team": "PHX",
-      "draftPick": 34,
       "isKumingaComp": true
     },
     {
@@ -729,17 +491,31 @@
       "isKumingaComp": true
     },
     {
-      "player": "Isaiah Hartenstein",
-      "brefId": "harteis01",
-      "year": 2021,
-      "age": 22.41,
+      "player": "Brandon Bass",
+      "brefId": "bassbr01",
+      "year": 2008,
+      "age": 22.42,
       "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 1620564,
-      "dropPct": -14.4,
+      "prevSalary": 664209,
+      "salary": 770610,
+      "dropPct": -16.0,
       "ratioOfMin": 1.0,
-      "team": "CLE",
-      "draftPick": 43,
+      "team": "DAL",
+      "draftPick": 33,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Khalid El-Amin",
+      "brefId": "elamikh01",
+      "year": 2002,
+      "age": 22.44,
+      "yearsOfService": 1,
+      "prevSalary": 316969,
+      "salary": 465850,
+      "dropPct": -47.0,
+      "ratioOfMin": 1.0,
+      "team": "DAL",
+      "draftPick": 34,
       "isKumingaComp": false
     },
     {
@@ -785,34 +561,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Kay Felder",
-      "brefId": "feldeka01",
-      "year": 2018,
-      "age": 22.51,
-      "yearsOfService": 1,
-      "prevSalary": 543471,
-      "salary": 474616,
-      "dropPct": 12.7,
-      "ratioOfMin": 0.362,
-      "team": "CHI",
-      "draftPick": 54,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Wade Baldwin",
-      "brefId": "baldwwa01",
-      "year": 2019,
-      "age": 22.51,
-      "yearsOfService": 2,
-      "prevSalary": 1874400,
-      "salary": 1544951,
-      "dropPct": 17.6,
-      "ratioOfMin": 1.021,
-      "team": "IND",
-      "draftPick": 17,
-      "isKumingaComp": false
-    },
-    {
       "player": "Duane Washington",
       "brefId": "washidu02",
       "year": 2023,
@@ -838,20 +586,6 @@
       "ratioOfMin": 0.306,
       "team": "DEN",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Skal Labissiere",
-      "brefId": "labissk01",
-      "year": 2019,
-      "age": 22.54,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "POR",
-      "draftPick": 28,
       "isKumingaComp": false
     },
     {
@@ -895,20 +629,6 @@
       "team": "TOR",
       "draftPick": 1,
       "isKumingaComp": true
-    },
-    {
-      "player": "Tyler Dorsey",
-      "brefId": "dorsety01",
-      "year": 2019,
-      "age": 22.62,
-      "yearsOfService": 1,
-      "prevSalary": 815615,
-      "salary": 1378242,
-      "dropPct": -69.0,
-      "ratioOfMin": 1.021,
-      "team": "MEM",
-      "draftPick": 41,
-      "isKumingaComp": false
     },
     {
       "player": "Bruno Sundov",
@@ -967,20 +687,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "KJ Martin",
-      "brefId": "martike04",
-      "year": 2024,
-      "age": 22.73,
-      "yearsOfService": 3,
-      "prevSalary": 1782621,
-      "salary": 1930681,
-      "dropPct": -8.3,
-      "ratioOfMin": 0.923,
-      "team": "PHI",
-      "draftPick": 52,
-      "isKumingaComp": false
-    },
-    {
       "player": "Darius Morris",
       "brefId": "morrida01",
       "year": 2014,
@@ -1037,17 +743,17 @@
       "isKumingaComp": true
     },
     {
-      "player": "Shannon Brown",
-      "brefId": "brownsh01",
-      "year": 2009,
-      "age": 22.84,
-      "yearsOfService": 2,
-      "prevSalary": 1044120,
-      "salary": 797581,
-      "dropPct": 23.6,
+      "player": "Malik Rose",
+      "brefId": "rosema01",
+      "year": 1998,
+      "age": 22.86,
+      "yearsOfService": 1,
+      "prevSalary": 220000,
+      "salary": 272250,
+      "dropPct": -23.8,
       "ratioOfMin": 1.0,
-      "team": "LAL",
-      "draftPick": 25,
+      "team": "SAS",
+      "draftPick": 44,
       "isKumingaComp": false
     },
     {
@@ -1062,20 +768,6 @@
       "ratioOfMin": 1.0,
       "team": "BKN",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jeremiah RobinsonEarl",
-      "brefId": "robinje02",
-      "year": 2024,
-      "age": 22.91,
-      "yearsOfService": 2,
-      "prevSalary": 2000000,
-      "salary": 1900000,
-      "dropPct": 5.0,
-      "ratioOfMin": 0.941,
-      "team": "HOU",
-      "draftPick": 32,
       "isKumingaComp": false
     },
     {
@@ -1149,20 +841,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Quincy Acy",
-      "brefId": "acyqu01",
-      "year": 2014,
-      "age": 22.99,
-      "yearsOfService": 1,
-      "prevSalary": 665000,
-      "salary": 788872,
-      "dropPct": -18.6,
-      "ratioOfMin": 1.0,
-      "team": "SAC",
-      "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
       "player": "Tyler Cook",
       "brefId": "cookty01",
       "year": 2021,
@@ -1173,20 +851,6 @@
       "dropPct": -292.1,
       "ratioOfMin": 0.411,
       "team": "DET",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Rayjon Tucker",
-      "brefId": "tuckera01",
-      "year": 2021,
-      "age": 23.02,
-      "yearsOfService": 1,
-      "prevSalary": 578573,
-      "salary": 340000,
-      "dropPct": 41.2,
-      "ratioOfMin": 0.235,
-      "team": "CLE",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -1219,20 +883,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Dakari Johnson",
-      "brefId": "johnsda04",
-      "year": 2019,
-      "age": 23.03,
-      "yearsOfService": 1,
-      "prevSalary": 815615,
-      "salary": 459414,
-      "dropPct": 43.7,
-      "ratioOfMin": 0.34,
-      "team": "MEM",
-      "draftPick": 48,
-      "isKumingaComp": false
-    },
-    {
       "player": "Cheick Diallo",
       "brefId": "diallch01",
       "year": 2020,
@@ -1245,20 +895,6 @@
       "team": "PHX",
       "draftPick": 33,
       "isKumingaComp": false
-    },
-    {
-      "player": "Shaun Livingston",
-      "brefId": "livinsh01",
-      "year": 2009,
-      "age": 23.06,
-      "yearsOfService": 4,
-      "prevSalary": 4404629,
-      "salary": 370000,
-      "dropPct": 91.6,
-      "ratioOfMin": 0.433,
-      "team": "MEM",
-      "draftPick": 4,
-      "isKumingaComp": true
     },
     {
       "player": "Damon Jones",
@@ -1275,17 +911,17 @@
       "isKumingaComp": true
     },
     {
-      "player": "Donnell Harvey",
-      "brefId": "harvedo01",
-      "year": 2004,
+      "player": "Jeremy Lin",
+      "brefId": "linje01",
+      "year": 2012,
       "age": 23.1,
-      "yearsOfService": 3,
-      "prevSalary": 992040,
-      "salary": 663679,
-      "dropPct": 33.1,
+      "yearsOfService": 1,
+      "prevSalary": 473604,
+      "salary": 762195,
+      "dropPct": -60.9,
       "ratioOfMin": 1.0,
-      "team": "PHX",
-      "draftPick": 22,
+      "team": "NYK",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -1443,20 +1079,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Troy Daniels",
-      "brefId": "danietr01",
-      "year": 2015,
-      "age": 23.21,
-      "yearsOfService": 1,
-      "prevSalary": 158587,
-      "salary": 816482,
-      "dropPct": -414.8,
-      "ratioOfMin": 1.0,
-      "team": "CHA",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Jordan Mickey",
       "brefId": "mickejo01",
       "year": 2018,
@@ -1527,20 +1149,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Brice Johnson",
-      "brefId": "johnsbr02",
-      "year": 2018,
-      "age": 23.26,
-      "yearsOfService": 1,
-      "prevSalary": 1273920,
-      "salary": 1331160,
-      "dropPct": -4.5,
-      "ratioOfMin": 1.014,
-      "team": "MEM",
-      "draftPick": 25,
-      "isKumingaComp": false
-    },
-    {
       "player": "Saben Lee",
       "brefId": "leesa01",
       "year": 2023,
@@ -1553,20 +1161,6 @@
       "team": "PHX",
       "draftPick": 38,
       "isKumingaComp": true
-    },
-    {
-      "player": "Saben Lee",
-      "brefId": "leesa01",
-      "year": 2023,
-      "age": 23.27,
-      "yearsOfService": 2,
-      "prevSalary": 1489065,
-      "salary": 1752638,
-      "dropPct": -17.7,
-      "ratioOfMin": 0.955,
-      "team": "UTA",
-      "draftPick": 38,
-      "isKumingaComp": false
     },
     {
       "player": "Fab Melo",
@@ -1611,20 +1205,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Sviatoslav Mykhailiuk",
-      "brefId": "mykhasv01",
-      "year": 2021,
-      "age": 23.31,
-      "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 1663861,
-      "dropPct": -17.4,
-      "ratioOfMin": 1.027,
-      "team": "OKC",
-      "draftPick": 47,
-      "isKumingaComp": false
-    },
-    {
       "player": "Earl Boykins",
       "brefId": "boykiea01",
       "year": 2000,
@@ -1637,6 +1217,20 @@
       "team": "ORL",
       "draftPick": null,
       "isKumingaComp": true
+    },
+    {
+      "player": "Bobby Simmons",
+      "brefId": "simmobo01",
+      "year": 2004,
+      "age": 23.33,
+      "yearsOfService": 2,
+      "prevSalary": 512435,
+      "salary": 638679,
+      "dropPct": -24.6,
+      "ratioOfMin": 1.0,
+      "team": "LAC",
+      "draftPick": 42,
+      "isKumingaComp": false
     },
     {
       "player": "Smush Parker",
@@ -1678,20 +1272,6 @@
       "ratioOfMin": 0.629,
       "team": "CLE",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Isaiah Canaan",
-      "brefId": "canaais01",
-      "year": 2015,
-      "age": 23.36,
-      "yearsOfService": 1,
-      "prevSalary": 570515,
-      "salary": 816482,
-      "dropPct": -43.1,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 34,
       "isKumingaComp": false
     },
     {
@@ -1737,34 +1317,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Timoth\u00e9 Luwawu-Cabarrot",
-      "brefId": "luwawti01",
-      "year": 2019,
-      "age": 23.4,
-      "yearsOfService": 2,
-      "prevSalary": 1386600,
-      "salary": 1544951,
-      "dropPct": -11.4,
-      "ratioOfMin": 1.021,
-      "team": "CHI",
-      "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ratko Varda",
-      "brefId": "vardara01",
-      "year": 2003,
-      "age": 23.41,
-      "yearsOfService": 1,
-      "prevSalary": 332817,
-      "salary": 124984,
-      "dropPct": 62.4,
-      "ratioOfMin": 0.244,
-      "team": "WAS",
-      "draftPick": null,
-      "isKumingaComp": true
-    },
-    {
       "player": "Isaiah Hartenstein",
       "brefId": "harteis01",
       "year": 2022,
@@ -1779,6 +1331,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Mark Davis",
+      "brefId": "davisma02",
+      "year": 1997,
+      "age": 23.43,
+      "yearsOfService": 1,
+      "prevSalary": 200000,
+      "salary": 247500,
+      "dropPct": -23.8,
+      "ratioOfMin": 1.0,
+      "team": "PHI",
+      "draftPick": 48,
+      "isKumingaComp": false
+    },
+    {
       "player": "KZ Okpala",
       "brefId": "okpalkz01",
       "year": 2023,
@@ -1790,20 +1356,6 @@
       "ratioOfMin": 1.0,
       "team": "SAC",
       "draftPick": 32,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jared Reiner",
-      "brefId": "reineja01",
-      "year": 2006,
-      "age": 23.48,
-      "yearsOfService": 1,
-      "prevSalary": 385277,
-      "salary": 242612,
-      "dropPct": 37.0,
-      "ratioOfMin": 0.378,
-      "team": "PHX",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -1863,20 +1415,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Henry Sims",
-      "brefId": "simshe01",
-      "year": 2014,
-      "age": 23.52,
-      "yearsOfService": 1,
-      "prevSalary": 25073,
-      "salary": 788872,
-      "dropPct": -3046.3,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Chimezie Metu",
       "brefId": "metuch01",
       "year": 2021,
@@ -1903,20 +1441,6 @@
       "team": "BKN",
       "draftPick": 1,
       "isKumingaComp": true
-    },
-    {
-      "player": "Elijah Hughes",
-      "brefId": "hugheel01",
-      "year": 2022,
-      "age": 23.56,
-      "yearsOfService": 1,
-      "prevSalary": 898310,
-      "salary": 1517981,
-      "dropPct": -69.0,
-      "ratioOfMin": 1.019,
-      "team": "POR",
-      "draftPick": 39,
-      "isKumingaComp": false
     },
     {
       "player": "Emmanuel Mudiay",
@@ -1958,6 +1482,20 @@
       "ratioOfMin": 0.821,
       "team": "SAS",
       "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "E'Twaun Moore",
+      "brefId": "mooreet01",
+      "year": 2013,
+      "age": 23.6,
+      "yearsOfService": 1,
+      "prevSalary": 473604,
+      "salary": 762195,
+      "dropPct": -60.9,
+      "ratioOfMin": 1.0,
+      "team": "ORL",
+      "draftPick": 55,
       "isKumingaComp": false
     },
     {
@@ -2031,20 +1569,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Bruno Sundov",
-      "brefId": "sundobr01",
-      "year": 2004,
-      "age": 23.64,
-      "yearsOfService": 5,
-      "prevSalary": 637435,
-      "salary": 751159,
-      "dropPct": -17.8,
-      "ratioOfMin": 1.0,
-      "team": "CLE",
-      "draftPick": 35,
-      "isKumingaComp": false
-    },
-    {
       "player": "Thomas Gardner",
       "brefId": "gardnth01",
       "year": 2009,
@@ -2101,6 +1625,20 @@
       "isKumingaComp": true
     },
     {
+      "player": "Jerome Allen",
+      "brefId": "allenje01",
+      "year": 1997,
+      "age": 23.67,
+      "yearsOfService": 1,
+      "prevSalary": 200000,
+      "salary": 247500,
+      "dropPct": -23.8,
+      "ratioOfMin": 1.0,
+      "team": "IND",
+      "draftPick": 49,
+      "isKumingaComp": false
+    },
+    {
       "player": "Ronald Dupree",
       "brefId": "duprero01",
       "year": 2005,
@@ -2112,20 +1650,6 @@
       "ratioOfMin": 1.0,
       "team": "DET",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Montrezl Harrell",
-      "brefId": "harremo01",
-      "year": 2018,
-      "age": 23.68,
-      "yearsOfService": 2,
-      "prevSalary": 1045000,
-      "salary": 1471382,
-      "dropPct": -40.8,
-      "ratioOfMin": 1.0,
-      "team": "LAC",
-      "draftPick": 32,
       "isKumingaComp": false
     },
     {
@@ -2141,20 +1665,6 @@
       "team": "NOP",
       "draftPick": 35,
       "isKumingaComp": true
-    },
-    {
-      "player": "Keita Bates-Diop",
-      "brefId": "bateske01",
-      "year": 2020,
-      "age": 23.69,
-      "yearsOfService": 1,
-      "prevSalary": 838464,
-      "salary": 1416852,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.98,
-      "team": "DEN",
-      "draftPick": 48,
-      "isKumingaComp": false
     },
     {
       "player": "Randell Jackson",
@@ -2185,17 +1695,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Greg Smith",
-      "brefId": "smithgr02",
-      "year": 2015,
+      "player": "Bobby Jones",
+      "brefId": "jonesbo02",
+      "year": 2008,
       "age": 23.73,
-      "yearsOfService": 3,
-      "prevSalary": 873890,
-      "salary": 948163,
-      "dropPct": -8.5,
+      "yearsOfService": 1,
+      "prevSalary": 412718,
+      "salary": 687456,
+      "dropPct": -66.6,
       "ratioOfMin": 1.0,
-      "team": "DAL",
-      "draftPick": null,
+      "team": "DEN",
+      "draftPick": 37,
       "isKumingaComp": false
     },
     {
@@ -2267,34 +1777,6 @@
       "team": "IND",
       "draftPick": 13,
       "isKumingaComp": true
-    },
-    {
-      "player": "James Cotton",
-      "brefId": "cottoja02",
-      "year": 2000,
-      "age": 23.8,
-      "yearsOfService": 2,
-      "prevSalary": null,
-      "salary": 460000,
-      "dropPct": null,
-      "ratioOfMin": 1.0,
-      "team": "CHI",
-      "draftPick": 33,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jermaine Taylor",
-      "brefId": "tayloje02",
-      "year": 2011,
-      "age": 23.81,
-      "yearsOfService": 1,
-      "prevSalary": 725000,
-      "salary": 780871,
-      "dropPct": -7.7,
-      "ratioOfMin": 1.025,
-      "team": "SAC",
-      "draftPick": 32,
-      "isKumingaComp": false
     },
     {
       "player": "Jelani McCoy",
@@ -2395,34 +1877,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Theo Pinson",
-      "brefId": "pinsoth01",
-      "year": 2020,
-      "age": 23.9,
-      "yearsOfService": 1,
-      "prevSalary": 77250,
-      "salary": 1445697,
-      "dropPct": -1771.5,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Dalano Banton",
-      "brefId": "bantoda01",
-      "year": 2024,
-      "age": 23.9,
-      "yearsOfService": 2,
-      "prevSalary": 1563518,
-      "salary": 2019706,
-      "dropPct": -29.2,
-      "ratioOfMin": 1.0,
-      "team": "POR",
-      "draftPick": 46,
-      "isKumingaComp": false
-    },
-    {
       "player": "Rodney Buford",
       "brefId": "buforro01",
       "year": 2002,
@@ -2476,20 +1930,6 @@
       "ratioOfMin": 0.824,
       "team": "WAS",
       "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jerald Honeycutt",
-      "brefId": "honeyje01",
-      "year": 1999,
-      "age": 23.95,
-      "yearsOfService": 1,
-      "prevSalary": 300000,
-      "salary": 300000,
-      "dropPct": 0.0,
-      "ratioOfMin": 0.857,
-      "team": "PHI",
-      "draftPick": 39,
       "isKumingaComp": false
     },
     {
@@ -2549,20 +1989,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Jordan Hamilton",
-      "brefId": "hamiljo02",
-      "year": 2015,
-      "age": 23.99,
-      "yearsOfService": 3,
-      "prevSalary": 1234320,
-      "salary": 948163,
-      "dropPct": 23.2,
-      "ratioOfMin": 1.0,
-      "team": "UTA",
-      "draftPick": 26,
-      "isKumingaComp": false
-    },
-    {
       "player": "Junior Harrington",
       "brefId": "harriju01",
       "year": 2005,
@@ -2573,20 +1999,6 @@
       "dropPct": null,
       "ratioOfMin": 1.0,
       "team": "NOP",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Wayne Selden",
-      "brefId": "seldewa01",
-      "year": 2019,
-      "age": 24.0,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "CHI",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -2631,20 +2043,6 @@
       "team": "DAL",
       "draftPick": 8,
       "isKumingaComp": true
-    },
-    {
-      "player": "Bruno Caboclo",
-      "brefId": "cabocbr01",
-      "year": 2020,
-      "age": 24.03,
-      "yearsOfService": 5,
-      "prevSalary": 705361,
-      "salary": 1845301,
-      "dropPct": -161.6,
-      "ratioOfMin": 0.98,
-      "team": "HOU",
-      "draftPick": 20,
-      "isKumingaComp": false
     },
     {
       "player": "Nathan Knight",
@@ -2703,31 +2101,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jevon Carter",
-      "brefId": "carteje01",
-      "year": 2020,
-      "age": 24.05,
+      "player": "Reggie Geary",
+      "brefId": "gearyre01",
+      "year": 1998,
+      "age": 24.08,
       "yearsOfService": 1,
-      "prevSalary": 838464,
-      "salary": 1416852,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.98,
-      "team": "PHX",
-      "draftPick": 32,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Joe Harris",
-      "brefId": "harrijo01",
-      "year": 2016,
-      "age": 24.07,
-      "yearsOfService": 1,
-      "prevSalary": 884879,
-      "salary": 845059,
-      "dropPct": 4.5,
+      "prevSalary": 220000,
+      "salary": 272250,
+      "dropPct": -23.8,
       "ratioOfMin": 1.0,
-      "team": "ORL",
-      "draftPick": 33,
+      "team": "SAS",
+      "draftPick": 56,
       "isKumingaComp": false
     },
     {
@@ -2801,20 +2185,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Bruce Brown",
-      "brefId": "brownbr01",
-      "year": 2021,
-      "age": 24.13,
-      "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 1663861,
-      "dropPct": -17.4,
-      "ratioOfMin": 1.027,
-      "team": "BKN",
-      "draftPick": 42,
-      "isKumingaComp": false
-    },
-    {
       "player": "Josh Davis",
       "brefId": "davisjo02",
       "year": 2005,
@@ -2826,20 +2196,6 @@
       "ratioOfMin": 1.0,
       "team": "PHI",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Kevin Knox",
-      "brefId": "knoxke01",
-      "year": 2024,
-      "age": 24.14,
-      "yearsOfService": 5,
-      "prevSalary": 3000000,
-      "salary": 2144320,
-      "dropPct": 28.5,
-      "ratioOfMin": 0.914,
-      "team": "UTA",
-      "draftPick": 9,
       "isKumingaComp": false
     },
     {
@@ -2857,20 +2213,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Miye Oni",
-      "brefId": "onimi01",
-      "year": 2022,
-      "age": 24.16,
-      "yearsOfService": 2,
-      "prevSalary": 1517981,
-      "salary": 850331,
-      "dropPct": 44.0,
-      "ratioOfMin": 0.509,
-      "team": "OKC",
-      "draftPick": 58,
-      "isKumingaComp": false
-    },
-    {
       "player": "Mario Bennett",
       "brefId": "bennema01",
       "year": 1998,
@@ -2885,17 +2227,31 @@
       "isKumingaComp": true
     },
     {
-      "player": "Bubba Wells",
-      "brefId": "wellsbu01",
-      "year": 1999,
+      "player": "Ronald Murray",
+      "brefId": "murraro01",
+      "year": 2004,
       "age": 24.18,
       "yearsOfService": 1,
-      "prevSalary": 260000,
-      "salary": 312000,
-      "dropPct": -20.0,
-      "ratioOfMin": 0.891,
-      "team": "CHI",
-      "draftPick": 35,
+      "prevSalary": 349458,
+      "salary": 563679,
+      "dropPct": -61.3,
+      "ratioOfMin": 1.0,
+      "team": "OKC",
+      "draftPick": 42,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Darvin Ham",
+      "brefId": "hamda01",
+      "year": 1998,
+      "age": 24.19,
+      "yearsOfService": 1,
+      "prevSalary": 220000,
+      "salary": 272250,
+      "dropPct": -23.8,
+      "ratioOfMin": 1.0,
+      "team": "WAS",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -2910,6 +2266,34 @@
       "ratioOfMin": 1.0,
       "team": "PHX",
       "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Charles Jones",
+      "brefId": "jonesch03",
+      "year": 2000,
+      "age": 24.21,
+      "yearsOfService": 1,
+      "prevSalary": 287500,
+      "salary": 385000,
+      "dropPct": -33.9,
+      "ratioOfMin": 1.0,
+      "team": "LAC",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Lou Roe",
+      "brefId": "roelo01",
+      "year": 1997,
+      "age": 24.22,
+      "yearsOfService": 1,
+      "prevSalary": 200000,
+      "salary": 247500,
+      "dropPct": -23.8,
+      "ratioOfMin": 1.0,
+      "team": "GSW",
+      "draftPick": 30,
       "isKumingaComp": false
     },
     {
@@ -2983,17 +2367,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Kent Bazemore",
-      "brefId": "bazemke01",
-      "year": 2014,
+      "player": "Jamie Feick",
+      "brefId": "feickja01",
+      "year": 1999,
       "age": 24.25,
-      "yearsOfService": 1,
-      "prevSalary": 473604,
-      "salary": 762195,
-      "dropPct": -60.9,
-      "ratioOfMin": 0.966,
-      "team": "LAL",
-      "draftPick": null,
+      "yearsOfService": 2,
+      "prevSalary": 272250,
+      "salary": 425000,
+      "dropPct": -56.1,
+      "ratioOfMin": 1.0,
+      "team": "BKN",
+      "draftPick": 48,
       "isKumingaComp": false
     },
     {
@@ -3008,20 +2392,6 @@
       "ratioOfMin": 0.667,
       "team": "DAL",
       "draftPick": 8,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jabari Bird",
-      "brefId": "birdja01",
-      "year": 2019,
-      "age": 24.25,
-      "yearsOfService": 1,
-      "prevSalary": 77250,
-      "salary": 1349383,
-      "dropPct": -1646.8,
-      "ratioOfMin": 1.0,
-      "team": "ATL",
-      "draftPick": 56,
       "isKumingaComp": false
     },
     {
@@ -3053,20 +2423,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Hassan Adams",
-      "brefId": "adamsha01",
-      "year": 2009,
-      "age": 24.28,
-      "yearsOfService": 2,
-      "prevSalary": null,
-      "salary": 297163,
-      "dropPct": null,
-      "ratioOfMin": 0.373,
-      "team": "LAC",
-      "draftPick": 54,
-      "isKumingaComp": false
-    },
-    {
       "player": "Elliot Williams",
       "brefId": "williel01",
       "year": 2014,
@@ -3095,6 +2451,20 @@
       "isKumingaComp": true
     },
     {
+      "player": "Linton Johnson",
+      "brefId": "johnsli01",
+      "year": 2005,
+      "age": 24.3,
+      "yearsOfService": 1,
+      "prevSalary": 366931,
+      "salary": 620046,
+      "dropPct": -69.0,
+      "ratioOfMin": 1.0,
+      "team": "SAS",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Trent Forrest",
       "brefId": "forretr01",
       "year": 2023,
@@ -3105,20 +2475,6 @@
       "dropPct": -9.9,
       "ratioOfMin": 0.277,
       "team": "ATL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Stephen Graham",
-      "brefId": "grahast01",
-      "year": 2007,
-      "age": 24.31,
-      "yearsOfService": 1,
-      "prevSalary": 48630,
-      "salary": 259204,
-      "dropPct": -433.0,
-      "ratioOfMin": 0.39,
-      "team": "POR",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -3147,6 +2503,20 @@
       "dropPct": null,
       "ratioOfMin": 0.268,
       "team": "HOU",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Jermaine Jackson",
+      "brefId": "jacksje01",
+      "year": 2001,
+      "age": 24.32,
+      "yearsOfService": 1,
+      "prevSalary": 302875,
+      "salary": 423500,
+      "dropPct": -39.8,
+      "ratioOfMin": 1.0,
+      "team": "PHI",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -3193,34 +2563,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Johnny OBryant",
-      "brefId": "obryajo01",
-      "year": 2018,
-      "age": 24.33,
-      "yearsOfService": 3,
-      "prevSalary": 276825,
-      "salary": 1524305,
-      "dropPct": -450.6,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": 36,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jared Cunningham",
-      "brefId": "cunnija01",
-      "year": 2016,
-      "age": 24.36,
-      "yearsOfService": 3,
-      "prevSalary": null,
-      "salary": 981348,
-      "dropPct": null,
-      "ratioOfMin": 1.0,
-      "team": "ORL",
-      "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
       "player": "Keyon Dooling",
       "brefId": "doolike01",
       "year": 2005,
@@ -3246,20 +2588,6 @@
       "ratioOfMin": 0.503,
       "team": "BKN",
       "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Khyri Thomas",
-      "brefId": "thomakh01",
-      "year": 2021,
-      "age": 24.4,
-      "yearsOfService": 2,
-      "prevSalary": 1416852,
-      "salary": 744684,
-      "dropPct": 47.4,
-      "ratioOfMin": 0.46,
-      "team": "ATL",
-      "draftPick": 38,
       "isKumingaComp": false
     },
     {
@@ -3403,45 +2731,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Justin Hamilton",
-      "brefId": "hamilju01",
-      "year": 2015,
+      "player": "DeAndre Liggins",
+      "brefId": "liggide01",
+      "year": 2013,
       "age": 24.5,
       "yearsOfService": 1,
-      "prevSalary": 98036,
-      "salary": 206522,
-      "dropPct": -110.7,
-      "ratioOfMin": 0.253,
-      "team": "MIN",
-      "draftPick": 45,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Justin Hamilton",
-      "brefId": "hamilju01",
-      "year": 2015,
-      "age": 24.5,
-      "yearsOfService": 1,
-      "prevSalary": 98036,
-      "salary": 609960,
-      "dropPct": -522.2,
-      "ratioOfMin": 0.747,
-      "team": "NOP",
-      "draftPick": 45,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Derrick Walton",
-      "brefId": "waltode01",
-      "year": 2020,
-      "age": 24.5,
-      "yearsOfService": 2,
-      "prevSalary": null,
-      "salary": 1445697,
-      "dropPct": null,
-      "ratioOfMin": 0.892,
-      "team": "ATL",
-      "draftPick": null,
+      "prevSalary": 473604,
+      "salary": 762195,
+      "dropPct": -60.9,
+      "ratioOfMin": 1.0,
+      "team": "OKC",
+      "draftPick": 53,
       "isKumingaComp": false
     },
     {
@@ -3543,20 +2843,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "John Jenkins",
-      "brefId": "jenkijo01",
-      "year": 2016,
-      "age": 24.57,
-      "yearsOfService": 3,
-      "prevSalary": 1312920,
-      "salary": 981349,
-      "dropPct": 25.3,
-      "ratioOfMin": 1.0,
-      "team": "PHX",
-      "draftPick": 23,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ian Clark",
       "brefId": "clarkia01",
       "year": 2016,
@@ -3571,17 +2857,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Nicolas Brussino",
-      "brefId": "brussni01",
-      "year": 2018,
+      "player": "Trenton Hassell",
+      "brefId": "hassetr01",
+      "year": 2004,
       "age": 24.58,
-      "yearsOfService": 1,
-      "prevSalary": 543471,
-      "salary": 393041,
-      "dropPct": 27.7,
-      "ratioOfMin": 0.299,
-      "team": "ATL",
-      "draftPick": null,
+      "yearsOfService": 2,
+      "prevSalary": 512435,
+      "salary": 638679,
+      "dropPct": -24.6,
+      "ratioOfMin": 1.0,
+      "team": "MIN",
+      "draftPick": 30,
       "isKumingaComp": false
     },
     {
@@ -3725,6 +3011,34 @@
       "isKumingaComp": false
     },
     {
+      "player": "Alexander Johnson",
+      "brefId": "johnsal01",
+      "year": 2008,
+      "age": 24.64,
+      "yearsOfService": 1,
+      "prevSalary": 412718,
+      "salary": 687456,
+      "dropPct": -66.6,
+      "ratioOfMin": 1.0,
+      "team": "MIA",
+      "draftPick": 45,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Orien Greene",
+      "brefId": "greenor01",
+      "year": 2007,
+      "age": 24.65,
+      "yearsOfService": 1,
+      "prevSalary": 398762,
+      "salary": 664209,
+      "dropPct": -66.6,
+      "ratioOfMin": 1.0,
+      "team": "IND",
+      "draftPick": 53,
+      "isKumingaComp": false
+    },
+    {
       "player": "Drew Eubanks",
       "brefId": "eubandr01",
       "year": 2022,
@@ -3739,34 +3053,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Drew Eubanks",
-      "brefId": "eubandr01",
-      "year": 2022,
-      "age": 24.66,
-      "yearsOfService": 3,
-      "prevSalary": 1620564,
-      "salary": 1762796,
-      "dropPct": -8.8,
-      "ratioOfMin": 1.019,
-      "team": "TOR",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Isaiah Roby",
-      "brefId": "robyis01",
-      "year": 2023,
-      "age": 24.66,
-      "yearsOfService": 3,
-      "prevSalary": 1782621,
-      "salary": 1930681,
-      "dropPct": -8.3,
-      "ratioOfMin": 1.015,
-      "team": "SAS",
-      "draftPick": 45,
-      "isKumingaComp": false
-    },
-    {
       "player": "Joe Stephens",
       "brefId": "stephjo01",
       "year": 1998,
@@ -3778,20 +3064,6 @@
       "ratioOfMin": 1.0,
       "team": "HOU",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jalen McDaniels",
-      "brefId": "mcdanja01",
-      "year": 2023,
-      "age": 24.67,
-      "yearsOfService": 3,
-      "prevSalary": 1782621,
-      "salary": 1930681,
-      "dropPct": -8.3,
-      "ratioOfMin": 1.015,
-      "team": "PHI",
-      "draftPick": 52,
       "isKumingaComp": false
     },
     {
@@ -3879,34 +3151,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "David Nwaba",
-      "brefId": "nwabada01",
-      "year": 2018,
-      "age": 24.71,
-      "yearsOfService": 1,
-      "prevSalary": 73528,
-      "salary": 1312611,
-      "dropPct": -1685.2,
-      "ratioOfMin": 1.0,
-      "team": "CHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Xavier Tillman",
-      "brefId": "tillmxa01",
-      "year": 2024,
-      "age": 24.72,
-      "yearsOfService": 3,
-      "prevSalary": 1782621,
-      "salary": 1930681,
-      "dropPct": -8.3,
-      "ratioOfMin": 0.923,
-      "team": "BOS",
-      "draftPick": 35,
-      "isKumingaComp": false
-    },
-    {
       "player": "Michael Beasley",
       "brefId": "beaslmi01",
       "year": 2014,
@@ -3933,34 +3177,6 @@
       "team": "NOP",
       "draftPick": 18,
       "isKumingaComp": true
-    },
-    {
-      "player": "Jordan Bell",
-      "brefId": "belljo01",
-      "year": 2020,
-      "age": 24.73,
-      "yearsOfService": 2,
-      "prevSalary": 1378242,
-      "salary": 1620564,
-      "dropPct": -17.6,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": 38,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Larry Nance",
-      "brefId": "nancela02",
-      "year": 2018,
-      "age": 24.75,
-      "yearsOfService": 2,
-      "prevSalary": 1207680,
-      "salary": 1471382,
-      "dropPct": -21.8,
-      "ratioOfMin": 1.0,
-      "team": "CLE",
-      "draftPick": 27,
-      "isKumingaComp": false
     },
     {
       "player": "Cory Jefferson",
@@ -4061,6 +3277,34 @@
       "isKumingaComp": false
     },
     {
+      "player": "Julyan Stone",
+      "brefId": "stoneju01",
+      "year": 2014,
+      "age": 24.82,
+      "yearsOfService": 2,
+      "prevSalary": 762195,
+      "salary": 884293,
+      "dropPct": -16.0,
+      "ratioOfMin": 1.0,
+      "team": "TOR",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Dan Langhi",
+      "brefId": "langhda01",
+      "year": 2003,
+      "age": 24.84,
+      "yearsOfService": 2,
+      "prevSalary": 465850,
+      "salary": 587435,
+      "dropPct": -26.1,
+      "ratioOfMin": 1.0,
+      "team": "PHX",
+      "draftPick": 31,
+      "isKumingaComp": false
+    },
+    {
       "player": "Shavlik Randolph",
       "brefId": "randosh01",
       "year": 2009,
@@ -4127,20 +3371,6 @@
       "dropPct": -6.6,
       "ratioOfMin": 0.497,
       "team": "ORL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Zylan Cheatham",
-      "brefId": "cheatzy01",
-      "year": 2021,
-      "age": 24.87,
-      "yearsOfService": 1,
-      "prevSalary": 79568,
-      "salary": 1445697,
-      "dropPct": -1716.9,
-      "ratioOfMin": 1.0,
-      "team": "OKC",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -4229,30 +3459,30 @@
       "isKumingaComp": true
     },
     {
-      "player": "Jeff McInnis",
-      "brefId": "mcinnje01",
-      "year": 2000,
-      "age": 24.94,
-      "yearsOfService": 3,
-      "prevSalary": 350000,
-      "salary": 460000,
-      "dropPct": -31.4,
-      "ratioOfMin": 0.948,
-      "team": "ORL",
-      "draftPick": 37,
+      "player": "Treveon Graham",
+      "brefId": "grahatr01",
+      "year": 2019,
+      "age": 24.93,
+      "yearsOfService": 2,
+      "prevSalary": 1312611,
+      "salary": 1512601,
+      "dropPct": -15.2,
+      "ratioOfMin": 1.0,
+      "team": "BKN",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
-      "player": "Jordan Goodwin",
-      "brefId": "goodwjo01",
-      "year": 2024,
+      "player": "Jannero Pargo",
+      "brefId": "pargoja01",
+      "year": 2005,
       "age": 24.94,
       "yearsOfService": 2,
-      "prevSalary": 1280206,
-      "salary": 1927896,
-      "dropPct": -50.6,
-      "ratioOfMin": 0.955,
-      "team": "BKN",
+      "prevSalary": 563679,
+      "salary": 695046,
+      "dropPct": -23.3,
+      "ratioOfMin": 1.0,
+      "team": "CHI",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -4299,17 +3529,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Richaun Holmes",
-      "brefId": "holmeri01",
-      "year": 2019,
+      "player": "DeJuan Wheat",
+      "brefId": "wheatde01",
+      "year": 1999,
       "age": 24.96,
-      "yearsOfService": 3,
-      "prevSalary": 1471382,
-      "salary": 1600520,
-      "dropPct": -8.8,
-      "ratioOfMin": 1.021,
-      "team": "PHX",
-      "draftPick": 37,
+      "yearsOfService": 1,
+      "prevSalary": 242000,
+      "salary": 350000,
+      "dropPct": -44.6,
+      "ratioOfMin": 1.0,
+      "team": "MEM",
+      "draftPick": 52,
       "isKumingaComp": false
     },
     {
@@ -4323,20 +3553,6 @@
       "dropPct": 85.8,
       "ratioOfMin": 0.333,
       "team": "CLE",
-      "draftPick": 8,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Nik Stauskas",
-      "brefId": "stausni01",
-      "year": 2019,
-      "age": 24.98,
-      "yearsOfService": 4,
-      "prevSalary": 3807146,
-      "salary": 1621415,
-      "dropPct": 57.4,
-      "ratioOfMin": 1.0,
-      "team": "IND",
       "draftPick": 8,
       "isKumingaComp": true
     },
@@ -4411,48 +3627,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Trevor Ruffin",
-      "brefId": "ruffitr01",
-      "year": 1996,
-      "age": 25.01,
-      "yearsOfService": 1,
-      "prevSalary": 143860,
-      "salary": 225000,
-      "dropPct": -56.4,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Chris Herren",
-      "brefId": "herrech01",
-      "year": 2001,
-      "age": 25.01,
-      "yearsOfService": 1,
-      "prevSalary": 301875,
-      "salary": 316969,
-      "dropPct": -5.0,
-      "ratioOfMin": 0.748,
-      "team": "BOS",
-      "draftPick": 33,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Abdel Nader",
-      "brefId": "naderab01",
-      "year": 2019,
-      "age": 25.02,
-      "yearsOfService": 1,
-      "prevSalary": 1167333,
-      "salary": 1378242,
-      "dropPct": -18.1,
-      "ratioOfMin": 1.021,
-      "team": "OKC",
-      "draftPick": 58,
-      "isKumingaComp": false
-    },
-    {
       "player": "Chris Silva",
       "brefId": "silvach01",
       "year": 2022,
@@ -4506,6 +3680,20 @@
       "ratioOfMin": 1.01,
       "team": "CHA",
       "draftPick": 52,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Joe Harris",
+      "brefId": "harrijo01",
+      "year": 2017,
+      "age": 25.07,
+      "yearsOfService": 2,
+      "prevSalary": 845059,
+      "salary": 980431,
+      "dropPct": -16.0,
+      "ratioOfMin": 1.0,
+      "team": "BKN",
+      "draftPick": 33,
       "isKumingaComp": false
     },
     {
@@ -4565,20 +3753,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "AJ Hammons",
-      "brefId": "hammoaj01",
-      "year": 2018,
-      "age": 25.1,
-      "yearsOfService": 1,
-      "prevSalary": 650000,
-      "salary": 1312611,
-      "dropPct": -101.9,
-      "ratioOfMin": 1.0,
-      "team": "MIA",
-      "draftPick": 46,
-      "isKumingaComp": false
-    },
-    {
       "player": "Jay Huff",
       "brefId": "huffja01",
       "year": 2024,
@@ -4603,20 +3777,6 @@
       "dropPct": -847.3,
       "ratioOfMin": 1.0,
       "team": "SAC",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Okaro White",
-      "brefId": "whiteok01",
-      "year": 2018,
-      "age": 25.13,
-      "yearsOfService": 1,
-      "prevSalary": 310995,
-      "salary": 1312611,
-      "dropPct": -322.1,
-      "ratioOfMin": 1.0,
-      "team": "ATL",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -4660,20 +3820,6 @@
       "ratioOfMin": 0.947,
       "team": "DEN",
       "draftPick": 48,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Thomas Bryant",
-      "brefId": "bryanth01",
-      "year": 2023,
-      "age": 25.17,
-      "yearsOfService": 5,
-      "prevSalary": 8666667,
-      "salary": 1968175,
-      "dropPct": 77.3,
-      "ratioOfMin": 0.923,
-      "team": "DEN",
-      "draftPick": 42,
       "isKumingaComp": true
     },
     {
@@ -4730,20 +3876,6 @@
       "ratioOfMin": 1.0,
       "team": "CHA",
       "draftPick": 8,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Isaiah Livers",
-      "brefId": "liveris01",
-      "year": 2024,
-      "age": 25.18,
-      "yearsOfService": 2,
-      "prevSalary": 1563518,
-      "salary": 1836096,
-      "dropPct": -17.4,
-      "ratioOfMin": 0.909,
-      "team": "WAS",
-      "draftPick": 42,
       "isKumingaComp": false
     },
     {
@@ -4814,34 +3946,6 @@
       "ratioOfMin": 0.988,
       "team": "SAC",
       "draftPick": 28,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Malik Fitts",
-      "brefId": "fittsma01",
-      "year": 2023,
-      "age": 25.24,
-      "yearsOfService": 2,
-      "prevSalary": 402218,
-      "salary": 555217,
-      "dropPct": -38.0,
-      "ratioOfMin": 0.302,
-      "team": "IND",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Marquese Chriss",
-      "brefId": "chrisma01",
-      "year": 2023,
-      "age": 25.25,
-      "yearsOfService": 6,
-      "prevSalary": 1292900,
-      "salary": 2193920,
-      "dropPct": -69.7,
-      "ratioOfMin": 0.955,
-      "team": "OKC",
-      "draftPick": 8,
       "isKumingaComp": false
     },
     {
@@ -4929,6 +4033,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Linton Johnson",
+      "brefId": "johnsli01",
+      "year": 2006,
+      "age": 25.3,
+      "yearsOfService": 2,
+      "prevSalary": 620046,
+      "salary": 719373,
+      "dropPct": -16.0,
+      "ratioOfMin": 1.0,
+      "team": "BKN",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Hassan Whiteside",
       "brefId": "whiteha01",
       "year": 2015,
@@ -4955,48 +4073,6 @@
       "team": "IND",
       "draftPick": null,
       "isKumingaComp": false
-    },
-    {
-      "player": "Tyrone Wallace",
-      "brefId": "wallaty01",
-      "year": 2020,
-      "age": 25.31,
-      "yearsOfService": 2,
-      "prevSalary": 1349383,
-      "salary": 502491,
-      "dropPct": 62.8,
-      "ratioOfMin": 0.31,
-      "team": "ATL",
-      "draftPick": 60,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Sviatoslav Mykhailiuk",
-      "brefId": "mykhasv01",
-      "year": 2023,
-      "age": 25.31,
-      "yearsOfService": 4,
-      "prevSalary": 1729217,
-      "salary": 1968175,
-      "dropPct": -13.8,
-      "ratioOfMin": 1.0,
-      "team": "CHA",
-      "draftPick": 47,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Austin Daye",
-      "brefId": "dayeau01",
-      "year": 2014,
-      "age": 25.32,
-      "yearsOfService": 4,
-      "prevSalary": 2958444,
-      "salary": 947907,
-      "dropPct": 68.0,
-      "ratioOfMin": 1.0,
-      "team": "SAS",
-      "draftPick": 15,
-      "isKumingaComp": true
     },
     {
       "player": "Austin Daye",
@@ -5081,34 +4157,6 @@
       "team": "CHI",
       "draftPick": 34,
       "isKumingaComp": false
-    },
-    {
-      "player": "Sam Merrill",
-      "brefId": "merrisa01",
-      "year": 2022,
-      "age": 25.38,
-      "yearsOfService": 1,
-      "prevSalary": 898310,
-      "salary": 1517981,
-      "dropPct": -69.0,
-      "ratioOfMin": 1.019,
-      "team": "MEM",
-      "draftPick": 60,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Roko Ukic",
-      "brefId": "ukicro01",
-      "year": 2010,
-      "age": 25.39,
-      "yearsOfService": 1,
-      "prevSalary": 1250000,
-      "salary": 303232,
-      "dropPct": 75.7,
-      "ratioOfMin": 0.412,
-      "team": "MIL",
-      "draftPick": 41,
-      "isKumingaComp": true
     },
     {
       "player": "Mo Bamba",
@@ -5279,20 +4327,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Juwan Morgan",
-      "brefId": "morgaju01",
-      "year": 2023,
-      "age": 25.46,
-      "yearsOfService": 3,
-      "prevSalary": 115116,
-      "salary": 576230,
-      "dropPct": -400.6,
-      "ratioOfMin": 0.303,
-      "team": "IND",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Matt Ryan",
       "brefId": "ryanma01",
       "year": 2023,
@@ -5433,6 +4467,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Jeff Withey",
+      "brefId": "witheje01",
+      "year": 2016,
+      "age": 25.57,
+      "yearsOfService": 2,
+      "prevSalary": 816482,
+      "salary": 947276,
+      "dropPct": -16.0,
+      "ratioOfMin": 1.0,
+      "team": "UTA",
+      "draftPick": 39,
+      "isKumingaComp": false
+    },
+    {
       "player": "Jarvis Varnado",
       "brefId": "varnaja01",
       "year": 2014,
@@ -5541,20 +4589,6 @@
       "dropPct": null,
       "ratioOfMin": 1.0,
       "team": "SAS",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Anthony Roberson",
-      "brefId": "roberan02",
-      "year": 2009,
-      "age": 25.63,
-      "yearsOfService": 3,
-      "prevSalary": null,
-      "salary": 797581,
-      "dropPct": null,
-      "ratioOfMin": 0.965,
-      "team": "CHI",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -5727,20 +4761,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Alex Acker",
-      "brefId": "ackeral01",
-      "year": 2009,
-      "age": 25.69,
-      "yearsOfService": 3,
-      "prevSalary": null,
-      "salary": 711517,
-      "dropPct": null,
-      "ratioOfMin": 0.861,
-      "team": "LAC",
-      "draftPick": 60,
-      "isKumingaComp": false
-    },
-    {
       "player": "Leon Powe",
       "brefId": "powele01",
       "year": 2010,
@@ -5797,6 +4817,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "David Nwaba",
+      "brefId": "nwabada01",
+      "year": 2019,
+      "age": 25.71,
+      "yearsOfService": 2,
+      "prevSalary": 1312611,
+      "salary": 1512601,
+      "dropPct": -15.2,
+      "ratioOfMin": 1.0,
+      "team": "CLE",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Chris Boucher",
       "brefId": "bouchch01",
       "year": 2019,
@@ -5823,34 +4857,6 @@
       "team": "BKN",
       "draftPick": null,
       "isKumingaComp": false
-    },
-    {
-      "player": "Glenn Robinson",
-      "brefId": "robingl02",
-      "year": 2020,
-      "age": 25.73,
-      "yearsOfService": 5,
-      "prevSalary": 4075000,
-      "salary": 1882867,
-      "dropPct": 53.8,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 40,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Jordan Bell",
-      "brefId": "belljo01",
-      "year": 2021,
-      "age": 25.73,
-      "yearsOfService": 3,
-      "prevSalary": 1620564,
-      "salary": 580062,
-      "dropPct": 64.2,
-      "ratioOfMin": 0.346,
-      "team": "LAL",
-      "draftPick": 38,
-      "isKumingaComp": true
     },
     {
       "player": "Will Bynum",
@@ -5909,31 +4915,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jorge Gutierrez",
-      "brefId": "gutiejo01",
-      "year": 2015,
-      "age": 25.76,
-      "yearsOfService": 1,
-      "prevSalary": 121103,
-      "salary": 816482,
-      "dropPct": -574.2,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Wesley Iwundu",
-      "brefId": "iwundwe01",
-      "year": 2021,
+      "player": "Derrick Dial",
+      "brefId": "dialde01",
+      "year": 2002,
       "age": 25.78,
-      "yearsOfService": 3,
-      "prevSalary": 1618520,
-      "salary": 1678854,
-      "dropPct": -3.7,
+      "yearsOfService": 2,
+      "prevSalary": 423500,
+      "salary": 540850,
+      "dropPct": -27.7,
       "ratioOfMin": 1.0,
-      "team": "NOP",
-      "draftPick": 33,
+      "team": "BKN",
+      "draftPick": 52,
       "isKumingaComp": false
     },
     {
@@ -5965,17 +4957,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jahlil Okafor",
-      "brefId": "okafoja01",
-      "year": 2022,
-      "age": 25.8,
-      "yearsOfService": 6,
-      "prevSalary": 1882867,
-      "salary": 2130023,
-      "dropPct": -13.1,
-      "ratioOfMin": 1.019,
-      "team": "BKN",
-      "draftPick": 3,
+      "player": "Louis Amundson",
+      "brefId": "amundlo01",
+      "year": 2009,
+      "age": 25.82,
+      "yearsOfService": 2,
+      "prevSalary": 687456,
+      "salary": 797581,
+      "dropPct": -16.0,
+      "ratioOfMin": 1.0,
+      "team": "PHX",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -6060,20 +5052,6 @@
       "ratioOfMin": 0.823,
       "team": "OKC",
       "draftPick": 36,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Trey Burke",
-      "brefId": "burketr01",
-      "year": 2019,
-      "age": 25.88,
-      "yearsOfService": 5,
-      "prevSalary": 784160,
-      "salary": 1795015,
-      "dropPct": -128.9,
-      "ratioOfMin": 1.021,
-      "team": "DAL",
-      "draftPick": 9,
       "isKumingaComp": false
     },
     {
@@ -6185,34 +5163,6 @@
       "dropPct": null,
       "ratioOfMin": 0.824,
       "team": "SAC",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Andre Owens",
-      "brefId": "owensan01",
-      "year": 2007,
-      "age": 25.92,
-      "yearsOfService": 1,
-      "prevSalary": 398762,
-      "salary": 676800,
-      "dropPct": -69.7,
-      "ratioOfMin": 1.019,
-      "team": "GSW",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Treveon Graham",
-      "brefId": "grahatr01",
-      "year": 2020,
-      "age": 25.92,
-      "yearsOfService": 3,
-      "prevSalary": 1512601,
-      "salary": 1645357,
-      "dropPct": -8.8,
-      "ratioOfMin": 0.98,
-      "team": "ATL",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -6469,6 +5419,20 @@
       "isKumingaComp": true
     },
     {
+      "player": "Alfonzo McKinnie",
+      "brefId": "mckinal01",
+      "year": 2019,
+      "age": 26.04,
+      "yearsOfService": 1,
+      "prevSalary": 815615,
+      "salary": 1349383,
+      "dropPct": -65.4,
+      "ratioOfMin": 1.0,
+      "team": "GSW",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Jevon Carter",
       "brefId": "carteje01",
       "year": 2022,
@@ -6592,6 +5556,20 @@
       "ratioOfMin": 1.0,
       "team": "MIA",
       "draftPick": 44,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Obinna Ekezie",
+      "brefId": "ekeziob01",
+      "year": 2002,
+      "age": 26.11,
+      "yearsOfService": 2,
+      "prevSalary": 423500,
+      "salary": 540850,
+      "dropPct": -27.7,
+      "ratioOfMin": 1.0,
+      "team": "LAC",
+      "draftPick": 37,
       "isKumingaComp": false
     },
     {
@@ -6763,20 +5741,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Von Wafer",
-      "brefId": "wafervo01",
-      "year": 2012,
-      "age": 26.2,
-      "yearsOfService": 6,
-      "prevSalary": 915852,
-      "salary": 992680,
-      "dropPct": -8.4,
-      "ratioOfMin": 0.928,
-      "team": "ORL",
-      "draftPick": 39,
-      "isKumingaComp": false
-    },
-    {
       "player": "Stephen Howard",
       "brefId": "howarst01",
       "year": 1997,
@@ -6847,20 +5811,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Lamar Stevens",
-      "brefId": "stevela01",
-      "year": 2024,
-      "age": 26.23,
-      "yearsOfService": 3,
-      "prevSalary": 1782621,
-      "salary": 2092354,
-      "dropPct": -17.4,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Antonio Harvey",
       "brefId": "harvean01",
       "year": 1997,
@@ -6887,20 +5837,6 @@
       "team": "HOU",
       "draftPick": null,
       "isKumingaComp": false
-    },
-    {
-      "player": "Ishmael Smith",
-      "brefId": "smithis01",
-      "year": 2015,
-      "age": 26.24,
-      "yearsOfService": 4,
-      "prevSalary": 985000,
-      "salary": 305867,
-      "dropPct": 68.9,
-      "ratioOfMin": 0.312,
-      "team": "PHI",
-      "draftPick": null,
-      "isKumingaComp": true
     },
     {
       "player": "DeAndre Bembry",
@@ -7057,20 +5993,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Stanley Johnson",
-      "brefId": "johnsst04",
-      "year": 2023,
-      "age": 26.34,
-      "yearsOfService": 7,
-      "prevSalary": 1248915,
-      "salary": 2351521,
-      "dropPct": -88.3,
-      "ratioOfMin": 0.955,
-      "team": "UTA",
-      "draftPick": 8,
-      "isKumingaComp": false
-    },
-    {
       "player": "Sam Mack",
       "brefId": "macksa01",
       "year": 1997,
@@ -7183,20 +6105,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jon Leuer",
-      "brefId": "leuerjo01",
-      "year": 2016,
-      "age": 26.38,
-      "yearsOfService": 4,
-      "prevSalary": 967500,
-      "salary": 1035000,
-      "dropPct": -7.0,
-      "ratioOfMin": 1.019,
-      "team": "PHX",
-      "draftPick": 40,
-      "isKumingaComp": false
-    },
-    {
       "player": "Sam Merrill",
       "brefId": "merrisa01",
       "year": 2023,
@@ -7208,20 +6116,6 @@
       "ratioOfMin": 0.52,
       "team": "CLE",
       "draftPick": 60,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Pepe Sanchez",
-      "brefId": "sanchpe01",
-      "year": 2004,
-      "age": 26.4,
-      "yearsOfService": 3,
-      "prevSalary": 587435,
-      "salary": 663679,
-      "dropPct": -13.0,
-      "ratioOfMin": 1.0,
-      "team": "GSW",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -7281,6 +6175,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Zendon Hamilton",
+      "brefId": "hamilze01",
+      "year": 2002,
+      "age": 26.43,
+      "yearsOfService": 1,
+      "prevSalary": 316969,
+      "salary": 465850,
+      "dropPct": -47.0,
+      "ratioOfMin": 1.0,
+      "team": "DEN",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Lance Thomas",
       "brefId": "thomala01",
       "year": 2015,
@@ -7337,20 +6245,6 @@
       "isKumingaComp": true
     },
     {
-      "player": "Matt Ryan",
-      "brefId": "ryanma01",
-      "year": 2024,
-      "age": 26.46,
-      "yearsOfService": 2,
-      "prevSalary": 442439,
-      "salary": 2059782,
-      "dropPct": -365.6,
-      "ratioOfMin": 1.02,
-      "team": "NOP",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Tremaine Fowlkes",
       "brefId": "fowlktr01",
       "year": 2003,
@@ -7389,20 +6283,6 @@
       "dropPct": -50.0,
       "ratioOfMin": 1.0,
       "team": "NYK",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Justin Holiday",
-      "brefId": "holidju01",
-      "year": 2016,
-      "age": 26.49,
-      "yearsOfService": 3,
-      "prevSalary": 816482,
-      "salary": 947276,
-      "dropPct": -16.0,
-      "ratioOfMin": 0.965,
-      "team": "CHI",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -7446,20 +6326,6 @@
       "ratioOfMin": 0.923,
       "team": "IND",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Chimezie Metu",
-      "brefId": "metuch01",
-      "year": 2024,
-      "age": 26.53,
-      "yearsOfService": 5,
-      "prevSalary": 1910860,
-      "salary": 2346614,
-      "dropPct": -22.8,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": 49,
       "isKumingaComp": false
     },
     {
@@ -7995,20 +6861,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Wesley Iwundu",
-      "brefId": "iwundwe01",
-      "year": 2022,
-      "age": 26.78,
-      "yearsOfService": 4,
-      "prevSalary": 1678854,
-      "salary": 1824003,
-      "dropPct": -8.6,
-      "ratioOfMin": 1.019,
-      "team": "CHA",
-      "draftPick": 33,
-      "isKumingaComp": false
-    },
-    {
       "player": "Joey Dorsey",
       "brefId": "dorsejo01",
       "year": 2011,
@@ -8051,20 +6903,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Semi Ojeleye",
-      "brefId": "ojelese01",
-      "year": 2022,
-      "age": 26.82,
-      "yearsOfService": 4,
-      "prevSalary": 1752950,
-      "salary": 1789256,
-      "dropPct": -2.1,
-      "ratioOfMin": 1.0,
-      "team": "LAC",
-      "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
       "player": "Jordan Farmar",
       "brefId": "farmajo01",
       "year": 2014,
@@ -8089,20 +6927,6 @@
       "dropPct": 57.5,
       "ratioOfMin": 1.0,
       "team": "LAL",
-      "draftPick": 28,
-      "isKumingaComp": true
-    },
-    {
-      "player": "Wayne Ellington",
-      "brefId": "ellinwa01",
-      "year": 2015,
-      "age": 26.84,
-      "yearsOfService": 5,
-      "prevSalary": 2500000,
-      "salary": 923780,
-      "dropPct": 63.0,
-      "ratioOfMin": 0.869,
-      "team": "SAC",
       "draftPick": 28,
       "isKumingaComp": true
     },
@@ -8133,20 +6957,6 @@
       "team": "IND",
       "draftPick": 24,
       "isKumingaComp": true
-    },
-    {
-      "player": "Mengke Bateer",
-      "brefId": "bateeme01",
-      "year": 2003,
-      "age": 26.86,
-      "yearsOfService": 1,
-      "prevSalary": null,
-      "salary": 512453,
-      "dropPct": null,
-      "ratioOfMin": 1.0,
-      "team": "SAS",
-      "draftPick": null,
-      "isKumingaComp": false
     },
     {
       "player": "Matt Fish",
@@ -8275,20 +7085,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jock Landale",
-      "brefId": "landajo01",
-      "year": 2023,
-      "age": 26.93,
-      "yearsOfService": 1,
-      "prevSalary": 925258,
-      "salary": 1563518,
-      "dropPct": -69.0,
-      "ratioOfMin": 0.955,
-      "team": "PHX",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Anthony Miller",
       "brefId": "millean01",
       "year": 1999,
@@ -8300,20 +7096,6 @@
       "ratioOfMin": 1.0,
       "team": "HOU",
       "draftPick": 39,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Shelden Williams",
-      "brefId": "willish02",
-      "year": 2011,
-      "age": 26.95,
-      "yearsOfService": 4,
-      "prevSalary": 825497,
-      "salary": 915852,
-      "dropPct": -10.9,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": 5,
       "isKumingaComp": false
     },
     {
@@ -8583,20 +7365,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Shaun Livingston",
-      "brefId": "livinsh01",
-      "year": 2013,
-      "age": 27.06,
-      "yearsOfService": 8,
-      "prevSalary": 3500000,
-      "salary": 1000000,
-      "dropPct": 71.4,
-      "ratioOfMin": 0.818,
-      "team": "HOU",
-      "draftPick": 4,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ike Diogu",
       "brefId": "dioguik01",
       "year": 2011,
@@ -8608,20 +7376,6 @@
       "ratioOfMin": 0.613,
       "team": "LAC",
       "draftPick": 9,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Josh Gray",
-      "brefId": "grayjo01",
-      "year": 2021,
-      "age": 27.06,
-      "yearsOfService": 3,
-      "prevSalary": 79568,
-      "salary": 1620564,
-      "dropPct": -1936.7,
-      "ratioOfMin": 0.965,
-      "team": "OKC",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -8678,34 +7432,6 @@
       "ratioOfMin": 1.0,
       "team": "MIL",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Noah Vonleh",
-      "brefId": "vonleno01",
-      "year": 2023,
-      "age": 27.1,
-      "yearsOfService": 8,
-      "prevSalary": null,
-      "salary": 1160955,
-      "dropPct": null,
-      "ratioOfMin": 0.442,
-      "team": "SAS",
-      "draftPick": 9,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Charles Smith",
-      "brefId": "smithch04",
-      "year": 2003,
-      "age": 27.11,
-      "yearsOfService": 5,
-      "prevSalary": 540850,
-      "salary": 637435,
-      "dropPct": -17.9,
-      "ratioOfMin": 0.911,
-      "team": "POR",
-      "draftPick": 26,
       "isKumingaComp": false
     },
     {
@@ -8818,20 +7544,6 @@
       "ratioOfMin": 1.0,
       "team": "BOS",
       "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Rodney McGruder",
-      "brefId": "mcgruro01",
-      "year": 2019,
-      "age": 27.18,
-      "yearsOfService": 2,
-      "prevSalary": 1312611,
-      "salary": 1544951,
-      "dropPct": -17.7,
-      "ratioOfMin": 1.021,
-      "team": "LAC",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -8961,20 +7673,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Damian Jones",
-      "brefId": "jonesda03",
-      "year": 2023,
-      "age": 27.26,
-      "yearsOfService": 6,
-      "prevSalary": 1977011,
-      "salary": 2298385,
-      "dropPct": -16.3,
-      "ratioOfMin": 1.0,
-      "team": "UTA",
-      "draftPick": 30,
-      "isKumingaComp": false
-    },
-    {
       "player": "Mike James",
       "brefId": "jamesmi01",
       "year": 2003,
@@ -9000,20 +7698,6 @@
       "ratioOfMin": 1.0,
       "team": "BOS",
       "draftPick": 2,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Luke Babbitt",
-      "brefId": "babbilu01",
-      "year": 2017,
-      "age": 27.28,
-      "yearsOfService": 6,
-      "prevSalary": 1100602,
-      "salary": 1227286,
-      "dropPct": -11.5,
-      "ratioOfMin": 1.0,
-      "team": "MIA",
-      "draftPick": 16,
       "isKumingaComp": false
     },
     {
@@ -9101,20 +7785,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Davon Reed",
-      "brefId": "reedda01",
-      "year": 2023,
-      "age": 27.31,
-      "yearsOfService": 5,
-      "prevSalary": 532398,
-      "salary": 1902133,
-      "dropPct": -257.3,
-      "ratioOfMin": 0.892,
-      "team": "LAL",
-      "draftPick": 32,
-      "isKumingaComp": false
-    },
-    {
       "player": "Nate Robinson",
       "brefId": "robinna01",
       "year": 2012,
@@ -9171,20 +7841,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Alonzo Gee",
-      "brefId": "geeal01",
-      "year": 2015,
-      "age": 27.34,
-      "yearsOfService": 5,
-      "prevSalary": 3250000,
-      "salary": 1063384,
-      "dropPct": 67.3,
-      "ratioOfMin": 1.0,
-      "team": "POR",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ekpe Udoh",
       "brefId": "udohek01",
       "year": 2015,
@@ -9224,20 +7880,6 @@
       "ratioOfMin": 1.0,
       "team": "PHX",
       "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Willie Reed",
-      "brefId": "reedwi02",
-      "year": 2018,
-      "age": 27.38,
-      "yearsOfService": 2,
-      "prevSalary": 1015696,
-      "salary": 1471382,
-      "dropPct": -44.9,
-      "ratioOfMin": 1.0,
-      "team": "CHI",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -9339,6 +7981,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Tremaine Fowlkes",
+      "brefId": "fowlktr01",
+      "year": 2004,
+      "age": 27.47,
+      "yearsOfService": 2,
+      "prevSalary": 512435,
+      "salary": 638679,
+      "dropPct": -24.6,
+      "ratioOfMin": 1.0,
+      "team": "DET",
+      "draftPick": 54,
+      "isKumingaComp": false
+    },
+    {
       "player": "Steve Bardo",
       "brefId": "bardost01",
       "year": 1996,
@@ -9367,48 +8023,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Justin Holiday",
-      "brefId": "holidju01",
-      "year": 2017,
-      "age": 27.49,
-      "yearsOfService": 4,
-      "prevSalary": 947276,
-      "salary": 1015696,
-      "dropPct": -7.2,
-      "ratioOfMin": 0.966,
-      "team": "NYK",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Justin Hamilton",
-      "brefId": "hamilju01",
-      "year": 2018,
-      "age": 27.5,
-      "yearsOfService": 4,
-      "prevSalary": 3000000,
-      "salary": 1000000,
-      "dropPct": 66.7,
-      "ratioOfMin": 0.634,
-      "team": "TOR",
-      "draftPick": 45,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Justin Jackson",
-      "brefId": "jacksju01",
-      "year": 2023,
-      "age": 27.51,
-      "yearsOfService": 5,
-      "prevSalary": 205662,
-      "salary": 1836090,
-      "dropPct": -792.8,
-      "ratioOfMin": 0.861,
-      "team": "OKC",
-      "draftPick": 15,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ryan Arcidiacono",
       "brefId": "arcidry01",
       "year": 2022,
@@ -9420,20 +8034,6 @@
       "ratioOfMin": 0.433,
       "team": "NYK",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ronnie Brewer",
-      "brefId": "brewero02",
-      "year": 2013,
-      "age": 27.53,
-      "yearsOfService": 6,
-      "prevSalary": 4710000,
-      "salary": 1069509,
-      "dropPct": 77.3,
-      "ratioOfMin": 1.0,
-      "team": "OKC",
-      "draftPick": 14,
       "isKumingaComp": false
     },
     {
@@ -9476,6 +8076,20 @@
       "ratioOfMin": 0.437,
       "team": "MIA",
       "draftPick": 47,
+      "isKumingaComp": false
+    },
+    {
+      "player": "Lee Nailon",
+      "brefId": "nailole01",
+      "year": 2003,
+      "age": 27.61,
+      "yearsOfService": 2,
+      "prevSalary": 465850,
+      "salary": 587435,
+      "dropPct": -26.1,
+      "ratioOfMin": 1.0,
+      "team": "NYK",
+      "draftPick": 43,
       "isKumingaComp": false
     },
     {
@@ -9577,20 +8191,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jeff Adrien",
-      "brefId": "adrieje01",
-      "year": 2014,
-      "age": 27.64,
-      "yearsOfService": 3,
-      "prevSalary": 653356,
-      "salary": 916099,
-      "dropPct": -40.2,
-      "ratioOfMin": 1.0,
-      "team": "MIL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Josh Akognon",
       "brefId": "akognjo01",
       "year": 2014,
@@ -9675,20 +8275,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Keita Bates-Diop",
-      "brefId": "bateske01",
-      "year": 2024,
-      "age": 27.69,
-      "yearsOfService": 5,
-      "prevSalary": 1878720,
-      "salary": 2346614,
-      "dropPct": -24.9,
-      "ratioOfMin": 1.0,
-      "team": "BKN",
-      "draftPick": 48,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ira Newble",
       "brefId": "newblir01",
       "year": 2003,
@@ -9731,20 +8317,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Tyler Zeller",
-      "brefId": "zellety01",
-      "year": 2018,
-      "age": 27.7,
-      "yearsOfService": 5,
-      "prevSalary": 8000000,
-      "salary": 1709538,
-      "dropPct": 78.6,
-      "ratioOfMin": 1.0,
-      "team": "MIL",
-      "draftPick": 17,
-      "isKumingaComp": false
-    },
-    {
       "player": "Donald Sloan",
       "brefId": "sloando01",
       "year": 2016,
@@ -9773,34 +8345,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Chris DouglasRoberts",
-      "brefId": "douglch01",
-      "year": 2015,
-      "age": 27.73,
-      "yearsOfService": 6,
-      "prevSalary": 535288,
-      "salary": 915243,
-      "dropPct": -71.0,
-      "ratioOfMin": 0.799,
-      "team": "BOS",
-      "draftPick": 40,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Michael Beasley",
-      "brefId": "beaslmi01",
-      "year": 2017,
-      "age": 27.73,
-      "yearsOfService": 8,
-      "prevSalary": 306526,
-      "salary": 1403611,
-      "dropPct": -357.9,
-      "ratioOfMin": 1.0,
-      "team": "MIL",
-      "draftPick": 2,
-      "isKumingaComp": false
-    },
-    {
       "player": "Michael Beasley",
       "brefId": "beaslmi01",
       "year": 2017,
@@ -9825,20 +8369,6 @@
       "dropPct": 6.7,
       "ratioOfMin": 0.6,
       "team": "MIL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Devin Brown",
-      "brefId": "brownde02",
-      "year": 2007,
-      "age": 27.75,
-      "yearsOfService": 4,
-      "prevSalary": 2500000,
-      "salary": 500000,
-      "dropPct": 80.0,
-      "ratioOfMin": 0.626,
-      "team": "GSW",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -9983,6 +8513,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Mengke Bateer",
+      "brefId": "bateeme01",
+      "year": 2004,
+      "age": 27.86,
+      "yearsOfService": 2,
+      "prevSalary": 512453,
+      "salary": 636679,
+      "dropPct": -24.2,
+      "ratioOfMin": 0.997,
+      "team": "TOR",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Cartier Martin",
       "brefId": "martica01",
       "year": 2013,
@@ -9994,34 +8538,6 @@
       "ratioOfMin": 1.0,
       "team": "WAS",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Matt Fish",
-      "brefId": "fishma01",
-      "year": 1998,
-      "age": 27.87,
-      "yearsOfService": 3,
-      "prevSalary": 247500,
-      "salary": 150000,
-      "dropPct": 39.4,
-      "ratioOfMin": 0.551,
-      "team": "SAC",
-      "draftPick": 50,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Denzel Valentine",
-      "brefId": "valende01",
-      "year": 2022,
-      "age": 27.87,
-      "yearsOfService": 5,
-      "prevSalary": 4642800,
-      "salary": 902802,
-      "dropPct": 80.6,
-      "ratioOfMin": 0.466,
-      "team": "NYK",
-      "draftPick": 14,
       "isKumingaComp": false
     },
     {
@@ -10106,20 +8622,6 @@
       "ratioOfMin": 0.928,
       "team": "PHI",
       "draftPick": 20,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Tim Frazier",
-      "brefId": "fraziti01",
-      "year": 2019,
-      "age": 27.92,
-      "yearsOfService": 4,
-      "prevSalary": 2000000,
-      "salary": 1621415,
-      "dropPct": 18.9,
-      "ratioOfMin": 1.0,
-      "team": "NOP",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -10417,20 +8919,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Andre Drummond",
-      "brefId": "drumman01",
-      "year": 2022,
-      "age": 28.14,
-      "yearsOfService": 9,
-      "prevSalary": 27957238,
-      "salary": 2401537,
-      "dropPct": 91.4,
-      "ratioOfMin": 1.0,
-      "team": "BKN",
-      "draftPick": 9,
-      "isKumingaComp": false
-    },
-    {
       "player": "Aleksandar Radojevic",
       "brefId": "radojal01",
       "year": 2005,
@@ -10442,20 +8930,6 @@
       "ratioOfMin": 0.892,
       "team": "UTA",
       "draftPick": 12,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Laron Profit",
-      "brefId": "profila01",
-      "year": 2006,
-      "age": 28.16,
-      "yearsOfService": 6,
-      "prevSalary": 745046,
-      "salary": 745248,
-      "dropPct": -0.0,
-      "ratioOfMin": 0.828,
-      "team": "LAL",
-      "draftPick": 38,
       "isKumingaComp": false
     },
     {
@@ -10484,20 +8958,6 @@
       "ratioOfMin": 1.001,
       "team": "LAL",
       "draftPick": 21,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Alec Burks",
-      "brefId": "burksal01",
-      "year": 2020,
-      "age": 28.2,
-      "yearsOfService": 8,
-      "prevSalary": 11536515,
-      "salary": 2320044,
-      "dropPct": 79.9,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 12,
       "isKumingaComp": false
     },
     {
@@ -10571,20 +9031,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Shabazz Napier",
-      "brefId": "napiesh01",
-      "year": 2020,
-      "age": 28.22,
-      "yearsOfService": 5,
-      "prevSalary": 1942422,
-      "salary": 1845301,
-      "dropPct": 5.0,
-      "ratioOfMin": 0.98,
-      "team": "WAS",
-      "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
       "player": "Mike Muscala",
       "brefId": "muscami01",
       "year": 2020,
@@ -10599,31 +9045,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "James Ennis",
-      "brefId": "ennisja01",
-      "year": 2019,
-      "age": 28.25,
-      "yearsOfService": 4,
-      "prevSalary": 3028410,
-      "salary": 1621415,
-      "dropPct": 46.5,
+      "player": "Mike James",
+      "brefId": "jamesmi01",
+      "year": 2004,
+      "age": 28.27,
+      "yearsOfService": 2,
+      "prevSalary": 512435,
+      "salary": 638679,
+      "dropPct": -24.6,
       "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 50,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Damian Jones",
-      "brefId": "jonesda03",
-      "year": 2024,
-      "age": 28.25,
-      "yearsOfService": 7,
-      "prevSalary": 2298385,
-      "salary": 2586665,
-      "dropPct": -12.5,
-      "ratioOfMin": 0.955,
-      "team": "CLE",
-      "draftPick": 30,
+      "team": "BOS",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -10809,20 +9241,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Greg Monroe",
-      "brefId": "monrogr01",
-      "year": 2019,
-      "age": 28.33,
-      "yearsOfService": 8,
-      "prevSalary": 16384175,
-      "salary": 2165481,
-      "dropPct": 86.8,
-      "ratioOfMin": 1.0,
-      "team": "BKN",
-      "draftPick": 7,
-      "isKumingaComp": false
-    },
-    {
       "player": "Otto Porter",
       "brefId": "porteot01",
       "year": 2022,
@@ -10834,20 +9252,6 @@
       "ratioOfMin": 1.0,
       "team": "GSW",
       "draftPick": 3,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Bill Curley",
-      "brefId": "curlebi01",
-      "year": 2001,
-      "age": 28.34,
-      "yearsOfService": 6,
-      "prevSalary": 117867,
-      "salary": 423500,
-      "dropPct": -259.3,
-      "ratioOfMin": 0.629,
-      "team": "DAL",
-      "draftPick": 22,
       "isKumingaComp": false
     },
     {
@@ -10921,17 +9325,17 @@
       "isKumingaComp": false
     },
     {
-      "player": "Shelvin Mack",
-      "brefId": "macksh01",
-      "year": 2019,
+      "player": "Donald Whiteside",
+      "brefId": "whitedo01",
+      "year": 1998,
       "age": 28.44,
-      "yearsOfService": 7,
-      "prevSalary": 6000000,
-      "salary": 1512601,
-      "dropPct": 74.8,
-      "ratioOfMin": 0.745,
-      "team": "CHA",
-      "draftPick": 34,
+      "yearsOfService": 1,
+      "prevSalary": 220000,
+      "salary": 272250,
+      "dropPct": -23.8,
+      "ratioOfMin": 1.0,
+      "team": "ATL",
+      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -11005,20 +9409,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jordan McRae",
-      "brefId": "mcraejo01",
-      "year": 2020,
-      "age": 28.51,
-      "yearsOfService": 4,
-      "prevSalary": 77250,
-      "salary": 1254933,
-      "dropPct": -1524.5,
-      "ratioOfMin": 0.722,
-      "team": "DET",
-      "draftPick": 58,
-      "isKumingaComp": false
-    },
-    {
       "player": "TJ Ford",
       "brefId": "fordtj01",
       "year": 2012,
@@ -11030,20 +9420,6 @@
       "ratioOfMin": 0.937,
       "team": "SAS",
       "draftPick": 8,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ryan Arcidiacono",
-      "brefId": "arcidry01",
-      "year": 2023,
-      "age": 28.52,
-      "yearsOfService": 5,
-      "prevSalary": 774727,
-      "salary": 1836090,
-      "dropPct": -137.0,
-      "ratioOfMin": 0.861,
-      "team": "POR",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -11170,34 +9546,6 @@
       "ratioOfMin": 1.0,
       "team": "WAS",
       "draftPick": 9,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Shawne Williams",
-      "brefId": "willish03",
-      "year": 2015,
-      "age": 28.62,
-      "yearsOfService": 8,
-      "prevSalary": 535770,
-      "salary": 336966,
-      "dropPct": 37.1,
-      "ratioOfMin": 0.257,
-      "team": "MIL",
-      "draftPick": 17,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Shawne Williams",
-      "brefId": "willish03",
-      "year": 2015,
-      "age": 28.62,
-      "yearsOfService": 8,
-      "prevSalary": 535770,
-      "salary": 808719,
-      "dropPct": -50.9,
-      "ratioOfMin": 0.617,
-      "team": "NOP",
-      "draftPick": 17,
       "isKumingaComp": false
     },
     {
@@ -11355,20 +9703,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Aaron Brooks",
-      "brefId": "brookaa01",
-      "year": 2014,
-      "age": 28.71,
-      "yearsOfService": 6,
-      "prevSalary": 3250000,
-      "salary": 1027424,
-      "dropPct": 68.4,
-      "ratioOfMin": 0.928,
-      "team": "DEN",
-      "draftPick": 26,
-      "isKumingaComp": false
-    },
-    {
       "player": "Michael Beasley",
       "brefId": "beaslmi01",
       "year": 2018,
@@ -11439,16 +9773,16 @@
       "isKumingaComp": false
     },
     {
-      "player": "Kelenna Azubuike",
-      "brefId": "azubuke01",
-      "year": 2013,
-      "age": 28.79,
-      "yearsOfService": 6,
-      "prevSalary": null,
-      "salary": 885120,
-      "dropPct": null,
-      "ratioOfMin": 0.828,
-      "team": "CLE",
+      "player": "Eldridge Recasner",
+      "brefId": "recasel01",
+      "year": 1997,
+      "age": 28.8,
+      "yearsOfService": 2,
+      "prevSalary": 225000,
+      "salary": 247500,
+      "dropPct": -10.0,
+      "ratioOfMin": 1.0,
+      "team": "ATL",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -11593,20 +9927,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Sasha Pavlovi\u0107",
-      "brefId": "pavloal01",
-      "year": 2013,
-      "age": 28.88,
-      "yearsOfService": 9,
-      "prevSalary": 1223166,
-      "salary": 1232713,
-      "dropPct": -0.8,
-      "ratioOfMin": 1.003,
-      "team": "POR",
-      "draftPick": 19,
-      "isKumingaComp": false
-    },
-    {
       "player": "Hilton Armstrong",
       "brefId": "armsthi01",
       "year": 2014,
@@ -11719,20 +10039,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Amal McCaskill",
-      "brefId": "mccasam01",
-      "year": 2003,
-      "age": 28.93,
-      "yearsOfService": 6,
-      "prevSalary": 465850,
-      "salary": 699935,
-      "dropPct": -50.2,
-      "ratioOfMin": 0.918,
-      "team": "POR",
-      "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
       "player": "Kornel David",
       "brefId": "davidko01",
       "year": 2001,
@@ -11747,34 +10053,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jeremy Evans",
-      "brefId": "evansje01",
-      "year": 2017,
-      "age": 28.94,
-      "yearsOfService": 6,
-      "prevSalary": 1185784,
-      "salary": 1227286,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "IND",
-      "draftPick": 55,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Rodney Hood",
-      "brefId": "hoodro01",
-      "year": 2022,
-      "age": 28.95,
-      "yearsOfService": 7,
-      "prevSalary": 10047450,
-      "salary": 2239544,
-      "dropPct": 77.7,
-      "ratioOfMin": 1.0,
-      "team": "LAC",
-      "draftPick": 23,
-      "isKumingaComp": false
-    },
-    {
       "player": "Cherokee Parks",
       "brefId": "parksch02",
       "year": 2002,
@@ -11786,34 +10064,6 @@
       "ratioOfMin": 1.0,
       "team": "SAS",
       "draftPick": 12,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Yuta Watanabe",
-      "brefId": "watanyu01",
-      "year": 2024,
-      "age": 28.97,
-      "yearsOfService": 5,
-      "prevSalary": 1968175,
-      "salary": 2346614,
-      "dropPct": -19.2,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Nik Stauskas",
-      "brefId": "stausni01",
-      "year": 2023,
-      "age": 28.98,
-      "yearsOfService": 8,
-      "prevSalary": 423536,
-      "salary": 702311,
-      "dropPct": -65.8,
-      "ratioOfMin": 0.267,
-      "team": "IND",
-      "draftPick": 8,
       "isKumingaComp": false
     },
     {
@@ -11841,20 +10091,6 @@
       "dropPct": 93.6,
       "ratioOfMin": 0.641,
       "team": "CLE",
-      "draftPick": 1,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Derrick Rose",
-      "brefId": "rosede01",
-      "year": 2018,
-      "age": 28.99,
-      "yearsOfService": 9,
-      "prevSalary": 21323252,
-      "salary": 2116955,
-      "dropPct": 90.1,
-      "ratioOfMin": 1.0,
-      "team": "UTA",
       "draftPick": 1,
       "isKumingaComp": false
     },
@@ -11901,6 +10137,20 @@
       "isKumingaComp": false
     },
     {
+      "player": "Ruben Wolkowyski",
+      "brefId": "wolkoru01",
+      "year": 2003,
+      "age": 29.0,
+      "yearsOfService": 2,
+      "prevSalary": 465850,
+      "salary": 587435,
+      "dropPct": -26.1,
+      "ratioOfMin": 1.0,
+      "team": "BOS",
+      "draftPick": null,
+      "isKumingaComp": false
+    },
+    {
       "player": "Dennis Schr\u00f6der",
       "brefId": "schrode01",
       "year": 2023,
@@ -11929,20 +10179,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Ishmail Wainright",
-      "brefId": "wainris01",
-      "year": 2024,
-      "age": 29.05,
-      "yearsOfService": 2,
-      "prevSalary": 855057,
-      "salary": 853149,
-      "dropPct": 0.2,
-      "ratioOfMin": 0.422,
-      "team": "POR",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Luc Mbah a Moute",
       "brefId": "mbahalu01",
       "year": 2016,
@@ -11954,20 +10190,6 @@
       "ratioOfMin": 1.0,
       "team": "LAC",
       "draftPick": 37,
-      "isKumingaComp": false
-    },
-    {
-      "player": "TJ Warren",
-      "brefId": "warretj01",
-      "year": 2023,
-      "age": 29.07,
-      "yearsOfService": 8,
-      "prevSalary": 12690000,
-      "salary": 2628597,
-      "dropPct": 79.3,
-      "ratioOfMin": 1.0,
-      "team": "PHX",
-      "draftPick": 14,
       "isKumingaComp": false
     },
     {
@@ -12052,20 +10274,6 @@
       "ratioOfMin": 0.965,
       "team": "POR",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Cameron Payne",
-      "brefId": "payneca01",
-      "year": 2024,
-      "age": 29.15,
-      "yearsOfService": 8,
-      "prevSalary": 6000000,
-      "salary": 2891467,
-      "dropPct": 51.8,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 14,
       "isKumingaComp": false
     },
     {
@@ -12237,20 +10445,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "James Ennis",
-      "brefId": "ennisja01",
-      "year": 2020,
-      "age": 29.25,
-      "yearsOfService": 5,
-      "prevSalary": 1621415,
-      "salary": 1882867,
-      "dropPct": -16.1,
-      "ratioOfMin": 1.0,
-      "team": "ORL",
-      "draftPick": 50,
-      "isKumingaComp": false
-    },
-    {
       "player": "Josh Childress",
       "brefId": "childjo01",
       "year": 2013,
@@ -12383,20 +10577,6 @@
       "age": 29.32,
       "yearsOfService": 6,
       "prevSalary": null,
-      "salary": 771123,
-      "dropPct": null,
-      "ratioOfMin": 0.856,
-      "team": "CHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jermaine Jackson",
-      "brefId": "jacksje01",
-      "year": 2006,
-      "age": 29.32,
-      "yearsOfService": 6,
-      "prevSalary": null,
       "salary": 583944,
       "dropPct": null,
       "ratioOfMin": 0.648,
@@ -12416,20 +10596,6 @@
       "ratioOfMin": 1.0,
       "team": "HOU",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Marcus Thornton",
-      "brefId": "thornma01",
-      "year": 2017,
-      "age": 29.33,
-      "yearsOfService": 7,
-      "prevSalary": 1185784,
-      "salary": 1315448,
-      "dropPct": -10.9,
-      "ratioOfMin": 1.0,
-      "team": "BKN",
-      "draftPick": 43,
       "isKumingaComp": false
     },
     {
@@ -12489,20 +10655,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Enes Freedom",
-      "brefId": "kanteen01",
-      "year": 2022,
-      "age": 29.37,
-      "yearsOfService": 10,
-      "prevSalary": 5005350,
-      "salary": 2641691,
-      "dropPct": 47.2,
-      "ratioOfMin": 1.0,
-      "team": "HOU",
-      "draftPick": 3,
-      "isKumingaComp": false
-    },
-    {
       "player": "Voshon Lenard",
       "brefId": "lenarvo01",
       "year": 2003,
@@ -12542,20 +10694,6 @@
       "ratioOfMin": 1.0,
       "team": "WAS",
       "draftPick": 35,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Mike Wilks",
-      "brefId": "wilksmi01",
-      "year": 2009,
-      "age": 29.4,
-      "yearsOfService": 6,
-      "prevSalary": 162281,
-      "salary": 998398,
-      "dropPct": -515.2,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -12615,34 +10753,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Frank Kaminsky",
-      "brefId": "kaminfr01",
-      "year": 2023,
-      "age": 29.49,
-      "yearsOfService": 7,
-      "prevSalary": 2089448,
-      "salary": 2463490,
-      "dropPct": -17.9,
-      "ratioOfMin": 1.0,
-      "team": "HOU",
-      "draftPick": 9,
-      "isKumingaComp": false
-    },
-    {
-      "player": "DeAndre Liggins",
-      "brefId": "liggide01",
-      "year": 2018,
-      "age": 29.5,
-      "yearsOfService": 6,
-      "prevSalary": 991797,
-      "salary": 739605,
-      "dropPct": 25.4,
-      "ratioOfMin": 0.402,
-      "team": "MIL",
-      "draftPick": 53,
-      "isKumingaComp": false
-    },
-    {
       "player": "DeAndre Liggins",
       "brefId": "liggide01",
       "year": 2018,
@@ -12668,20 +10778,6 @@
       "ratioOfMin": 1.0,
       "team": "PHI",
       "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ryan Arcidiacono",
-      "brefId": "arcidry01",
-      "year": 2024,
-      "age": 29.52,
-      "yearsOfService": 6,
-      "prevSalary": 1836090,
-      "salary": 2528233,
-      "dropPct": -37.7,
-      "ratioOfMin": 1.0,
-      "team": "DET",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -12881,20 +10977,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "MarShon Brooks",
-      "brefId": "brookma01",
-      "year": 2019,
-      "age": 29.68,
-      "yearsOfService": 7,
-      "prevSalary": 86118,
-      "salary": 1656092,
-      "dropPct": -1823.0,
-      "ratioOfMin": 0.816,
-      "team": "CHI",
-      "draftPick": 25,
-      "isKumingaComp": false
-    },
-    {
       "player": "Aaron Brooks",
       "brefId": "brookaa01",
       "year": 2015,
@@ -12993,20 +11075,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Torrey Craig",
-      "brefId": "craigto01",
-      "year": 2021,
-      "age": 29.79,
-      "yearsOfService": 3,
-      "prevSalary": 2000000,
-      "salary": 1678854,
-      "dropPct": 16.1,
-      "ratioOfMin": 1.0,
-      "team": "PHX",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Brian Cook",
       "brefId": "cookbr01",
       "year": 2011,
@@ -13060,20 +11128,6 @@
       "ratioOfMin": 1.0,
       "team": "DET",
       "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Leandro Barbosa",
-      "brefId": "barbole01",
-      "year": 2013,
-      "age": 29.84,
-      "yearsOfService": 9,
-      "prevSalary": 7600000,
-      "salary": 1229255,
-      "dropPct": 83.8,
-      "ratioOfMin": 1.0,
-      "team": "WAS",
-      "draftPick": 28,
       "isKumingaComp": false
     },
     {
@@ -13172,20 +11226,6 @@
       "ratioOfMin": 0.3,
       "team": "CLE",
       "draftPick": 27,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Tony Snell",
-      "brefId": "snellto01",
-      "year": 2022,
-      "age": 29.89,
-      "yearsOfService": 8,
-      "prevSalary": 12178571,
-      "salary": 2389641,
-      "dropPct": 80.4,
-      "ratioOfMin": 1.0,
-      "team": "NOP",
-      "draftPick": 20,
       "isKumingaComp": false
     },
     {
@@ -13413,34 +11453,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Art Long",
-      "brefId": "longar01",
-      "year": 2003,
-      "age": 30.0,
-      "yearsOfService": 2,
-      "prevSalary": 465850,
-      "salary": 193424,
-      "dropPct": 58.5,
-      "ratioOfMin": 0.329,
-      "team": "DEN",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Primoz Brezec",
-      "brefId": "brezepr01",
-      "year": 2010,
-      "age": 30.0,
-      "yearsOfService": 8,
-      "prevSalary": null,
-      "salary": 1107572,
-      "dropPct": null,
-      "ratioOfMin": 0.937,
-      "team": "MIL",
-      "draftPick": 27,
-      "isKumingaComp": false
-    },
-    {
       "player": "Josh Richardson",
       "brefId": "richajo01",
       "year": 2024,
@@ -13466,20 +11478,6 @@
       "ratioOfMin": 0.911,
       "team": "NYK",
       "draftPick": 52,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jonathon Simmons",
-      "brefId": "simmojo02",
-      "year": 2020,
-      "age": 30.05,
-      "yearsOfService": 4,
-      "prevSalary": 6000000,
-      "salary": 1000000,
-      "dropPct": 83.3,
-      "ratioOfMin": 0.576,
-      "team": "WAS",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -13945,20 +11943,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Scott Padgett",
-      "brefId": "padgesc01",
-      "year": 2007,
-      "age": 30.45,
-      "yearsOfService": 7,
-      "prevSalary": 1670000,
-      "salary": 932015,
-      "dropPct": 44.2,
-      "ratioOfMin": 0.933,
-      "team": "MEM",
-      "draftPick": 28,
-      "isKumingaComp": false
-    },
-    {
       "player": "Awvee Storey",
       "brefId": "storeaw01",
       "year": 2008,
@@ -13998,20 +11982,6 @@
       "ratioOfMin": 0.535,
       "team": "LAL",
       "draftPick": 38,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Solomon Hill",
-      "brefId": "hillso01",
-      "year": 2022,
-      "age": 30.54,
-      "yearsOfService": 8,
-      "prevSalary": 2174318,
-      "salary": 2389641,
-      "dropPct": -9.9,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": 23,
       "isKumingaComp": false
     },
     {
@@ -14124,20 +12094,6 @@
       "ratioOfMin": 1.0,
       "team": "PHI",
       "draftPick": 43,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Isaiah Thomas",
-      "brefId": "thomais02",
-      "year": 2020,
-      "age": 30.64,
-      "yearsOfService": 8,
-      "prevSalary": 2029463,
-      "salary": 2320044,
-      "dropPct": -14.3,
-      "ratioOfMin": 1.0,
-      "team": "LAC",
-      "draftPick": 60,
       "isKumingaComp": false
     },
     {
@@ -14337,20 +12293,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Devin Brown",
-      "brefId": "brownde02",
-      "year": 2010,
-      "age": 30.75,
-      "yearsOfService": 7,
-      "prevSalary": 998398,
-      "salary": 1100000,
-      "dropPct": -10.2,
-      "ratioOfMin": 0.993,
-      "team": "CHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Tracy Moore",
       "brefId": "mooretr01",
       "year": 1997,
@@ -14449,20 +12391,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jarron Collins",
-      "brefId": "collija03",
-      "year": 2010,
-      "age": 30.83,
-      "yearsOfService": 8,
-      "prevSalary": 2074302,
-      "salary": 1181803,
-      "dropPct": 43.0,
-      "ratioOfMin": 1.0,
-      "team": "PHX",
-      "draftPick": 53,
-      "isKumingaComp": false
-    },
-    {
       "player": "Brian Roberts",
       "brefId": "roberbr01",
       "year": 2017,
@@ -14488,34 +12416,6 @@
       "ratioOfMin": 0.465,
       "team": "PHX",
       "draftPick": 28,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Shavlik Randolph",
-      "brefId": "randosh01",
-      "year": 2015,
-      "age": 30.85,
-      "yearsOfService": 9,
-      "prevSalary": 306036,
-      "salary": 1175894,
-      "dropPct": -284.2,
-      "ratioOfMin": 0.893,
-      "team": "BOS",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Avery Bradley",
-      "brefId": "bradlav01",
-      "year": 2022,
-      "age": 30.85,
-      "yearsOfService": 11,
-      "prevSalary": 5635000,
-      "salary": 2641691,
-      "dropPct": 53.1,
-      "ratioOfMin": 1.0,
-      "team": "LAL",
-      "draftPick": 19,
       "isKumingaComp": false
     },
     {
@@ -14561,20 +12461,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Mikki Moore",
-      "brefId": "mooremi01",
-      "year": 2007,
-      "age": 30.91,
-      "yearsOfService": 8,
-      "prevSalary": 1020000,
-      "salary": 1071225,
-      "dropPct": -5.0,
-      "ratioOfMin": 1.005,
-      "team": "BKN",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Jake Voskuhl",
       "brefId": "voskuja01",
       "year": 2009,
@@ -14586,34 +12472,6 @@
       "ratioOfMin": 0.724,
       "team": "TOR",
       "draftPick": 33,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Amal McCaskill",
-      "brefId": "mccasam01",
-      "year": 2005,
-      "age": 30.93,
-      "yearsOfService": 8,
-      "prevSalary": 688679,
-      "salary": 932546,
-      "dropPct": -35.4,
-      "ratioOfMin": 0.937,
-      "team": "DET",
-      "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Dwayne Schintzius",
-      "brefId": "schindw01",
-      "year": 2000,
-      "age": 30.96,
-      "yearsOfService": 9,
-      "prevSalary": 662500,
-      "salary": 550000,
-      "dropPct": 17.0,
-      "ratioOfMin": 0.621,
-      "team": "DEN",
-      "draftPick": 24,
       "isKumingaComp": false
     },
     {
@@ -14796,20 +12654,6 @@
       "ratioOfMin": 0.559,
       "team": "IND",
       "draftPick": 40,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Ryan Gomes",
-      "brefId": "gomesry01",
-      "year": 2014,
-      "age": 31.08,
-      "yearsOfService": 8,
-      "prevSalary": 4000000,
-      "salary": 495521,
-      "dropPct": 87.6,
-      "ratioOfMin": 0.391,
-      "team": "BOS",
-      "draftPick": 50,
       "isKumingaComp": false
     },
     {
@@ -15331,20 +13175,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Jason Hart",
-      "brefId": "hartja01",
-      "year": 2010,
-      "age": 31.43,
-      "yearsOfService": 9,
-      "prevSalary": 2484000,
-      "salary": 451866,
-      "dropPct": 81.8,
-      "ratioOfMin": 0.38,
-      "team": "PHX",
-      "draftPick": 49,
-      "isKumingaComp": false
-    },
-    {
       "player": "Delon Wright",
       "brefId": "wrighde01",
       "year": 2024,
@@ -15667,20 +13497,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Michael Ruffin",
-      "brefId": "ruffimi01",
-      "year": 2009,
-      "age": 31.69,
-      "yearsOfService": 9,
-      "prevSalary": 1033930,
-      "salary": 1141838,
-      "dropPct": -10.4,
-      "ratioOfMin": 0.995,
-      "team": "POR",
-      "draftPick": 32,
-      "isKumingaComp": false
-    },
-    {
       "player": "Marty Conlon",
       "brefId": "conloma01",
       "year": 2000,
@@ -15706,20 +13522,6 @@
       "ratioOfMin": 0.576,
       "team": "SAS",
       "draftPick": 6,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Don MacLean",
-      "brefId": "macledo01",
-      "year": 2002,
-      "age": 31.71,
-      "yearsOfService": 9,
-      "prevSalary": 2380000,
-      "salary": 965850,
-      "dropPct": 59.4,
-      "ratioOfMin": 1.0,
-      "team": "TOR",
-      "draftPick": 19,
       "isKumingaComp": false
     },
     {
@@ -15804,20 +13606,6 @@
       "ratioOfMin": 0.576,
       "team": "DET",
       "draftPick": 16,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Joey Dorsey",
-      "brefId": "dorsejo01",
-      "year": 2016,
-      "age": 31.79,
-      "yearsOfService": 7,
-      "prevSalary": 948163,
-      "salary": 1015421,
-      "dropPct": -7.1,
-      "ratioOfMin": 0.799,
-      "team": "DEN",
-      "draftPick": 33,
       "isKumingaComp": false
     },
     {
@@ -16045,20 +13833,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Monty Williams",
-      "brefId": "willimo01",
-      "year": 2004,
-      "age": 31.98,
-      "yearsOfService": 9,
-      "prevSalary": 887435,
-      "salary": 1000000,
-      "dropPct": -12.7,
-      "ratioOfMin": 1.0,
-      "team": "ORL",
-      "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
       "player": "Joel Przybilla",
       "brefId": "przybjo01",
       "year": 2012,
@@ -16185,20 +13959,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Carlos Delfino",
-      "brefId": "delfica01",
-      "year": 2015,
-      "age": 32.09,
-      "yearsOfService": 10,
-      "prevSalary": 3250000,
-      "salary": 650000,
-      "dropPct": 80.0,
-      "ratioOfMin": 0.449,
-      "team": "LAC",
-      "draftPick": 25,
-      "isKumingaComp": false
-    },
-    {
       "player": "Jeff Green",
       "brefId": "greenje02",
       "year": 2019,
@@ -16252,20 +14012,6 @@
       "ratioOfMin": 0.968,
       "team": "PHX",
       "draftPick": 43,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Cory Joseph",
-      "brefId": "josepco01",
-      "year": 2024,
-      "age": 32.11,
-      "yearsOfService": 12,
-      "prevSalary": 5155500,
-      "salary": 3196448,
-      "dropPct": 38.0,
-      "ratioOfMin": 1.0,
-      "team": "IND",
-      "draftPick": 29,
       "isKumingaComp": false
     },
     {
@@ -16545,20 +14291,6 @@
       "dropPct": 95.7,
       "ratioOfMin": 0.315,
       "team": "MIL",
-      "draftPick": 19,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jeff Teague",
-      "brefId": "teaguje01",
-      "year": 2021,
-      "age": 32.31,
-      "yearsOfService": 11,
-      "prevSalary": 19000000,
-      "salary": 2564753,
-      "dropPct": 86.5,
-      "ratioOfMin": 1.0,
-      "team": "ORL",
       "draftPick": 19,
       "isKumingaComp": false
     },
@@ -17291,20 +15023,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Serge Ibaka",
-      "brefId": "ibakase01",
-      "year": 2023,
-      "age": 33.03,
-      "yearsOfService": 13,
-      "prevSalary": 9720900,
-      "salary": 2905851,
-      "dropPct": 70.1,
-      "ratioOfMin": 1.0,
-      "team": "IND",
-      "draftPick": 24,
-      "isKumingaComp": false
-    },
-    {
       "player": "Sherman Douglas",
       "brefId": "douglsh01",
       "year": 2000,
@@ -17319,20 +15037,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Greg Buckner",
-      "brefId": "buckngr01",
-      "year": 2010,
-      "age": 33.04,
-      "yearsOfService": 10,
-      "prevSalary": 4010005,
-      "salary": 1000000,
-      "dropPct": 75.1,
-      "ratioOfMin": 0.765,
-      "team": "DAL",
-      "draftPick": 53,
-      "isKumingaComp": false
-    },
-    {
       "player": "Gerald Wilkins",
       "brefId": "wilkige01",
       "year": 1997,
@@ -17344,34 +15048,6 @@
       "ratioOfMin": 1.0,
       "team": "ORL",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Roger Mason",
-      "brefId": "masonro01",
-      "year": 2014,
-      "age": 33.06,
-      "yearsOfService": 11,
-      "prevSalary": 1229255,
-      "salary": 1272279,
-      "dropPct": -3.5,
-      "ratioOfMin": 0.909,
-      "team": "SAC",
-      "draftPick": 31,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Markieff Morris",
-      "brefId": "morrima02",
-      "year": 2023,
-      "age": 33.08,
-      "yearsOfService": 11,
-      "prevSalary": 2641691,
-      "salary": 2905851,
-      "dropPct": -10.0,
-      "ratioOfMin": 1.0,
-      "team": "DAL",
-      "draftPick": 13,
       "isKumingaComp": false
     },
     {
@@ -17470,20 +15146,6 @@
       "ratioOfMin": 1.0,
       "team": "MIA",
       "draftPick": 32,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Willie Green",
-      "brefId": "greenwi01",
-      "year": 2015,
-      "age": 33.18,
-      "yearsOfService": 11,
-      "prevSalary": 1399507,
-      "salary": 1448490,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "ORL",
-      "draftPick": 41,
       "isKumingaComp": false
     },
     {
@@ -17641,20 +15303,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Popeye Jones",
-      "brefId": "jonespo01",
-      "year": 2004,
-      "age": 33.29,
-      "yearsOfService": 10,
-      "prevSalary": 1030000,
-      "salary": 1070000,
-      "dropPct": -3.9,
-      "ratioOfMin": 1.0,
-      "team": "GSW",
-      "draftPick": 41,
-      "isKumingaComp": false
-    },
-    {
       "player": "Rick Brunson",
       "brefId": "brunsri01",
       "year": 2006,
@@ -17767,20 +15415,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Austin Croshere",
-      "brefId": "croshau01",
-      "year": 2009,
-      "age": 33.42,
-      "yearsOfService": 11,
-      "prevSalary": 1219590,
-      "salary": 527185,
-      "dropPct": 56.8,
-      "ratioOfMin": 0.418,
-      "team": "MIL",
-      "draftPick": 12,
-      "isKumingaComp": false
-    },
-    {
       "player": "Brian Cardinal",
       "brefId": "cardibr01",
       "year": 2011,
@@ -17834,20 +15468,6 @@
       "ratioOfMin": 0.963,
       "team": "PHX",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Quentin Richardson",
-      "brefId": "richaqu01",
-      "year": 2014,
-      "age": 33.47,
-      "yearsOfService": 13,
-      "prevSalary": 2627400,
-      "salary": 1399507,
-      "dropPct": 46.7,
-      "ratioOfMin": 1.0,
-      "team": "TOR",
-      "draftPick": 18,
       "isKumingaComp": false
     },
     {
@@ -17918,20 +15538,6 @@
       "ratioOfMin": 0.277,
       "team": "OKC",
       "draftPick": 10,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Adonal Foyle",
-      "brefId": "foylead01",
-      "year": 2009,
-      "age": 33.57,
-      "yearsOfService": 11,
-      "prevSalary": 8937500,
-      "salary": 1262275,
-      "dropPct": 85.9,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": 8,
       "isKumingaComp": false
     },
     {
@@ -18033,20 +15639,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Gerald Green",
-      "brefId": "greenge01",
-      "year": 2020,
-      "age": 33.68,
-      "yearsOfService": 14,
-      "prevSalary": 1512601,
-      "salary": 2564753,
-      "dropPct": -69.6,
-      "ratioOfMin": 1.0,
-      "team": "DEN",
-      "draftPick": 18,
-      "isKumingaComp": false
-    },
-    {
       "player": "Larry Robinson",
       "brefId": "robinla01",
       "year": 2002,
@@ -18128,20 +15720,6 @@
       "ratioOfMin": 1.0,
       "team": "UTA",
       "draftPick": 16,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jason Collins",
-      "brefId": "collija04",
-      "year": 2013,
-      "age": 33.83,
-      "yearsOfService": 11,
-      "prevSalary": 1352181,
-      "salary": 1352181,
-      "dropPct": 0.0,
-      "ratioOfMin": 1.0,
-      "team": "WAS",
-      "draftPick": 18,
       "isKumingaComp": false
     },
     {
@@ -18495,20 +16073,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Beno Udrih",
-      "brefId": "udrihbe01",
-      "year": 2017,
-      "age": 34.24,
-      "yearsOfService": 12,
-      "prevSalary": 2080465,
-      "salary": 980431,
-      "dropPct": 52.9,
-      "ratioOfMin": 0.632,
-      "team": "DET",
-      "draftPick": 28,
-      "isKumingaComp": false
-    },
-    {
       "player": "Joe Johnson",
       "brefId": "johnsjo02",
       "year": 2016,
@@ -18590,34 +16154,6 @@
       "ratioOfMin": 1.0,
       "team": "MIL",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Anthony Tolliver",
-      "brefId": "tollian01",
-      "year": 2020,
-      "age": 34.33,
-      "yearsOfService": 11,
-      "prevSalary": 5750000,
-      "salary": 2419852,
-      "dropPct": 57.9,
-      "ratioOfMin": 0.944,
-      "team": "SAC",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Carmelo Anthony",
-      "brefId": "anthoca01",
-      "year": 2019,
-      "age": 34.34,
-      "yearsOfService": 15,
-      "prevSalary": 26243760,
-      "salary": 2393887,
-      "dropPct": 90.9,
-      "ratioOfMin": 1.0,
-      "team": "CHI",
-      "draftPick": 3,
       "isKumingaComp": false
     },
     {
@@ -18915,20 +16451,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "John Salmons",
-      "brefId": "salmojo01",
-      "year": 2015,
-      "age": 34.8,
-      "yearsOfService": 12,
-      "prevSalary": 7583000,
-      "salary": 1000000,
-      "dropPct": 86.8,
-      "ratioOfMin": 0.69,
-      "team": "ATL",
-      "draftPick": 26,
-      "isKumingaComp": false
-    },
-    {
       "player": "Dwight Howard",
       "brefId": "howardw01",
       "year": 2021,
@@ -19041,20 +16563,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Aaron McKie",
-      "brefId": "mckieaa01",
-      "year": 2008,
-      "age": 35.0,
-      "yearsOfService": 13,
-      "prevSalary": null,
-      "salary": 750000,
-      "dropPct": null,
-      "ratioOfMin": 0.615,
-      "team": "MEM",
-      "draftPick": 17,
-      "isKumingaComp": false
-    },
-    {
       "player": "Emeka Okafor",
       "brefId": "okafoem01",
       "year": 2018,
@@ -19066,20 +16574,6 @@
       "ratioOfMin": 0.349,
       "team": "NOP",
       "draftPick": 2,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jose Calderon",
-      "brefId": "caldejo01",
-      "year": 2017,
-      "age": 35.01,
-      "yearsOfService": 11,
-      "prevSalary": 7402812,
-      "salary": 392478,
-      "dropPct": 94.7,
-      "ratioOfMin": 0.253,
-      "team": "ATL",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -19139,20 +16633,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Sean Marks",
-      "brefId": "marksse01",
-      "year": 2011,
-      "age": 35.11,
-      "yearsOfService": 12,
-      "prevSalary": 1187686,
-      "salary": 1264687,
-      "dropPct": -6.5,
-      "ratioOfMin": 0.935,
-      "team": "CHA",
-      "draftPick": 44,
-      "isKumingaComp": false
-    },
-    {
       "player": "Christian Laettner",
       "brefId": "laettch01",
       "year": 2005,
@@ -19191,20 +16671,6 @@
       "dropPct": 59.7,
       "ratioOfMin": 1.0,
       "team": "DET",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Chucky Atkins",
-      "brefId": "atkinch01",
-      "year": 2010,
-      "age": 35.13,
-      "yearsOfService": 10,
-      "prevSalary": 3240000,
-      "salary": 760000,
-      "dropPct": 76.5,
-      "ratioOfMin": 0.582,
-      "team": "MIN",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -19251,20 +16717,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Joe Smith",
-      "brefId": "smithjo02",
-      "year": 2011,
-      "age": 35.18,
-      "yearsOfService": 15,
-      "prevSalary": 1306455,
-      "salary": 1352181,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "LAL",
-      "draftPick": 1,
-      "isKumingaComp": false
-    },
-    {
       "player": "LaMarcus Aldridge",
       "brefId": "aldrila01",
       "year": 2021,
@@ -19290,20 +16742,6 @@
       "ratioOfMin": 0.835,
       "team": "MIA",
       "draftPick": 10,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Patrick Beverley",
-      "brefId": "beverpa01",
-      "year": 2024,
-      "age": 35.22,
-      "yearsOfService": 11,
-      "prevSalary": 13000000,
-      "salary": 3196448,
-      "dropPct": 75.4,
-      "ratioOfMin": 1.0,
-      "team": "MIL",
-      "draftPick": 42,
       "isKumingaComp": false
     },
     {
@@ -19402,20 +16840,6 @@
       "ratioOfMin": 0.688,
       "team": "CLE",
       "draftPick": 46,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Anthony Carter",
-      "brefId": "cartean01",
-      "year": 2011,
-      "age": 35.29,
-      "yearsOfService": 11,
-      "prevSalary": 1306455,
-      "salary": 1352181,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": null,
       "isKumingaComp": false
     },
     {
@@ -19601,20 +17025,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Gary Grant",
-      "brefId": "grantga01",
-      "year": 2001,
-      "age": 35.45,
-      "yearsOfService": 12,
-      "prevSalary": 1200000,
-      "salary": 316969,
-      "dropPct": 73.6,
-      "ratioOfMin": 0.317,
-      "team": "CLE",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Theo Ratliff",
       "brefId": "ratlith01",
       "year": 2009,
@@ -19640,20 +17050,6 @@
       "ratioOfMin": 1.0,
       "team": "CHA",
       "draftPick": 5,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Robin Lopez",
-      "brefId": "lopezro01",
-      "year": 2024,
-      "age": 35.5,
-      "yearsOfService": 15,
-      "prevSalary": 2905851,
-      "salary": 3196448,
-      "dropPct": -10.0,
-      "ratioOfMin": 1.0,
-      "team": "SAC",
-      "draftPick": 15,
       "isKumingaComp": false
     },
     {
@@ -19769,20 +17165,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Rajon Rondo",
-      "brefId": "rondora01",
-      "year": 2022,
-      "age": 35.61,
-      "yearsOfService": 15,
-      "prevSalary": 7500000,
-      "salary": 2641691,
-      "dropPct": 64.8,
-      "ratioOfMin": 1.0,
-      "team": "CLE",
-      "draftPick": 21,
-      "isKumingaComp": false
-    },
-    {
       "player": "Alonzo Mourning",
       "brefId": "mournal01",
       "year": 2006,
@@ -19794,20 +17176,6 @@
       "ratioOfMin": 1.0,
       "team": "MIA",
       "draftPick": 2,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Jameer Nelson",
-      "brefId": "nelsoja01",
-      "year": 2018,
-      "age": 35.64,
-      "yearsOfService": 13,
-      "prevSalary": 4540525,
-      "salary": 2262870,
-      "dropPct": 50.2,
-      "ratioOfMin": 0.972,
-      "team": "DET",
-      "draftPick": 20,
       "isKumingaComp": false
     },
     {
@@ -19853,20 +17221,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Dwyane Wade",
-      "brefId": "wadedw01",
-      "year": 2018,
-      "age": 35.7,
-      "yearsOfService": 14,
-      "prevSalary": 23200000,
-      "salary": 2328652,
-      "dropPct": 90.0,
-      "ratioOfMin": 1.0,
-      "team": "MIA",
-      "draftPick": 5,
-      "isKumingaComp": false
-    },
-    {
       "player": "JaVale McGee",
       "brefId": "mcgeeja01",
       "year": 2024,
@@ -19878,20 +17232,6 @@
       "ratioOfMin": 1.0,
       "team": "SAC",
       "draftPick": 18,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Tony Allen",
-      "brefId": "allento01",
-      "year": 2018,
-      "age": 35.72,
-      "yearsOfService": 13,
-      "prevSalary": 5000000,
-      "salary": 1471382,
-      "dropPct": 70.6,
-      "ratioOfMin": 0.632,
-      "team": "CHI",
-      "draftPick": 25,
       "isKumingaComp": false
     },
     {
@@ -20301,34 +17641,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Theo Ratliff",
-      "brefId": "ratlith01",
-      "year": 2010,
-      "age": 36.46,
-      "yearsOfService": 14,
-      "prevSalary": 1262275,
-      "salary": 1306455,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "CHA",
-      "draftPick": 18,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Brad Miller",
-      "brefId": "millebr01",
-      "year": 2013,
-      "age": 36.47,
-      "yearsOfService": 14,
-      "prevSalary": 4752000,
-      "salary": 848000,
-      "dropPct": 82.2,
-      "ratioOfMin": 0.627,
-      "team": "PHX",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Ed Pinckney",
       "brefId": "pincked01",
       "year": 2000,
@@ -20385,20 +17697,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Paul Millsap",
-      "brefId": "millspa01",
-      "year": 2022,
-      "age": 36.64,
-      "yearsOfService": 15,
-      "prevSalary": 10100000,
-      "salary": 2641691,
-      "dropPct": 73.8,
-      "ratioOfMin": 1.0,
-      "team": "PHI",
-      "draftPick": 47,
-      "isKumingaComp": false
-    },
-    {
       "player": "Juwan Howard",
       "brefId": "howarju01",
       "year": 2010,
@@ -20410,20 +17708,6 @@
       "ratioOfMin": 1.0,
       "team": "POR",
       "draftPick": 5,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Marc Gasol",
-      "brefId": "gasolma01",
-      "year": 2022,
-      "age": 36.67,
-      "yearsOfService": 13,
-      "prevSalary": 2564753,
-      "salary": 2692991,
-      "dropPct": -5.0,
-      "ratioOfMin": 1.019,
-      "team": "MEM",
-      "draftPick": 48,
       "isKumingaComp": false
     },
     {
@@ -20567,20 +17851,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Nene",
-      "brefId": "hilarne01",
-      "year": 2020,
-      "age": 37.05,
-      "yearsOfService": 17,
-      "prevSalary": 3651480,
-      "salary": 2564753,
-      "dropPct": 29.8,
-      "ratioOfMin": 1.0,
-      "team": "ATL",
-      "draftPick": 7,
-      "isKumingaComp": false
-    },
-    {
       "player": "Chris Mullin",
       "brefId": "mullich01",
       "year": 2001,
@@ -20688,20 +17958,6 @@
       "salary": 1399507,
       "dropPct": -3.5,
       "ratioOfMin": 1.0,
-      "team": "ATL",
-      "draftPick": 4,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Antawn Jamison",
-      "brefId": "jamisan01",
-      "year": 2014,
-      "age": 37.3,
-      "yearsOfService": 15,
-      "prevSalary": 1352181,
-      "salary": 1399507,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
       "team": "LAC",
       "draftPick": 4,
       "isKumingaComp": false
@@ -20731,20 +17987,6 @@
       "dropPct": 38.0,
       "ratioOfMin": 1.0,
       "team": "TOR",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Mark Bryant",
-      "brefId": "bryanma01",
-      "year": 2003,
-      "age": 37.43,
-      "yearsOfService": 14,
-      "prevSalary": 1000000,
-      "salary": 1030000,
-      "dropPct": -3.0,
-      "ratioOfMin": 1.0,
-      "team": "DEN",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -20987,20 +18229,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Antoine Carr",
-      "brefId": "carran01",
-      "year": 2000,
-      "age": 38.19,
-      "yearsOfService": 15,
-      "prevSalary": null,
-      "salary": 1000000,
-      "dropPct": null,
-      "ratioOfMin": 1.0,
-      "team": "MEM",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Horace Grant",
       "brefId": "grantho01",
       "year": 2004,
@@ -21011,20 +18239,6 @@
       "dropPct": 59.8,
       "ratioOfMin": 1.0,
       "team": "LAL",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Chris Andersen",
-      "brefId": "anderch01",
-      "year": 2017,
-      "age": 38.24,
-      "yearsOfService": 15,
-      "prevSalary": 5000000,
-      "salary": 1551659,
-      "dropPct": 69.0,
-      "ratioOfMin": 1.0,
-      "team": "CHA",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -21099,20 +18313,6 @@
       "isKumingaComp": false
     },
     {
-      "player": "Darrell Armstrong",
-      "brefId": "armstda01",
-      "year": 2007,
-      "age": 38.28,
-      "yearsOfService": 12,
-      "prevSalary": 1138500,
-      "salary": 1178348,
-      "dropPct": -3.5,
-      "ratioOfMin": 1.0,
-      "team": "IND",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
       "player": "Mike James",
       "brefId": "jamesmi01",
       "year": 2014,
@@ -21123,20 +18323,6 @@
       "dropPct": -11.8,
       "ratioOfMin": 0.635,
       "team": "CHI",
-      "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Pablo Prigioni",
-      "brefId": "prigipa01",
-      "year": 2016,
-      "age": 38.37,
-      "yearsOfService": 3,
-      "prevSalary": 1662961,
-      "salary": 440000,
-      "dropPct": 73.5,
-      "ratioOfMin": 0.448,
-      "team": "DEN",
       "draftPick": null,
       "isKumingaComp": false
     },
@@ -21236,20 +18422,6 @@
       "ratioOfMin": 1.0,
       "team": "LAC",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Sam Cassell",
-      "brefId": "cassesa01",
-      "year": 2009,
-      "age": 38.87,
-      "yearsOfService": 15,
-      "prevSalary": 6150000,
-      "salary": 1262275,
-      "dropPct": 79.5,
-      "ratioOfMin": 1.0,
-      "team": "SAC",
-      "draftPick": 24,
       "isKumingaComp": false
     },
     {
@@ -21418,20 +18590,6 @@
       "ratioOfMin": 1.0,
       "team": "CHI",
       "draftPick": null,
-      "isKumingaComp": false
-    },
-    {
-      "player": "Kurt Thomas",
-      "brefId": "thomaku01",
-      "year": 2013,
-      "age": 39.99,
-      "yearsOfService": 17,
-      "prevSalary": 1352181,
-      "salary": 1352181,
-      "dropPct": 0.0,
-      "ratioOfMin": 1.0,
-      "team": "NYK",
-      "draftPick": 10,
       "isKumingaComp": false
     },
     {
