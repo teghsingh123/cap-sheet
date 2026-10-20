@@ -408,17 +408,6 @@
       "draftPick": 9
     },
     {
-      "player": "Torrey Craig",
-      "brefId": "craigto01",
-      "year": 2021,
-      "age": 29.79,
-      "vetMinSalary": 1678854,
-      "nextYearSalary": 4878049,
-      "multiple": 2.91,
-      "outcome": "bounced_back",
-      "draftPick": null
-    },
-    {
       "player": "Dwayne Schintzius",
       "brefId": "schindw01",
       "year": 1996,
@@ -518,17 +507,6 @@
       "draftPick": 46
     },
     {
-      "player": "Alec Burks",
-      "brefId": "burksal01",
-      "year": 2020,
-      "age": 28.2,
-      "vetMinSalary": 2320044,
-      "nextYearSalary": 6000000,
-      "multiple": 2.59,
-      "outcome": "bounced_back",
-      "draftPick": 12
-    },
-    {
       "player": "Mike Scott",
       "brefId": "scottmi01",
       "year": 2018,
@@ -538,17 +516,6 @@
       "multiple": 2.53,
       "outcome": "bounced_back",
       "draftPick": 43
-    },
-    {
-      "player": "Shannon Brown",
-      "brefId": "brownsh01",
-      "year": 2009,
-      "age": 22.84,
-      "vetMinSalary": 797581,
-      "nextYearSalary": 2000000,
-      "multiple": 2.51,
-      "outcome": "bounced_back",
-      "draftPick": 25
     },
     {
       "player": "Otto Porter",
@@ -1061,17 +1028,6 @@
       "brefId": "brownde02",
       "year": 2007,
       "age": 27.75,
-      "vetMinSalary": 500000,
-      "nextYearSalary": 1200000,
-      "multiple": 1.5,
-      "outcome": "bounced_back",
-      "draftPick": null
-    },
-    {
-      "player": "Devin Brown",
-      "brefId": "brownde02",
-      "year": 2007,
-      "age": 27.75,
       "vetMinSalary": 564518,
       "nextYearSalary": 1200000,
       "multiple": 1.5,
@@ -1110,17 +1066,6 @@
       "multiple": 1.5,
       "outcome": "stuck",
       "draftPick": 15
-    },
-    {
-      "player": "Jose Calderon",
-      "brefId": "caldejo01",
-      "year": 2017,
-      "age": 35.01,
-      "vetMinSalary": 392478,
-      "nextYearSalary": 2328652,
-      "multiple": 1.5,
-      "outcome": "bounced_back",
-      "draftPick": null
     },
     {
       "player": "Jermaine O'Neal",
@@ -1200,17 +1145,6 @@
       "draftPick": 28
     },
     {
-      "player": "Wayne Ellington",
-      "brefId": "ellinwa01",
-      "year": 2015,
-      "age": 26.84,
-      "vetMinSalary": 923780,
-      "nextYearSalary": 1500000,
-      "multiple": 1.41,
-      "outcome": "stuck",
-      "draftPick": 28
-    },
-    {
       "player": "Wesley Matthews",
       "brefId": "matthwe02",
       "year": 2020,
@@ -1253,17 +1187,6 @@
       "multiple": 1.36,
       "outcome": "stuck",
       "draftPick": 2
-    },
-    {
-      "player": "Andre Drummond",
-      "brefId": "drumman01",
-      "year": 2022,
-      "age": 28.14,
-      "vetMinSalary": 2401537,
-      "nextYearSalary": 3200000,
-      "multiple": 1.33,
-      "outcome": "stuck",
-      "draftPick": 9
     },
     {
       "player": "Doug Overton",
@@ -1374,17 +1297,6 @@
       "multiple": 1.26,
       "outcome": "stuck",
       "draftPick": 11
-    },
-    {
-      "player": "Alonzo Gee",
-      "brefId": "geeal01",
-      "year": 2015,
-      "age": 27.34,
-      "vetMinSalary": 1063384,
-      "nextYearSalary": 1320000,
-      "multiple": 1.24,
-      "outcome": "stuck",
-      "draftPick": null
     },
     {
       "player": "Nicolas Batum",
@@ -1508,17 +1420,6 @@
       "draftPick": 9
     },
     {
-      "player": "Thomas Bryant",
-      "brefId": "bryanth01",
-      "year": 2023,
-      "age": 25.17,
-      "vetMinSalary": 1968175,
-      "nextYearSalary": 2528233,
-      "multiple": 1.19,
-      "outcome": "stuck",
-      "draftPick": 42
-    },
-    {
       "player": "Aaron Holiday",
       "brefId": "holidaa01",
       "year": 2023,
@@ -1640,17 +1541,6 @@
       "draftPick": 45
     },
     {
-      "player": "Joe Harris",
-      "brefId": "harrijo01",
-      "year": 2016,
-      "age": 24.07,
-      "vetMinSalary": 845059,
-      "nextYearSalary": 980431,
-      "multiple": 1.16,
-      "outcome": "stuck",
-      "draftPick": 33
-    },
-    {
       "player": "Mikki Moore",
       "brefId": "mooremi01",
       "year": 2004,
@@ -1660,28 +1550,6 @@
       "multiple": 1.16,
       "outcome": "stuck",
       "draftPick": null
-    },
-    {
-      "player": "Tim Frazier",
-      "brefId": "fraziti01",
-      "year": 2019,
-      "age": 27.92,
-      "vetMinSalary": 1621415,
-      "nextYearSalary": 1882867,
-      "multiple": 1.16,
-      "outcome": "stuck",
-      "draftPick": null
-    },
-    {
-      "player": "James Ennis",
-      "brefId": "ennisja01",
-      "year": 2019,
-      "age": 28.25,
-      "vetMinSalary": 1621415,
-      "nextYearSalary": 1882867,
-      "multiple": 1.16,
-      "outcome": "stuck",
-      "draftPick": 50
     },
     {
       "player": "Austin Rivers",
@@ -2102,17 +1970,6 @@
       "draftPick": 15
     },
     {
-      "player": "Austin Daye",
-      "brefId": "dayeau01",
-      "year": 2014,
-      "age": 25.32,
-      "vetMinSalary": 947907,
-      "nextYearSalary": 1063384,
-      "multiple": 1.12,
-      "outcome": "stuck",
-      "draftPick": 15
-    },
-    {
       "player": "Wang Zhizhi",
       "brefId": "zhizhwa01",
       "year": 2004,
@@ -2129,17 +1986,6 @@
       "year": 2015,
       "age": 26.24,
       "vetMinSalary": 981084,
-      "nextYearSalary": 1100602,
-      "multiple": 1.12,
-      "outcome": "stuck",
-      "draftPick": null
-    },
-    {
-      "player": "Ishmael Smith",
-      "brefId": "smithis01",
-      "year": 2015,
-      "age": 26.24,
-      "vetMinSalary": 305867,
       "nextYearSalary": 1100602,
       "multiple": 1.12,
       "outcome": "stuck",
@@ -2265,17 +2111,6 @@
       "multiple": 1.11,
       "outcome": "stuck",
       "draftPick": 23
-    },
-    {
-      "player": "Ronnie Brewer",
-      "brefId": "brewero02",
-      "year": 2013,
-      "age": 27.53,
-      "vetMinSalary": 1069509,
-      "nextYearSalary": 1186459,
-      "multiple": 1.11,
-      "outcome": "stuck",
-      "draftPick": 14
     },
     {
       "player": "Glen Davis",
@@ -2795,17 +2630,6 @@
       "draftPick": 5
     },
     {
-      "player": "John Jenkins",
-      "brefId": "jenkijo01",
-      "year": 2016,
-      "age": 24.57,
-      "vetMinSalary": 981349,
-      "nextYearSalary": 1050961,
-      "multiple": 1.07,
-      "outcome": "stuck",
-      "draftPick": 23
-    },
-    {
       "player": "Jimmer Fredette",
       "brefId": "fredeji01",
       "year": 2014,
@@ -2997,17 +2821,6 @@
       "brefId": "prigipa01",
       "year": 2016,
       "age": 38.37,
-      "vetMinSalary": 440000,
-      "nextYearSalary": 1050961,
-      "multiple": 1.07,
-      "outcome": "stuck",
-      "draftPick": null
-    },
-    {
-      "player": "Pablo Prigioni",
-      "brefId": "prigipa01",
-      "year": 2016,
-      "age": 38.37,
       "vetMinSalary": 981348,
       "nextYearSalary": 1050961,
       "multiple": 1.07,
@@ -3075,17 +2888,6 @@
       "year": 2013,
       "age": 27.06,
       "vetMinSalary": 806323,
-      "nextYearSalary": 1265977,
-      "multiple": 1.04,
-      "outcome": "stuck",
-      "draftPick": 4
-    },
-    {
-      "player": "Shaun Livingston",
-      "brefId": "livinsh01",
-      "year": 2013,
-      "age": 27.06,
-      "vetMinSalary": 1000000,
       "nextYearSalary": 1265977,
       "multiple": 1.04,
       "outcome": "stuck",
@@ -3211,17 +3013,6 @@
       "multiple": 1.04,
       "outcome": "stuck",
       "draftPick": null
-    },
-    {
-      "player": "Adonal Foyle",
-      "brefId": "foylead01",
-      "year": 2009,
-      "age": 33.57,
-      "vetMinSalary": 1262275,
-      "nextYearSalary": 1306455,
-      "multiple": 1.04,
-      "outcome": "stuck",
-      "draftPick": 8
     },
     {
       "player": "Joe Smith",
@@ -3383,17 +3174,6 @@
       "year": 2018,
       "age": 28.99,
       "vetMinSalary": 1356709,
-      "nextYearSalary": 2176260,
-      "multiple": 1.03,
-      "outcome": "stuck",
-      "draftPick": 1
-    },
-    {
-      "player": "Derrick Rose",
-      "brefId": "rosede01",
-      "year": 2018,
-      "age": 28.99,
-      "vetMinSalary": 2116955,
       "nextYearSalary": 2176260,
       "multiple": 1.03,
       "outcome": "stuck",
@@ -3618,17 +3398,6 @@
       "multiple": 1.03,
       "outcome": "stuck",
       "draftPick": null
-    },
-    {
-      "player": "Dwyane Wade",
-      "brefId": "wadedw01",
-      "year": 2018,
-      "age": 35.7,
-      "vetMinSalary": 2328652,
-      "nextYearSalary": 2393887,
-      "multiple": 1.03,
-      "outcome": "stuck",
-      "draftPick": 5
     },
     {
       "player": "Eric Piatkowski",
@@ -3994,17 +3763,6 @@
       "draftPick": 41
     },
     {
-      "player": "Carmelo Anthony",
-      "brefId": "anthoca01",
-      "year": 2019,
-      "age": 34.34,
-      "vetMinSalary": 2393887,
-      "nextYearSalary": 2159029,
-      "multiple": 0.9,
-      "outcome": "stuck",
-      "draftPick": 3
-    },
-    {
       "player": "Jeff Adrien",
       "brefId": "adrieje01",
       "year": 2012,
@@ -4025,17 +3783,6 @@
       "multiple": 0.86,
       "outcome": "stuck",
       "draftPick": null
-    },
-    {
-      "player": "Aaron Brooks",
-      "brefId": "brookaa01",
-      "year": 2014,
-      "age": 28.71,
-      "vetMinSalary": 1027424,
-      "nextYearSalary": 915243,
-      "multiple": 0.83,
-      "outcome": "stuck",
-      "draftPick": 26
     },
     {
       "player": "Montrezl Harrell",
@@ -4181,17 +3928,6 @@
       "draftPick": 18
     },
     {
-      "player": "Justin Hamilton",
-      "brefId": "hamilju01",
-      "year": 2018,
-      "age": 27.5,
-      "vetMinSalary": 1000000,
-      "nextYearSalary": 1000000,
-      "multiple": 0.63,
-      "outcome": "stuck",
-      "draftPick": 45
-    },
-    {
       "player": "Erick Dampier",
       "brefId": "dampier01",
       "year": 2011,
@@ -4201,28 +3937,6 @@
       "multiple": 0.63,
       "outcome": "stuck",
       "draftPick": 10
-    },
-    {
-      "player": "Jared Reiner",
-      "brefId": "reineja01",
-      "year": 2006,
-      "age": 23.48,
-      "vetMinSalary": 242612,
-      "nextYearSalary": 396905,
-      "multiple": 0.62,
-      "outcome": "stuck",
-      "draftPick": null
-    },
-    {
-      "player": "Glenn Robinson",
-      "brefId": "robingl02",
-      "year": 2020,
-      "age": 25.73,
-      "vetMinSalary": 1882867,
-      "nextYearSalary": 1165322,
-      "multiple": 0.62,
-      "outcome": "stuck",
-      "draftPick": 40
     },
     {
       "player": "Fab Melo",
@@ -4247,17 +3961,6 @@
       "draftPick": 10
     },
     {
-      "player": "Jarron Collins",
-      "brefId": "collija03",
-      "year": 2010,
-      "age": 30.83,
-      "vetMinSalary": 1181803,
-      "nextYearSalary": 643551,
-      "multiple": 0.54,
-      "outcome": "stuck",
-      "draftPick": 53
-    },
-    {
       "player": "Admiral Schofield",
       "brefId": "schofad01",
       "year": 2022,
@@ -4267,17 +3970,6 @@
       "multiple": 0.53,
       "outcome": "stuck",
       "draftPick": 42
-    },
-    {
-      "player": "Leandro Barbosa",
-      "brefId": "barbole01",
-      "year": 2013,
-      "age": 29.84,
-      "vetMinSalary": 1229255,
-      "nextYearSalary": 650359,
-      "multiple": 0.53,
-      "outcome": "stuck",
-      "draftPick": 28
     },
     {
       "player": "Reggie Williams",
@@ -4333,17 +4025,6 @@
       "multiple": 0.46,
       "outcome": "stuck",
       "draftPick": 2
-    },
-    {
-      "player": "Carlos Delfino",
-      "brefId": "delfica01",
-      "year": 2015,
-      "age": 32.09,
-      "vetMinSalary": 650000,
-      "nextYearSalary": 650000,
-      "multiple": 0.45,
-      "outcome": "stuck",
-      "draftPick": 25
     },
     {
       "player": "Alize Johnson",
@@ -4445,17 +4126,6 @@
       "draftPick": 49
     },
     {
-      "player": "Shaun Livingston",
-      "brefId": "livinsh01",
-      "year": 2009,
-      "age": 23.06,
-      "vetMinSalary": 370000,
-      "nextYearSalary": 296695,
-      "multiple": 0.35,
-      "outcome": "stuck",
-      "draftPick": 4
-    },
-    {
       "player": "Caron Butler",
       "brefId": "butleca01",
       "year": 2016,
@@ -4465,17 +4135,6 @@
       "multiple": 0.35,
       "outcome": "stuck",
       "draftPick": 10
-    },
-    {
-      "player": "Dakari Johnson",
-      "brefId": "johnsda04",
-      "year": 2019,
-      "age": 23.03,
-      "vetMinSalary": 459414,
-      "nextYearSalary": 459414,
-      "multiple": 0.34,
-      "outcome": "stuck",
-      "draftPick": 48
     },
     {
       "player": "Shavlik Randolph",
@@ -4566,28 +4225,6 @@
       "draftPick": null
     },
     {
-      "player": "TJ Warren",
-      "brefId": "warretj01",
-      "year": 2023,
-      "age": 29.07,
-      "vetMinSalary": 2628597,
-      "nextYearSalary": 649659,
-      "multiple": 0.25,
-      "outcome": "stuck",
-      "draftPick": 14
-    },
-    {
-      "player": "Anthony Tolliver",
-      "brefId": "tollian01",
-      "year": 2020,
-      "age": 34.33,
-      "vetMinSalary": 2419852,
-      "nextYearSalary": 614838,
-      "multiple": 0.24,
-      "outcome": "stuck",
-      "draftPick": null
-    },
-    {
       "player": "Tyrell Terry",
       "brefId": "terryty01",
       "year": 2022,
@@ -4647,17 +4284,6 @@
       "brefId": "pattoju01",
       "year": 2020,
       "age": 22.3,
-      "vetMinSalary": 1620564,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 16
-    },
-    {
-      "player": "Justin Patton",
-      "brefId": "pattoju01",
-      "year": 2020,
-      "age": 22.3,
       "vetMinSalary": 483115,
       "nextYearSalary": null,
       "multiple": null,
@@ -4685,28 +4311,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 5
-    },
-    {
-      "player": "Kay Felder",
-      "brefId": "feldeka01",
-      "year": 2018,
-      "age": 22.51,
-      "vetMinSalary": 474616,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 54
-    },
-    {
-      "player": "Wade Baldwin",
-      "brefId": "baldwwa01",
-      "year": 2019,
-      "age": 22.51,
-      "vetMinSalary": 1544951,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 17
     },
     {
       "player": "Duane Washington",
@@ -4757,33 +4361,11 @@
       "brefId": "tuckera01",
       "year": 2021,
       "age": 23.02,
-      "vetMinSalary": 340000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
-      "player": "Rayjon Tucker",
-      "brefId": "tuckera01",
-      "year": 2021,
-      "age": 23.02,
       "vetMinSalary": 353755,
       "nextYearSalary": null,
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": null
-    },
-    {
-      "player": "Donnell Harvey",
-      "brefId": "harvedo01",
-      "year": 2004,
-      "age": 23.1,
-      "vetMinSalary": 663679,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 22
     },
     {
       "player": "Mfiondu Kabengele",
@@ -4806,17 +4388,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 29
-    },
-    {
-      "player": "Ratko Varda",
-      "brefId": "vardara01",
-      "year": 2003,
-      "age": 23.41,
-      "vetMinSalary": 124984,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
     },
     {
       "player": "Anthony Bennett",
@@ -4940,17 +4511,6 @@
       "draftPick": 26
     },
     {
-      "player": "Jordan Hamilton",
-      "brefId": "hamiljo02",
-      "year": 2015,
-      "age": 23.99,
-      "vetMinSalary": 948163,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 26
-    },
-    {
       "player": "Tyler Cook",
       "brefId": "cookty01",
       "year": 2022,
@@ -4971,17 +4531,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 55
-    },
-    {
-      "player": "Miye Oni",
-      "brefId": "onimi01",
-      "year": 2022,
-      "age": 24.16,
-      "vetMinSalary": 850331,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 58
     },
     {
       "player": "Mario Bennett",
@@ -5015,28 +4564,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 22
-    },
-    {
-      "player": "Khyri Thomas",
-      "brefId": "thomakh01",
-      "year": 2021,
-      "age": 24.4,
-      "vetMinSalary": 744684,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 38
-    },
-    {
-      "player": "Nicolas Brussino",
-      "brefId": "brussni01",
-      "year": 2018,
-      "age": 24.58,
-      "vetMinSalary": 393041,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
     },
     {
       "player": "Qyntel Woods",
@@ -5116,17 +4643,6 @@
       "draftPick": 8
     },
     {
-      "player": "Nik Stauskas",
-      "brefId": "stausni01",
-      "year": 2019,
-      "age": 24.98,
-      "vetMinSalary": 1621415,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 8
-    },
-    {
       "player": "Chris Silva",
       "brefId": "silvach01",
       "year": 2022,
@@ -5171,17 +4687,6 @@
       "draftPick": 11
     },
     {
-      "player": "Tyrone Wallace",
-      "brefId": "wallaty01",
-      "year": 2020,
-      "age": 25.31,
-      "vetMinSalary": 502491,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 60
-    },
-    {
       "player": "Derrick Williams",
       "brefId": "willide02",
       "year": 2017,
@@ -5191,17 +4696,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 2
-    },
-    {
-      "player": "Roko Ukic",
-      "brefId": "ukicro01",
-      "year": 2010,
-      "age": 25.39,
-      "vetMinSalary": 303232,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 41
     },
     {
       "player": "Daequan Cook",
@@ -5290,17 +4784,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": null
-    },
-    {
-      "player": "Jordan Bell",
-      "brefId": "belljo01",
-      "year": 2021,
-      "age": 25.73,
-      "vetMinSalary": 580062,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 38
     },
     {
       "player": "Rondae Hollis-Jefferson",
@@ -5842,17 +5325,6 @@
       "draftPick": 5
     },
     {
-      "player": "Tyler Zeller",
-      "brefId": "zellety01",
-      "year": 2018,
-      "age": 27.7,
-      "vetMinSalary": 1709538,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 17
-    },
-    {
       "player": "Todd Day",
       "brefId": "dayto01",
       "year": 1998,
@@ -5884,28 +5356,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 25
-    },
-    {
-      "player": "Matt Fish",
-      "brefId": "fishma01",
-      "year": 1998,
-      "age": 27.87,
-      "vetMinSalary": 150000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 50
-    },
-    {
-      "player": "Denzel Valentine",
-      "brefId": "valende01",
-      "year": 2022,
-      "age": 27.87,
-      "vetMinSalary": 902802,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 14
     },
     {
       "player": "Craig Smith",
@@ -5985,17 +5435,6 @@
       "draftPick": null
     },
     {
-      "player": "Shabazz Napier",
-      "brefId": "napiesh01",
-      "year": 2020,
-      "age": 28.22,
-      "vetMinSalary": 1845301,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 24
-    },
-    {
       "player": "Loren Woods",
       "brefId": "woodslo01",
       "year": 2007,
@@ -6018,28 +5457,6 @@
       "draftPick": 51
     },
     {
-      "player": "Greg Monroe",
-      "brefId": "monrogr01",
-      "year": 2019,
-      "age": 28.33,
-      "vetMinSalary": 2165481,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 7
-    },
-    {
-      "player": "Shelvin Mack",
-      "brefId": "macksh01",
-      "year": 2019,
-      "age": 28.44,
-      "vetMinSalary": 1512601,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 34
-    },
-    {
       "player": "Shammond Williams",
       "brefId": "willish01",
       "year": 2004,
@@ -6060,17 +5477,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 8
-    },
-    {
-      "player": "Shawne Williams",
-      "brefId": "willish03",
-      "year": 2015,
-      "age": 28.62,
-      "vetMinSalary": 336966,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 17
     },
     {
       "player": "Jeff Adrien",
@@ -6161,17 +5567,6 @@
       "draftPick": 20
     },
     {
-      "player": "Rodney Hood",
-      "brefId": "hoodro01",
-      "year": 2022,
-      "age": 28.95,
-      "vetMinSalary": 2239544,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 23
-    },
-    {
       "player": "Alfonzo McKinnie",
       "brefId": "mckinal01",
       "year": 2022,
@@ -6227,17 +5622,6 @@
       "draftPick": null
     },
     {
-      "player": "Enes Freedom",
-      "brefId": "kanteen01",
-      "year": 2022,
-      "age": 29.37,
-      "vetMinSalary": 2641691,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 3
-    },
-    {
       "player": "Oliver Miller",
       "brefId": "milleol01",
       "year": 2000,
@@ -6247,17 +5631,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 22
-    },
-    {
-      "player": "DeAndre Liggins",
-      "brefId": "liggide01",
-      "year": 2018,
-      "age": 29.5,
-      "vetMinSalary": 739605,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 53
     },
     {
       "player": "DeAndre Liggins",
@@ -6348,17 +5721,6 @@
       "draftPick": 23
     },
     {
-      "player": "Tony Snell",
-      "brefId": "snellto01",
-      "year": 2022,
-      "age": 29.89,
-      "vetMinSalary": 2389641,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 20
-    },
-    {
       "player": "Tyler Hansbrough",
       "brefId": "hansbty01",
       "year": 2016,
@@ -6436,28 +5798,6 @@
       "draftPick": 8
     },
     {
-      "player": "Art Long",
-      "brefId": "longar01",
-      "year": 2003,
-      "age": 30.0,
-      "vetMinSalary": 193424,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
-      "player": "Jonathon Simmons",
-      "brefId": "simmojo02",
-      "year": 2020,
-      "age": 30.05,
-      "vetMinSalary": 1000000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
       "player": "Jeremy Lin",
       "brefId": "linje01",
       "year": 2019,
@@ -6500,17 +5840,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": null
-    },
-    {
-      "player": "Scott Padgett",
-      "brefId": "padgesc01",
-      "year": 2007,
-      "age": 30.45,
-      "vetMinSalary": 932015,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 28
     },
     {
       "player": "Toney Douglas",
@@ -6601,17 +5930,6 @@
       "draftPick": null
     },
     {
-      "player": "Avery Bradley",
-      "brefId": "bradlav01",
-      "year": 2022,
-      "age": 30.85,
-      "vetMinSalary": 2641691,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 19
-    },
-    {
       "player": "Kendrick Perkins",
       "brefId": "perkike01",
       "year": 2016,
@@ -6632,17 +5950,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 33
-    },
-    {
-      "player": "Dwayne Schintzius",
-      "brefId": "schindw01",
-      "year": 2000,
-      "age": 30.96,
-      "vetMinSalary": 550000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 24
     },
     {
       "player": "Cherokee Parks",
@@ -6676,17 +5983,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 27
-    },
-    {
-      "player": "Ryan Gomes",
-      "brefId": "gomesry01",
-      "year": 2014,
-      "age": 31.08,
-      "vetMinSalary": 495521,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 50
     },
     {
       "player": "Ryan Gomes",
@@ -6775,17 +6071,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 33
-    },
-    {
-      "player": "Jason Hart",
-      "brefId": "hartja01",
-      "year": 2010,
-      "age": 31.43,
-      "vetMinSalary": 451866,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 49
     },
     {
       "player": "Ramon Sessions",
@@ -6918,17 +6203,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": null
-    },
-    {
-      "player": "Don MacLean",
-      "brefId": "macledo01",
-      "year": 2002,
-      "age": 31.71,
-      "vetMinSalary": 965850,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 19
     },
     {
       "player": "Will Barton",
@@ -7101,17 +6375,6 @@
       "year": 2021,
       "age": 32.31,
       "vetMinSalary": 808073,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 19
-    },
-    {
-      "player": "Jeff Teague",
-      "brefId": "teaguje01",
-      "year": 2021,
-      "age": 32.31,
-      "vetMinSalary": 2564753,
       "nextYearSalary": null,
       "multiple": null,
       "outcome": "flamed_out",
@@ -7338,28 +6601,6 @@
       "draftPick": 7
     },
     {
-      "player": "Serge Ibaka",
-      "brefId": "ibakase01",
-      "year": 2023,
-      "age": 33.03,
-      "vetMinSalary": 2905851,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 24
-    },
-    {
-      "player": "Greg Buckner",
-      "brefId": "buckngr01",
-      "year": 2010,
-      "age": 33.04,
-      "vetMinSalary": 1000000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 53
-    },
-    {
       "player": "Ime Udoka",
       "brefId": "udokaim01",
       "year": 2011,
@@ -7470,17 +6711,6 @@
       "draftPick": 35
     },
     {
-      "player": "Austin Croshere",
-      "brefId": "croshau01",
-      "year": 2009,
-      "age": 33.42,
-      "vetMinSalary": 527185,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 12
-    },
-    {
       "player": "David Lee",
       "brefId": "leeda02",
       "year": 2017,
@@ -7490,17 +6720,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 30
-    },
-    {
-      "player": "Quentin Richardson",
-      "brefId": "richaqu01",
-      "year": 2014,
-      "age": 33.47,
-      "vetMinSalary": 1399507,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 18
     },
     {
       "player": "Pervis Ellison",
@@ -7591,17 +6810,6 @@
       "draftPick": null
     },
     {
-      "player": "Beno Udrih",
-      "brefId": "udrihbe01",
-      "year": 2017,
-      "age": 34.24,
-      "vetMinSalary": 980431,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 28
-    },
-    {
       "player": "Earl Watson",
       "brefId": "watsoea01",
       "year": 2014,
@@ -7668,17 +6876,6 @@
       "draftPick": 42
     },
     {
-      "player": "John Salmons",
-      "brefId": "salmojo01",
-      "year": 2015,
-      "age": 34.8,
-      "vetMinSalary": 1000000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 26
-    },
-    {
       "player": "Jason Collins",
       "brefId": "collija04",
       "year": 2014,
@@ -7728,17 +6925,6 @@
       "year": 2010,
       "age": 35.13,
       "vetMinSalary": 1306455,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
-      "player": "Chucky Atkins",
-      "brefId": "atkinch01",
-      "year": 2010,
-      "age": 35.13,
-      "vetMinSalary": 760000,
       "nextYearSalary": null,
       "multiple": null,
       "outcome": "flamed_out",
@@ -7833,17 +7019,6 @@
       "draftPick": 40
     },
     {
-      "player": "Gary Grant",
-      "brefId": "grantga01",
-      "year": 2001,
-      "age": 35.45,
-      "vetMinSalary": 316969,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
       "player": "Byron Scott",
       "brefId": "scottby01",
       "year": 1997,
@@ -7908,39 +7083,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 5
-    },
-    {
-      "player": "Rajon Rondo",
-      "brefId": "rondora01",
-      "year": 2022,
-      "age": 35.61,
-      "vetMinSalary": 2641691,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 21
-    },
-    {
-      "player": "Jameer Nelson",
-      "brefId": "nelsoja01",
-      "year": 2018,
-      "age": 35.64,
-      "vetMinSalary": 2262870,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 20
-    },
-    {
-      "player": "Tony Allen",
-      "brefId": "allento01",
-      "year": 2018,
-      "age": 35.72,
-      "vetMinSalary": 1471382,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 25
     },
     {
       "player": "Dan Majerle",
@@ -8075,28 +7217,6 @@
       "draftPick": null
     },
     {
-      "player": "Brad Miller",
-      "brefId": "millebr01",
-      "year": 2013,
-      "age": 36.47,
-      "vetMinSalary": 848000,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
-      "player": "Paul Millsap",
-      "brefId": "millspa01",
-      "year": 2022,
-      "age": 36.64,
-      "vetMinSalary": 2641691,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 47
-    },
-    {
       "player": "Kenyon Martin",
       "brefId": "martike01",
       "year": 2015,
@@ -8128,17 +7248,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": 2
-    },
-    {
-      "player": "Nene",
-      "brefId": "hilarne01",
-      "year": 2020,
-      "age": 37.05,
-      "vetMinSalary": 2564753,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 7
     },
     {
       "player": "Chris Mullin",
@@ -8218,17 +7327,6 @@
       "draftPick": null
     },
     {
-      "player": "Chris Andersen",
-      "brefId": "anderch01",
-      "year": 2017,
-      "age": 38.24,
-      "vetMinSalary": 1551659,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": null
-    },
-    {
       "player": "Jamal Crawford",
       "brefId": "crawfja01",
       "year": 2019,
@@ -8271,17 +7369,6 @@
       "multiple": null,
       "outcome": "flamed_out",
       "draftPick": null
-    },
-    {
-      "player": "Sam Cassell",
-      "brefId": "cassesa01",
-      "year": 2009,
-      "age": 38.87,
-      "vetMinSalary": 1262275,
-      "nextYearSalary": null,
-      "multiple": null,
-      "outcome": "flamed_out",
-      "draftPick": 24
     },
     {
       "player": "Mark West",
