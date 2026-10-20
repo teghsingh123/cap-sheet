@@ -71,6 +71,7 @@ RATIO_MIN = 0.22  # ~1/4 season minimum; below this it's an emergency/cup-of-cof
 flagged = []
 skipped_no_bio = 0
 skipped_same_stint = 0
+skipped_carried_contract = 0
 for bref_id, rows in by_player.items():
     b = bio.get(bref_id)
     if not b:
@@ -104,6 +105,25 @@ for bref_id, rows in by_player.items():
         if not is_new_stint:
             skipped_same_stint += 1
             continue  # just another year of an existing contract, not a new min signing
+
+        # A team change alone doesn't mean a new contract: a player traded,
+        # claimed off waivers or taken in an expansion draft brings his old
+        # deal with him. Early in a career, the giveaway is a salary that
+        # stepped exactly up the minimum scale, full rate last season to full
+        # rate this season -- the second year of a multi-year minimum deal
+        # (usually a second-round pick's), not a fresh signing. e.g. Zaza
+        # Pachulia, 2003 #42 pick: ORL rookie min -> MIL 1-year min in 2005
+        # after the expansion draft, same contract.
+        if prev_teams is not None and yos <= 2 and 0.99 <= ratio <= 1.01:
+            prev_min = min_scale.get((year - 1, yos - 1))
+            prev_full_rate = [
+                r for r in rows
+                if int(r["year"]) == year - 1 and prev_min
+                and 0.99 <= float(r["salary"]) / prev_min <= 1.01
+            ]
+            if prev_full_rate:
+                skipped_carried_contract += 1
+                continue
 
         birth = datetime.date.fromisoformat(b["birth_date"])
         season_start = datetime.date(year - 1, 10, 1)
@@ -147,6 +167,7 @@ with open("../processed/vetmin_signings.csv", "w", newline="", encoding="utf-8")
 
 print("salary rows skipped (no bio match):", skipped_no_bio)
 print("skipped (same stint, not a new signing):", skipped_same_stint)
+print("skipped (min deal carried over in a team change):", skipped_carried_contract)
 print("flagged vet-min rows (yos>=1, new stint):", len(flagged))
 print()
 print("Youngest 20 vet-min signings:")

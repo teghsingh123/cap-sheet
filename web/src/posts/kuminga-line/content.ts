@@ -32,7 +32,7 @@ export const story = {
       },
       {
         label: "Repeat seasons:",
-        text: "The second year of the same minimum deal isn't a new signing, so I only counted it if the player changed teams or sat out a year in between.",
+        text: "The second year of the same minimum deal isn't a new signing, so I only counted it if the player changed teams or sat out a year in between. But changing teams isn't always a new deal either. When a young player on a minimum contract gets traded or claimed off waivers, his contract comes with him. So if a player in his first two years was paid exactly the minimum the season before too, I treated the move as the same contract. Khris Middleton is an example: Detroit traded him to Milwaukee in 2013, and he was still on the deal he signed as the 39th pick.",
       },
     ],
   },

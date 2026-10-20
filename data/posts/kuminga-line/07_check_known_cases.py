@@ -41,6 +41,8 @@ checks = [
      outcomes("greenda02", 2023) == {"flamed_out"}),
     ("Joe Johnson's 2016 Miami deal bounces back to Utah's $11M",
      outcomes("johnsjo02", 2016) == {"bounced_back"}),
+    ("Pachulia's 2004-05 Milwaukee year is his carried-over rookie deal, not a new signing",
+     signing("pachuza01", 2005, "MIL") is None),
     ("No signing from the last season of data has a 'next season' outcome",
      all(p["year"] < max(s["year"] for s in signings) for p in prove_it)),
 ]
