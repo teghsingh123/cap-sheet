@@ -50,6 +50,8 @@ season to check, so they're already left out of `prove_it.json`.
 | `prev_games_pct` | `season_stats.csv` | Share of the season's games he played. Blank -> 0 |
 | `prev_bpm` | `season_stats.csv` | Box Plus/Minus. Blank -> -2, about replacement level, because 0 means league average |
 | `missed_prev_season` | `prev_mpg` is blank | 1 or 0. True for 24 signings |
+| `mpg_change` | `season_stats.csv` | `prev_mpg` minus minutes per game two seasons before signing. Blank -> 0 |
+| `bpm_change` | `season_stats.csv` | `prev_bpm` minus BPM two seasons before signing. Blank -> 0 |
 
 Label: `out_next` = 1 if `outcome == "flamed_out"`, else 0.
 
@@ -93,7 +95,8 @@ Run them in this order:
 2. `scrape_season_stats.py`: writes `season_stats.csv`. Only needed if that
    file is missing. Its downloaded pages stay out of git.
 3. `08_build_dataset.py`: writes `dataset.csv`.
-4. `09_train_model.py`: prints the results.
+4. `09_train_model.py`: prints the test results.
+5. `10_validate.py`: prints the validation results.
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
@@ -105,7 +108,7 @@ Test set: 181 signings, 2018-2023. Baseline: 56.4% (always guess "stays").
 | Version | Features | Train | Test | Predicted out | Notes |
 |---|---|---|---|---|---|
 | V1 | age, years_service, draft_pick, undrafted, season | 60.8% | 54.1% | 12 (4 correct) | Below baseline. Mostly guesses "stays". |
-| V2 | age, years_service, draft_pick, undrafted, season, prev_salary_m, drop_pct | 61.2% | 56.9% | 5 (3 correct) | Beats baseline by one signing (103 vs 102 correct), which could be luck. Fewer wrong "out" calls, but catches fewer real outs. |
+| V2 | V1 + prev_salary_m, drop_pct | 61.2% | 56.9% | 5 (3 correct) | Beats baseline by one signing (103 vs 102 correct), which could be luck. Fewer wrong "out" calls, but catches fewer real outs. |
 | V3 | V2 + prev_mpg, prev_games_pct, prev_bpm, missed_prev_season | 62.1% | 55.2% | 14 (6 correct) | Below baseline by two signings. Catches the most real outs, but ranks players worse than V2. |
 
 79 of the 181 test signings were really out. V1 caught 4, V2 caught 3 and V3
@@ -126,6 +129,30 @@ retirement. This is a theory, not a tested result.
 $1.65M through 2005 and $5.25M from 2018 on), so it may not carry over well
 from the training seasons to the test seasons.
 
-Next: don't tune features against the test set. Build a validation set by
-training on seasons before 2012 and checking on 2012-2017, and keep the test set
-for a final run.
+## Validation
+
+To try ideas without tuning against the test set, `10_validate.py` trains on
+seasons before 2012 (272 signings) and checks on 2012-2017 (179). Baseline:
+61.5% (110 correct). V4 was only run here, so the test set stays untouched
+until a final run.
+
+Target: at least 66% accuracy and a 62% ranking score, on validation and then
+on the test set.
+
+| Version | Features | Logistic accuracy | Logistic ranking | Forest train | Forest accuracy | Forest ranking |
+|---|---|---|---|---|---|---|
+| V1 | as above | 60.9% | 49.1% | 69.1% | 58.7% | 50.5% |
+| V2 | as above | 62.0% | 48.7% | 76.5% | 59.2% | 57.7% |
+| V3 | as above | 59.8% | 55.3% | 78.3% | 61.5% | **60.3%** |
+| V4 | V3 + mpg_change, bpm_change | 55.9% | 51.7% | 78.7% | 60.3% | 59.5% |
+
+The forest is a random forest with 500 trees and `min_samples_leaf=10`.
+
+- **No version beats the baseline by more than one signing.** Accuracy can swing
+  by about 6 signings by chance alone, so the order could be luck.
+- **Forest V3 is the best so far.** Its ranking score rises as features are added,
+  so a model that can combine features gets more out of them.
+- **V4 didn't help.** The trend features scored slightly worse, so V3 stays.
+- **V2's 63% ranking on the test set didn't hold up:** logistic V2 scored 48.7%
+  here. Logistic V3 scored about 55% on both, which doesn't support the theory
+  that the league changed after 2018.

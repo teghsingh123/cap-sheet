@@ -94,10 +94,25 @@ df["prev_mpg"] = df["prev_mpg"].fillna(0)
 df["prev_bpm"] = df["prev_bpm"].fillna(-2)
 df["prev_games_pct"] = df["prev_games_pct"].fillna(0)
 
+#using data from 2 years prior for further experimenting with the model
+
+df["prev2_season"] = df["year"] - 2
+
+stats2 = stats.rename(columns={"prev_season" : "prev2_season", "prev_mpg": "prev2_mpg", "prev_bpm" : "prev2_bpm"})
+stats2 = stats2.drop(columns=["prev_games_pct"])
+
+df = df.merge(right=stats2, on=["brefId", "prev2_season"],how="left")
+print(len(df))
+
+df["mpg_change"] = df["prev_mpg"] - df["prev2_mpg"]
+df["bpm_change"] = df["prev_bpm"] - df["prev2_bpm"]
+
+df["mpg_change"] = df["mpg_change"].fillna(0)
+df["bpm_change"] = df["bpm_change"].fillna(0)
 
 #save the final dataset
 df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season", "dropPct" : "drop_pct"})
 
-final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm"]]
+final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change"]]
 
 final.to_csv(HERE / 'dataset.csv', index=False)
