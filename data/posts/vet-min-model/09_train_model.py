@@ -25,15 +25,18 @@ test = df[df["season"] >= 2018]
 print(len(train))
 print(len(test))
 
-FEATURES = ["age", "years_service", "draft_pick", "undrafted", "season"]
+FEATURES = ["age", "years_service", "draft_pick", "undrafted", "season", "prev_salary_m", "drop_pct", "prev_mpg", "prev_games_pct", "prev_bpm", "missed_prev_season"]
 
 baseline = (test["out_next"] == 0).mean()
 
 X_train = train[FEATURES]
 y_train = train["out_next"]
 
-model = LogisticRegression(max_iter=1000)
+model = LogisticRegression(max_iter=5000)
 model.fit(X_train, y_train)
+
+train_predictions = model.predict(X_train)
+print("Train accuracy:", (train_predictions == y_train).mean())
 
 X_test = test[FEATURES]
 y_test = test["out_next"]
@@ -47,3 +50,5 @@ print("Accuracy: " + str(accuracy))
 print(predictions.sum())
 for name, weight in zip(FEATURES, model.coef_[0]):
     print(name + ": ", round(float(weight), 3))
+
+print("Real outs caught:", ((predictions == 1) & (y_test == 1)).sum())

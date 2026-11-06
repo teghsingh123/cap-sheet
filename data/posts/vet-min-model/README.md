@@ -28,8 +28,9 @@ automatically the end." This tests it: who gets back, and who washes out?
 | Out of the league the next season | 265 (41.9%) |
 | Stayed | 367 (58.1%) |
 
-**Baseline to beat: 58.1%.** Guessing "he stays" every time is right that
-often. A model that can't beat it isn't useful.
+Guessing "he stays" every time is right 58.1% of the time across all 632. A
+model that can't beat that guess isn't useful. **The number to beat is 56.4%,**
+the same guess on the 181 test signings, since models are scored on those.
 
 Signings from 2023-24, the last season in the salary data, have no next
 season to check, so they're already left out of `prove_it.json`.
@@ -40,9 +41,15 @@ season to check, so they're already left out of `prove_it.json`.
 |---|---|---|
 | `age` | `prove_it.json` `age` | Age on the signing date |
 | `years_service` | `all_signings.json` `yearsOfService` | Not in `prove_it.json`: join on `brefId` + `year` + salary (`vetMinSalary` = `salary`) |
-| `draft_pick` | `prove_it.json` `draftPick` | Undrafted (`null`) -> 61 |
-| `undrafted` | `draftPick` is `null` | 1 or 0 |
+| `draft_pick` | `prove_it.json` `draftPick`, then `old_draft_picks.csv` | Undrafted -> 61. Picks over 61 are capped at 61 |
+| `undrafted` | No pick in either source | 1 or 0. Don't use a blank `draftPick` alone: it's also blank for anyone drafted before 1990 |
 | `season` | `prove_it.json` `year` | Year the season ends: 2016 = 2015-16 |
+| `prev_salary_m` | `all_signings.json` `prevSalary` | The season before, in millions of dollars. Same join as `years_service` |
+| `drop_pct` | `all_signings.json` `dropPct` | Size of the pay cut, 0 to 100. Same join as `years_service` |
+| `prev_mpg` | `season_stats.csv` | Minutes per game the season before signing. Blank -> 0 |
+| `prev_games_pct` | `season_stats.csv` | Share of the season's games he played. Blank -> 0 |
+| `prev_bpm` | `season_stats.csv` | Box Plus/Minus. Blank -> -2, about replacement level, because 0 means league average |
+| `missed_prev_season` | `prev_mpg` is blank | 1 or 0. True for 24 signings |
 
 Label: `out_next` = 1 if `outcome == "flamed_out"`, else 0.
 
@@ -55,9 +62,9 @@ has the "out next season" logic).
 1. **Build the dataset:** one row per signing, the columns above, saved as
    a CSV. Check: 632 rows, `out_next` sums to 265, no empty
    `years_service`, latest `season` is 2023.
-2. **Baseline:** 58.1% from always guessing "stays".
-3. **Split by time:** train on older seasons, test on recent ones, so the
-   model never learns from the future.
+2. **Baseline:** always guess "stays": 58.1% overall, 56.4% on the test set.
+3. **Split by time:** train on seasons before 2018 (451 signings), test on
+   2018 and later (181), so the model never learns from the future.
 4. **Train:** logistic regression (scikit-learn).
 5. **Evaluate:** accuracy against the baseline, which inputs mattered, and
    the players it got wrong.
@@ -74,10 +81,19 @@ has the "out next season" logic).
 
 ## Running
 
-Scripts go in this folder and run from inside it, after the shared pipeline
-(`../../pipeline/`) and the Kuminga post's scripts (`../kuminga-line/`).
-JSON the post loads goes in `../../../web/public/data/vet-min-model/`. Needs
-`py -m pip install pandas scikit-learn`.
+Scripts go in this folder, after the shared pipeline (`../../pipeline/`) and
+the Kuminga post's scripts (`../kuminga-line/`). JSON the post loads goes in
+`../../../web/public/data/vet-min-model/`. Needs
+`python -m pip install pandas scikit-learn`.
+
+Run them in this order:
+
+1. `scrape_old_drafts.py`: writes `old_draft_picks.csv`. Only needed if that
+   file is missing. Its downloaded pages stay out of git.
+2. `scrape_season_stats.py`: writes `season_stats.csv`. Only needed if that
+   file is missing. Its downloaded pages stay out of git.
+3. `08_build_dataset.py`: writes `dataset.csv`.
+4. `09_train_model.py`: prints the results.
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
@@ -89,3 +105,27 @@ Test set: 181 signings, 2018-2023. Baseline: 56.4% (always guess "stays").
 | Version | Features | Train | Test | Predicted out | Notes |
 |---|---|---|---|---|---|
 | V1 | age, years_service, draft_pick, undrafted, season | 60.8% | 54.1% | 12 (4 correct) | Below baseline. Mostly guesses "stays". |
+| V2 | age, years_service, draft_pick, undrafted, season, prev_salary_m, drop_pct | 61.2% | 56.9% | 5 (3 correct) | Beats baseline by one signing (103 vs 102 correct), which could be luck. Fewer wrong "out" calls, but catches fewer real outs. |
+| V3 | V2 + prev_mpg, prev_games_pct, prev_bpm, missed_prev_season | 62.1% | 55.2% | 14 (6 correct) | Below baseline by two signings. Catches the most real outs, but ranks players worse than V2. |
+
+79 of the 181 test signings were really out. V1 caught 4, V2 caught 3 and V3
+caught 6, so accuracy alone doesn't tell the whole story.
+
+Ranking score (AUC): if you pick one player who was out and one who stayed, how
+often does the model give the out player the higher chance? 50% is a coin flip.
+V2 scored 63% and V3 scored 55%, so adding stats spread the probabilities out
+but sorted players worse.
+
+The test group looks healthier than the training group but washed out more
+often: 18.1 minutes vs 16.0, BPM of -1.7 vs -2.7, and age 29.5 vs 30.0, with
+43.6% out vs 41.2%. So what the model learned from older seasons may not hold
+for recent ones. Stats may also miss why players leave, such as injury or
+retirement. This is a theory, not a tested result.
+
+`prev_salary_m` isn't adjusted for the salary cap, and salaries rose over time (the median was
+$1.65M through 2005 and $5.25M from 2018 on), so it may not carry over well
+from the training seasons to the test seasons.
+
+Next: don't tune features against the test set. Build a validation set by
+training on seasons before 2012 and checking on 2012-2017, and keep the test set
+for a final run.

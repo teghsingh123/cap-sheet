@@ -41,7 +41,7 @@ print(len(all_signings))
 #create a helper df to move years of service into df since prove_it.json doesn't have it
 #Each combination of brefId, year, and salary gives a unique vet min signing
 #So we need all three so we don't delete data or replace existing data with a duplicate of another signing
-helper = all_signings[["brefId", "year", "salary", "yearsOfService"]]
+helper = all_signings[["brefId", "year", "salary", "yearsOfService", "prevSalary", "dropPct"]]
 helper = helper.rename(columns={"salary" : "vetMinSalary"})
 
 '''
@@ -78,9 +78,26 @@ df["out_next"] = (df["outcome"] == "flamed_out").astype(int)
 
 print(df["out_next"].sum())
 
-#save the final dataset
-df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season"})
+#previous salary in millions
+df["prev_salary_m"] = df["prevSalary"] / 1000000
 
-final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next"]]
+df["prev_season"] = df["year"] - 1
+
+stats = pd.read_csv(HERE / "season_stats.csv")
+df = df.merge(right=stats, on=["brefId", "prev_season"], how="left")
+print(len(df))
+
+df["missed_prev_season"] = df["prev_mpg"].isna().astype(int)
+
+#replace missing values with defaults
+df["prev_mpg"] = df["prev_mpg"].fillna(0)
+df["prev_bpm"] = df["prev_bpm"].fillna(-2)
+df["prev_games_pct"] = df["prev_games_pct"].fillna(0)
+
+
+#save the final dataset
+df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season", "dropPct" : "drop_pct"})
+
+final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm"]]
 
 final.to_csv(HERE / 'dataset.csv', index=False)
