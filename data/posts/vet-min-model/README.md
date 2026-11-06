@@ -55,6 +55,9 @@ season to check, so they're already left out of `prove_it.json`.
 | `pay_cut` | Which file the signing came from | 1 for `prove_it.json`, 0 for `extra_signings.csv` |
 | `no_prev_salary` | `prevSalary` is blank | 1 or 0. Blank `prev_salary_m` -> 0 |
 | `days_after_july1` | `signing_dates.csv` | Days from July 1 of the offseason before that season. Blank -> -1 |
+| `prev_ppg`, `prev_rpg`, `prev_apg`, `prev_spg`, `prev_bpg`, `prev_tov` | `box_stats.csv` | Per game, the season before signing. Blank -> 0 |
+| `prev_start_pct`, `prev_vorp` | `box_stats.csv` | Share of games started, and value over replacement. Blank -> 0 |
+| `prev_ts`, `prev_3pa_rate`, `prev_usg`, `prev_ws48`, `prev_obpm`, `prev_dbpm` | `box_stats.csv` | Rates and ratings. Blanks get a typical fringe player's value |
 
 Label: `out_next` = 1 if `outcome == "flamed_out"`, else 0.
 
@@ -103,10 +106,12 @@ Run them in this order:
    if that file is missing or step 1 added players.
 3. `data_scripts/scrape_season_stats.py`: writes `season_stats.csv`. Only needed
    if that file is missing.
-4. `data_scripts/build_signing_dates.py`: writes `signing_dates.csv`.
-5. `08_build_dataset.py`: writes `dataset.csv`.
-6. `09_train_model.py`: prints the test results.
-7. `10_validate.py`: prints the validation results.
+4. `data_scripts/scrape_box_stats.py`: writes `box_stats.csv`. Only needed if
+   that file is missing. Needs step 3's pages.
+5. `data_scripts/build_signing_dates.py`: writes `signing_dates.csv`.
+6. `08_build_dataset.py`: writes `dataset.csv`.
+7. `09_train_model.py`: prints the test results.
+8. `10_validate.py`: prints the validation results.
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
@@ -209,7 +214,7 @@ accuracy, so it was checked across 10 forest seeds:
 ### Rolling validation
 
 One window can't separate small gains from noise, so `10_validate.py` now moves
-the window through time, averaging 10 seeds. Each round trains on pay cuts before
+the window through time, averaging 5 seeds. Each round trains on pay cuts before
 the window. Overall accuracy is weighted by signings, and overall ranking is a
 simple average of the rounds.
 
@@ -225,5 +230,28 @@ V6 only won the 2012-14 window, so its gain was mostly that one period. Neither
 version reliably beats the baseline. Forest V6 is the best so far by a small
 margin, and well short of the target. The test set hasn't been used since V3.
 
-Next: add real box-score stats from the season before signing, such as scoring,
-rebounding and shooting, and judge them with rolling validation.
+### V7: box-score stats
+
+V7 is V6 + 14 stats from the season before signing: `prev_ppg`, `prev_rpg`,
+`prev_apg`, `prev_spg`, `prev_bpg`, `prev_tov`, `prev_start_pct`, `prev_ts`,
+`prev_3pa_rate`, `prev_usg`, `prev_ws48`, `prev_obpm`, `prev_dbpm` and
+`prev_vorp`.
+
+| Window | Baseline | V6 accuracy | V7 accuracy | V6 ranking | V7 ranking |
+|---|---|---|---|---|---|
+| 2006-08 | 55.8% | 51.6% | 57.7% | 52.4% | 62.8% |
+| 2009-11 | 54.3% | 56.0% | 56.3% | 52.5% | 58.7% |
+| 2012-14 | 67.0% | 64.1% | 64.9% | 66.5% | 57.8% |
+| 2015-17 | 54.9% | 56.1% | 56.3% | 56.7% | 52.1% |
+| Overall | 58.9% | 58.1% | 59.4% | 57.0% | 57.8% |
+
+V7 is the first version to beat the baseline overall, and it beats V6 on accuracy
+in all four windows. The lead is small, and its ranking falls in the two most
+recent windows.
+
+`age`, `prev_usg` and `prev_games_pct` were in the forest's top 8 columns in all
+four windows. `prev_ts`, `prev_dbpm`, `drop_pct` and `days_after_july1` made it in
+three. No column dominates, and `prev_ppg` only made it once.
+
+Next: try a smaller version with just those 7 columns, since 25 is a lot for
+training sets this small.

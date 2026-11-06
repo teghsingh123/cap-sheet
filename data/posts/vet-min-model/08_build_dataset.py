@@ -131,11 +131,25 @@ df["days_after_july1"] = (df["signing_date"] - july1).dt.days
 
 df["days_after_july1"] = df["days_after_july1"].fillna(-1)
 
+#real stats of the players before signing
+box = pd.read_csv(PROCESSED / "box_stats.csv")
+df = df.merge(right=box,on=["brefId", "prev_season"],how="left")
+print(len(df))
+
+#counting stats are 0 for a missed season, the rest get a typical fringe player's value
+df = df.fillna({
+    "prev_ppg": 0, "prev_rpg": 0, "prev_apg": 0, "prev_spg": 0, "prev_bpg": 0, "prev_tov": 0,
+    "prev_start_pct": 0, "prev_vorp": 0, "prev_ts": 0.5, "prev_3pa_rate": 0.2, "prev_usg": 18,
+    "prev_ws48": 0.05, "prev_obpm": -1.5, "prev_dbpm": -0.5,
+})
+
+
 #save the final dataset
 df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season", "dropPct" : "drop_pct"})
 
 df["drop_pct"] = df["drop_pct"].fillna(0).clip(lower=0)
 
-final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change", "pay_cut", "no_prev_salary", "days_after_july1"]]
+final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change", "pay_cut", "no_prev_salary", "days_after_july1", "prev_ppg", "prev_rpg", "prev_apg", "prev_spg", "prev_bpg", "prev_tov", "prev_start_pct",
+       "prev_ts", "prev_3pa_rate", "prev_usg", "prev_ws48", "prev_obpm", "prev_dbpm", "prev_vorp"]]
 
 final.to_csv(PROCESSED / "dataset.csv", index=False)

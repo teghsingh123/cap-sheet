@@ -38,6 +38,10 @@ V4 = V3 + ["mpg_change", "bpm_change"]
 V5 = V3 + ["pay_cut", "no_prev_salary"]
 V6 = V3 + ["days_after_july1"]
 
+BOX = ["prev_ppg", "prev_rpg", "prev_apg", "prev_spg", "prev_bpg", "prev_tov", "prev_start_pct",
+       "prev_ts", "prev_3pa_rate", "prev_usg", "prev_ws48", "prev_obpm", "prev_dbpm", "prev_vorp"]
+V7 = V6 + BOX
+
 
 pay_cuts = df[df["pay_cut"] == 1]
 
@@ -50,10 +54,7 @@ for cutoff in [2006, 2009, 2012, 2015]:
     baseline = (val["out_next"] == 0).mean()
     print(cutoff, len(fit), len(val), "Baseline:", baseline)
 
-
-
-
-    for name, features in (("V3", V3), ("V6", V6)):
+    for name, features in (("V6", V6), ("V7", V7)):
 
         accuracies = []
         rankings = []
@@ -67,6 +68,7 @@ for cutoff in [2006, 2009, 2012, 2015]:
 
         #average over 5 seeds so one lucky forest can't decide the result
         for seed in range(1,6):
+
             model = RandomForestClassifier(n_estimators=500, min_samples_leaf=10, random_state=seed)
             model.fit(X_train, y_train)
 
@@ -77,6 +79,12 @@ for cutoff in [2006, 2009, 2012, 2015]:
             #ranking uses each player's chance of being out, not the yes/no
             chances = model.predict_proba(X_val)[:, 1]
             rankings.append(roc_auc_score(y_val, chances))
+
+        #see which columns the last forest leaned on most
+        if name == "V7":
+            importance = pd.Series(model.feature_importances_, index=features)
+            print(importance.sort_values(ascending=False).head(8).round(3))
+
 
         print(name, "average accuracy:", sum(accuracies) / len(accuracies))
         print(name, "average ranking:", sum(rankings) / len(rankings))

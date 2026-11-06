@@ -4,3 +4,4 @@ __pycache__/
 Thumbs.db
 data/scrape/vet-min-model/old_draft_html/
 data/scrape/vet-min-model/season_stats_html/
+data/scrape/vet-min-model/per_game_html/
