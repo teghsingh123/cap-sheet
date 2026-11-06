@@ -14,10 +14,11 @@ from sklearn.metrics import roc_auc_score
 from sklearn.ensemble import RandomForestClassifier
 
 HERE = Path(__file__).parent
+PROCESSED = HERE / "../../processed/vet-min-model"
 
 pd.set_option("display.max_columns", None)
 
-df = pd.read_csv(HERE / "dataset.csv")
+df = pd.read_csv(PROCESSED / "dataset.csv")
 
 #small only has pay cuts, big also has the extra signings
 fit_small = df[(df["season"] < 2012) & (df["pay_cut"] == 1)]
@@ -35,43 +36,47 @@ V2 = V1 + ["prev_salary_m", "drop_pct"]
 V3 = V2 + ["prev_mpg", "prev_games_pct", "prev_bpm", "missed_prev_season"]
 V4 = V3 + ["mpg_change", "bpm_change"]
 V5 = V3 + ["pay_cut", "no_prev_salary"]
-
-baseline = (val["out_next"] == 0).mean()
-print("Baseline:", baseline)
+V6 = V3 + ["days_after_july1"]
 
 
-models = [
-    ("Logistic", LogisticRegression(max_iter=5000)),
-    ("Forest", RandomForestClassifier(n_estimators=500, min_samples_leaf=10, random_state=42)),
-]
+pay_cuts = df[df["pay_cut"] == 1]
 
-#the two setups we're comparing
-#each one picks its own training data and features
-runs = [
-    ("Small V3", fit_small, V3),
-    ("Big V5", fit_big, V5),
-]
+for cutoff in [2006, 2009, 2012, 2015]:
 
-for name, fit, features in runs:
-    X_train = fit[features]
-    y_train = fit["out_next"]
+    fit = pay_cuts[pay_cuts["season"] < cutoff]
+    val = pay_cuts[(pay_cuts["season"] >= cutoff) & (pay_cuts["season"] < cutoff + 3)]
 
-    #create a new forest each run so the two don't share anything
-    model = RandomForestClassifier(n_estimators=500, min_samples_leaf=10, random_state=42)
-    model.fit(X_train, y_train)
+    
+    baseline = (val["out_next"] == 0).mean()
+    print(cutoff, len(fit), len(val), "Baseline:", baseline)
 
-    #check how it does on the data it learned from
-    train_predictions = model.predict(X_train)
-    print(name + " train accuracy:", (train_predictions == y_train).mean())
 
-    #val is pay cuts only for both runs so the scores can be compared
-    X_val = val[features]
-    y_val = val["out_next"]
 
-    #accuracy uses the yes/no predictions
-    predictions = model.predict(X_val)
-    print(name + " accuracy:", (predictions == y_val).mean())
 
-    #ranking uses each player's chance of being out, not the yes/no
-    chances = model.predict_proba(X_val)[:, 1]
-    print(name + " ranking:", roc_auc_score(y_val, chances))
+    for name, features in (("V3", V3), ("V6", V6)):
+
+        accuracies = []
+        rankings = []
+
+        X_train = fit[features]
+        y_train = fit["out_next"]
+
+        #val is pay cuts only for both runs so the scores can be compared
+        X_val = val[features]
+        y_val = val["out_next"]
+
+        #average over 5 seeds so one lucky forest can't decide the result
+        for seed in range(1,6):
+            model = RandomForestClassifier(n_estimators=500, min_samples_leaf=10, random_state=seed)
+            model.fit(X_train, y_train)
+
+            #accuracy uses the yes/no predictions
+            predictions = model.predict(X_val)
+            accuracies.append((predictions == y_val).mean())
+
+            #ranking uses each player's chance of being out, not the yes/no
+            chances = model.predict_proba(X_val)[:, 1]
+            rankings.append(roc_auc_score(y_val, chances))
+
+        print(name, "average accuracy:", sum(accuracies) / len(accuracies))
+        print(name, "average ranking:", sum(rankings) / len(rankings))

@@ -5,7 +5,7 @@ prove_it.json only covers pay cuts. This applies the same "out next season" rule
 to every other signing in vetmin_signings.csv and writes extra_signings.csv, with
 the same columns 08_build_dataset.py reads from prove_it.json.
 
-The rule below is copied from ../kuminga-line/05_build_extra_charts.py, so before
+The rule below is copied from ../../kuminga-line/05_build_extra_charts.py, so before
 writing anything this checks that it gives the same answer on every signing in
 prove_it.json. If the two ever drift apart, the script stops.
 
@@ -15,12 +15,13 @@ import csv, json, sys
 from pathlib import Path
 
 HERE = Path(__file__).parent
-sys.path.insert(0, str(HERE / "../../pipeline"))
+PROCESSED = HERE / "../../../processed/vet-min-model"
+sys.path.insert(0, str(HERE / "../../../pipeline"))
 from common import bio, draft, by_player, min_scale, RATIO_MIN, is_dead_money_echo
 
-SIGNINGS = HERE / "../../processed/vetmin_signings.csv"
-PROVE_IT = HERE / "../../../web/public/data/kuminga-line/prove_it.json"
-OUT = HERE / "extra_signings.csv"
+SIGNINGS = HERE / "../../../processed/vetmin_signings.csv"
+PROVE_IT = HERE / "../../../../web/public/data/kuminga-line/prove_it.json"
+OUT = PROCESSED / "extra_signings.csv"
 
 LAST_YEAR = max(int(r["year"]) for rows in by_player.values() for r in rows)
 

@@ -54,6 +54,7 @@ season to check, so they're already left out of `prove_it.json`.
 | `bpm_change` | `season_stats.csv` | `prev_bpm` minus BPM two seasons before signing. Blank -> 0 |
 | `pay_cut` | Which file the signing came from | 1 for `prove_it.json`, 0 for `extra_signings.csv` |
 | `no_prev_salary` | `prevSalary` is blank | 1 or 0. Blank `prev_salary_m` -> 0 |
+| `days_after_july1` | `signing_dates.csv` | Days from July 1 of the offseason before that season. Blank -> -1 |
 
 Label: `out_next` = 1 if `outcome == "flamed_out"`, else 0.
 
@@ -85,22 +86,27 @@ has the "out next season" logic).
 
 ## Running
 
-Scripts go in this folder, after the shared pipeline (`../../pipeline/`) and
-the Kuminga post's scripts (`../kuminga-line/`). JSON the post loads goes in
+The model scripts are in this folder and the scripts that build its data are in
+`data_scripts/`. Run them after the shared pipeline (`../../pipeline/`) and the
+Kuminga post's scripts (`../kuminga-line/`). JSON the post loads goes in
 `../../../web/public/data/vet-min-model/`. Needs
 `python -m pip install pandas scikit-learn`.
 
+CSVs are in `../../processed/vet-min-model/`, and downloaded pages are in
+`../../scrape/vet-min-model/` and stay out of git.
+
 Run them in this order:
 
-1. `build_extra_signings.py`: writes `extra_signings.csv`, and stops if its
-   rule doesn't match `prove_it.json`.
-2. `scrape_old_drafts.py`: writes `old_draft_picks.csv`. Only needed if that
-   file is missing or step 1 added players. Its downloaded pages stay out of git.
-3. `scrape_season_stats.py`: writes `season_stats.csv`. Only needed if that
-   file is missing. Its downloaded pages stay out of git.
-4. `08_build_dataset.py`: writes `dataset.csv`.
-5. `09_train_model.py`: prints the test results.
-6. `10_validate.py`: prints the validation results.
+1. `data_scripts/build_extra_signings.py`: writes `extra_signings.csv`, and stops
+   if its rule doesn't match `prove_it.json`.
+2. `data_scripts/scrape_old_drafts.py`: writes `old_draft_picks.csv`. Only needed
+   if that file is missing or step 1 added players.
+3. `data_scripts/scrape_season_stats.py`: writes `season_stats.csv`. Only needed
+   if that file is missing.
+4. `data_scripts/build_signing_dates.py`: writes `signing_dates.csv`.
+5. `08_build_dataset.py`: writes `dataset.csv`.
+6. `09_train_model.py`: prints the test results.
+7. `10_validate.py`: prints the validation results.
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
@@ -176,5 +182,48 @@ signings were out 55% of the time, compared with 43% for pay cuts.
 More data didn't help, so Forest V3 on pay cuts only stays the best model. The
 extra signings may teach the model about a different kind of player.
 
-Next: try different `min_samples_leaf` values, since the forest still does far
-better on training data than on new data.
+### Forest settings
+
+Forest V3 on pay cuts only, with different `min_samples_leaf` values:
+
+| Leaf size | Train | Validation accuracy | Ranking |
+|---|---|---|---|
+| 5 | 89.3% | 60.9% | 59.7% |
+| 10 | 78.3% | 61.5% | **60.3%** |
+| 20 | 66.5% | 61.5% | 57.5% |
+| 40 | 62.9% | 61.5% | 55.8% |
+
+A larger leaf size closes the gap between train and validation, but ranking gets
+worse, so memorizing isn't the main problem. Leaf size 10 stays.
+
+### V6: when he signed
+
+V6 is V3 + `days_after_july1`. A single run looked like a jump, to 64.2%
+accuracy, so it was checked across 10 forest seeds:
+
+| Forest | Seed 42 accuracy | 10-seed accuracy | Seed 42 ranking | 10-seed ranking |
+|---|---|---|---|---|
+| V3 | 61.5% | 61.3% | 60.3% | 58.9% |
+| V6 | 64.2% | 62.2% | 60.2% | 60.7% |
+
+### Rolling validation
+
+One window can't separate small gains from noise, so `10_validate.py` now moves
+the window through time, averaging 10 seeds. Each round trains on pay cuts before
+the window. Overall accuracy is weighted by signings, and overall ranking is a
+simple average of the rounds.
+
+| Window | Signings | Baseline | V3 accuracy | V6 accuracy | V3 ranking | V6 ranking |
+|---|---|---|---|---|---|---|
+| 2006-08 | 43 | 55.8% | 51.6% | 51.6% | 52.7% | 52.4% |
+| 2009-11 | 70 | 54.3% | 56.9% | 56.0% | 52.9% | 52.5% |
+| 2012-14 | 97 | 67.0% | 62.5% | 64.1% | 61.1% | 66.5% |
+| 2015-17 | 82 | 54.9% | 56.8% | 56.1% | 59.0% | 56.7% |
+| Overall | 292 | 58.9% | 57.9% | 58.1% | 56.4% | 57.0% |
+
+V6 only won the 2012-14 window, so its gain was mostly that one period. Neither
+version reliably beats the baseline. Forest V6 is the best so far by a small
+margin, and well short of the target. The test set hasn't been used since V3.
+
+Next: add real box-score stats from the season before signing, such as scoring,
+rebounding and shooting, and judge them with rolling validation.

@@ -16,6 +16,7 @@ from pathlib import Path
 ENCODING = "utf-8"
 
 HERE = Path(__file__).parent
+PROCESSED = HERE / "../../processed/vet-min-model"
 DATA = HERE / "../../../web/public/data/kuminga-line"
 
 pd.set_option("display.max_columns", None)
@@ -31,7 +32,7 @@ print(df.head())
 
 #Since we added non paycut vet mins for training, add pay_cut as a feature
 df["pay_cut"] = 1
-extra = pd.read_csv(HERE / "extra_signings.csv")
+extra = pd.read_csv(PROCESSED / "extra_signings.csv")
 extra["pay_cut"] = 0
 df = pd.concat([df, extra], ignore_index=True)
 
@@ -67,7 +68,7 @@ print(df["yearsOfService"].isna().sum())
 #add the draft picks of players drafted before 1990 and cap the draft picks at 61
 #back then there were way more rounds (i.e. Mario Elie drafted 160th)
 
-old_picks = pd.read_csv(HERE / "old_draft_picks.csv")[["brefId", "pick"]]
+old_picks = pd.read_csv(PROCESSED / "old_draft_picks.csv")[["brefId", "pick"]]
 
 df = df.merge(right=old_picks, on=["brefId"], how="left")
 
@@ -92,7 +93,7 @@ df["prev_salary_m"] = df["prev_salary_m"].fillna(0)
 
 df["prev_season"] = df["year"] - 1
 
-stats = pd.read_csv(HERE / "season_stats.csv")
+stats = pd.read_csv(PROCESSED / "season_stats.csv")
 df = df.merge(right=stats, on=["brefId", "prev_season"], how="left")
 print(len(df))
 
@@ -119,11 +120,22 @@ df["bpm_change"] = df["prev_bpm"] - df["prev2_bpm"]
 df["mpg_change"] = df["mpg_change"].fillna(0)
 df["bpm_change"] = df["bpm_change"].fillna(0)
 
+dates = pd.read_csv(PROCESSED / "signing_dates.csv")
+df = df.merge(right=dates,on=["brefId", "year", "vetMinSalary"],how="left")
+print(len(df))
+
+df["signing_date"] = pd.to_datetime(df["signing_date"])
+
+july1 = pd.to_datetime((df["year"] - 1).astype(str) + ("-07-01"))
+df["days_after_july1"] = (df["signing_date"] - july1).dt.days
+
+df["days_after_july1"] = df["days_after_july1"].fillna(-1)
+
 #save the final dataset
 df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season", "dropPct" : "drop_pct"})
 
 df["drop_pct"] = df["drop_pct"].fillna(0).clip(lower=0)
 
-final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change", "pay_cut", "no_prev_salary"]]
+final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change", "pay_cut", "no_prev_salary", "days_after_july1"]]
 
-final.to_csv(HERE / 'dataset.csv', index=False)
+final.to_csv(PROCESSED / "dataset.csv", index=False)

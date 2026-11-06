@@ -6,15 +6,16 @@ looks back on and writes season_stats.csv. prev_season is the year that season
 ended (2015 = 2014-15). 08_build_dataset.py joins on it with signing year - 1,
 so a player's stats always come from the season before he signed.
 
-Pages are saved in season_stats_html/, so reruns don't download them again.
+Pages are saved in data/scrape/vet-min-model/season_stats_html/, so reruns don't download them again.
 Waits 4s between requests (robots.txt asks for 3).
 """
 import csv, re, time, urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).parent
-HTML_DIR = HERE / "season_stats_html"
-OUT = HERE / "season_stats.csv"
+PROCESSED = HERE / "../../../processed/vet-min-model"
+HTML_DIR = HERE / "../../../scrape/vet-min-model/season_stats_html"
+OUT = PROCESSED / "season_stats.csv"
 YEARS = range(1995, 2023)
 DELAY = 4.0
 

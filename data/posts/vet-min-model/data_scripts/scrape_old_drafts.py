@@ -1,7 +1,7 @@
 """
 Fills a gap in the draft data for the vet-min model.
 
-../../processed/draft_picks.csv starts with the 1990 draft, so a player drafted
+data/processed/draft_picks.csv starts with the 1990 draft, so a player drafted
 earlier has a blank draftPick in prove_it.json and looks undrafted (Shawn Kemp,
 #17 in 1989, for example).
 
@@ -9,20 +9,21 @@ This downloads the 1970-1989 draft pages and writes old_draft_picks.csv, with
 only the players who are in prove_it.json or extra_signings.csv and have a
 blank draftPick. Run build_extra_signings.py first.
 
-It stays in this folder on purpose: the shared pipeline reads
-../../scrape/draft_html/, so saving these pages there would change the site's
+It uses its own folder on purpose: the shared pipeline reads
+data/scrape/draft_html/, so saving these pages there would change the site's
 data the next time the pipeline runs.
 
-Pages are saved in old_draft_html/, so reruns don't download them again.
+Pages are saved in data/scrape/vet-min-model/old_draft_html/, so reruns don't download them again.
 Waits 4s between requests (robots.txt asks for 3).
 """
 import csv, json, re, time, urllib.request
 from pathlib import Path
 
 HERE = Path(__file__).parent
-HTML_DIR = HERE / "old_draft_html"
-PROVE_IT = HERE / "../../../web/public/data/kuminga-line/prove_it.json"
-OUT = HERE / "old_draft_picks.csv"
+PROCESSED = HERE / "../../../processed/vet-min-model"
+HTML_DIR = HERE / "../../../scrape/vet-min-model/old_draft_html"
+PROVE_IT = HERE / "../../../../web/public/data/kuminga-line/prove_it.json"
+OUT = PROCESSED / "old_draft_picks.csv"
 YEARS = range(1970, 1990)
 DELAY = 4.0
 
@@ -59,7 +60,7 @@ def parse(path):
 HTML_DIR.mkdir(exist_ok=True)
 signings = json.loads(PROVE_IT.read_text(encoding="utf-8"))["signings"]
 blank_ids = {s["brefId"] for s in signings if s["draftPick"] is None}
-with open(HERE / "extra_signings.csv", encoding="utf-8") as f:
+with open(PROCESSED / "extra_signings.csv", encoding="utf-8") as f:
     blank_ids |= {r["brefId"] for r in csv.DictReader(f) if not r["draftPick"]}
 
 rows = {}

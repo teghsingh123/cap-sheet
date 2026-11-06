@@ -8,11 +8,12 @@ from pathlib import Path
 from sklearn.linear_model import LogisticRegression
 
 HERE = Path(__file__).parent
+PROCESSED = HERE / "../../processed/vet-min-model"
 
 pd.set_option("display.max_columns", None)
 
 #set the df as the csv created at the end of 08
-df = pd.read_csv(HERE / "dataset.csv")
+df = pd.read_csv(PROCESSED / "dataset.csv")
 
 print(len(df))
 print(df.head())
