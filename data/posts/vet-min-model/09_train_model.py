@@ -19,8 +19,8 @@ print(df.head())
 
 #split the data into training and testing data
 
-train = df[df["season"] < 2018]
-test = df[df["season"] >= 2018]
+train = df[(df["season"] < 2018) & (df["pay_cut"] == 1)]
+test = df[(df["season"] >= 2018) & (df["pay_cut"] == 1)]
 
 print(len(train))
 print(len(test))

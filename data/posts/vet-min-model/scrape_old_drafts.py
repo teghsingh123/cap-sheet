@@ -6,7 +6,8 @@ earlier has a blank draftPick in prove_it.json and looks undrafted (Shawn Kemp,
 #17 in 1989, for example).
 
 This downloads the 1970-1989 draft pages and writes old_draft_picks.csv, with
-only the players who are in prove_it.json and have a blank draftPick.
+only the players who are in prove_it.json or extra_signings.csv and have a
+blank draftPick. Run build_extra_signings.py first.
 
 It stays in this folder on purpose: the shared pipeline reads
 ../../scrape/draft_html/, so saving these pages there would change the site's
@@ -58,6 +59,8 @@ def parse(path):
 HTML_DIR.mkdir(exist_ok=True)
 signings = json.loads(PROVE_IT.read_text(encoding="utf-8"))["signings"]
 blank_ids = {s["brefId"] for s in signings if s["draftPick"] is None}
+with open(HERE / "extra_signings.csv", encoding="utf-8") as f:
+    blank_ids |= {r["brefId"] for r in csv.DictReader(f) if not r["draftPick"]}
 
 rows = {}
 for year in YEARS:

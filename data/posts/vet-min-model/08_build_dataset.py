@@ -29,6 +29,12 @@ df = pd.DataFrame(data["signings"])
 
 print(df.head())
 
+#Since we added non paycut vet mins for training, add pay_cut as a feature
+df["pay_cut"] = 1
+extra = pd.read_csv(HERE / "extra_signings.csv")
+extra["pay_cut"] = 0
+df = pd.concat([df, extra], ignore_index=True)
+
 #Load all minimum signings
 with open(DATA / "all_signings.json", encoding=ENCODING) as f:
     all_data = json.load(f)
@@ -78,8 +84,11 @@ df["out_next"] = (df["outcome"] == "flamed_out").astype(int)
 
 print(df["out_next"].sum())
 
+df["no_prev_salary"] = df["prevSalary"].isna().astype(int)
+
 #previous salary in millions
 df["prev_salary_m"] = df["prevSalary"] / 1000000
+df["prev_salary_m"] = df["prev_salary_m"].fillna(0)
 
 df["prev_season"] = df["year"] - 1
 
@@ -113,6 +122,8 @@ df["bpm_change"] = df["bpm_change"].fillna(0)
 #save the final dataset
 df = df.rename(columns={"yearsOfService" : "years_service", "year" : "season", "dropPct" : "drop_pct"})
 
-final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change"]]
+df["drop_pct"] = df["drop_pct"].fillna(0).clip(lower=0)
+
+final = df[["player", "brefId", "age", "years_service", "draft_pick", "undrafted", "season", "out_next", "prev_salary_m", "drop_pct", "prev_season", "missed_prev_season", "prev_mpg", "prev_games_pct", "prev_bpm", "mpg_change", "bpm_change", "pay_cut", "no_prev_salary"]]
 
 final.to_csv(HERE / 'dataset.csv', index=False)

@@ -45,13 +45,15 @@ season to check, so they're already left out of `prove_it.json`.
 | `undrafted` | No pick in either source | 1 or 0. Don't use a blank `draftPick` alone: it's also blank for anyone drafted before 1990 |
 | `season` | `prove_it.json` `year` | Year the season ends: 2016 = 2015-16 |
 | `prev_salary_m` | `all_signings.json` `prevSalary` | The season before, in millions of dollars. Same join as `years_service` |
-| `drop_pct` | `all_signings.json` `dropPct` | Size of the pay cut, 0 to 100. Same join as `years_service` |
+| `drop_pct` | `all_signings.json` `dropPct` | Size of the pay cut, 0 to 100. Same join as `years_service`. Raises and blanks -> 0 |
 | `prev_mpg` | `season_stats.csv` | Minutes per game the season before signing. Blank -> 0 |
 | `prev_games_pct` | `season_stats.csv` | Share of the season's games he played. Blank -> 0 |
 | `prev_bpm` | `season_stats.csv` | Box Plus/Minus. Blank -> -2, about replacement level, because 0 means league average |
 | `missed_prev_season` | `prev_mpg` is blank | 1 or 0. True for 24 signings |
 | `mpg_change` | `season_stats.csv` | `prev_mpg` minus minutes per game two seasons before signing. Blank -> 0 |
 | `bpm_change` | `season_stats.csv` | `prev_bpm` minus BPM two seasons before signing. Blank -> 0 |
+| `pay_cut` | Which file the signing came from | 1 for `prove_it.json`, 0 for `extra_signings.csv` |
+| `no_prev_salary` | `prevSalary` is blank | 1 or 0. Blank `prev_salary_m` -> 0 |
 
 Label: `out_next` = 1 if `outcome == "flamed_out"`, else 0.
 
@@ -75,8 +77,8 @@ has the "out next season" logic).
 ## Open choices
 
 - **Scope:** pay cuts only (632, the default above), or every minimum
-  signing (1,538)? The others would need an "out next season" label
-  computed the same way `prove_it` does it.
+  signing? `extra_signings.csv` now labels 826 more for training, but they
+  didn't help in V5.
 - **Outcome:** "out of the league," or "got a real contract again"
   (`bounced_back`, 80 cases: rarer and harder to predict, but closer to the
   Kuminga story)?
@@ -90,13 +92,15 @@ the Kuminga post's scripts (`../kuminga-line/`). JSON the post loads goes in
 
 Run them in this order:
 
-1. `scrape_old_drafts.py`: writes `old_draft_picks.csv`. Only needed if that
+1. `build_extra_signings.py`: writes `extra_signings.csv`, and stops if its
+   rule doesn't match `prove_it.json`.
+2. `scrape_old_drafts.py`: writes `old_draft_picks.csv`. Only needed if that
+   file is missing or step 1 added players. Its downloaded pages stay out of git.
+3. `scrape_season_stats.py`: writes `season_stats.csv`. Only needed if that
    file is missing. Its downloaded pages stay out of git.
-2. `scrape_season_stats.py`: writes `season_stats.csv`. Only needed if that
-   file is missing. Its downloaded pages stay out of git.
-3. `08_build_dataset.py`: writes `dataset.csv`.
-4. `09_train_model.py`: prints the test results.
-5. `10_validate.py`: prints the validation results.
+4. `08_build_dataset.py`: writes `dataset.csv`.
+5. `09_train_model.py`: prints the test results.
+6. `10_validate.py`: prints the validation results.
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
@@ -156,3 +160,21 @@ The forest is a random forest with 500 trees and `min_samples_leaf=10`.
 - **V2's 63% ranking on the test set didn't hold up:** logistic V2 scored 48.7%
   here. Logistic V3 scored about 55% on both, which doesn't support the theory
   that the league changed after 2018.
+
+### V5: more training data
+
+V5 adds the 416 pre-2012 minimum signings that weren't pay cuts, taking training
+from 272 to 688. Validation and test stay pay cuts only, so scores can be
+compared with the versions above. `pay_cut` was added because those extra
+signings were out 55% of the time, compared with 43% for pay cuts.
+
+| Setup | Training signings | Train | Validation accuracy | Ranking |
+|---|---|---|---|---|
+| Forest V3 | 272 | 78.3% | 61.5% | **60.3%** |
+| Forest V5 (V3 + pay_cut, no_prev_salary) | 688 | 79.7% | 61.5% | 57.2% |
+
+More data didn't help, so Forest V3 on pay cuts only stays the best model. The
+extra signings may teach the model about a different kind of player.
+
+Next: try different `min_samples_leaf` values, since the forest still does far
+better on training data than on new data.
