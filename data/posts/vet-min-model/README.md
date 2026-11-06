@@ -81,3 +81,11 @@ JSON the post loads goes in `../../../web/public/data/vet-min-model/`. Needs
 
 If the post ends up with a different slug, rename this folder to match its
 folder in `web/src/posts/`.
+
+## Results
+
+Test set: 181 signings, 2018-2023. Baseline: 56.4% (always guess "stays").
+
+| Version | Features | Train | Test | Predicted out | Notes |
+|---|---|---|---|---|---|
+| V1 | age, years_service, draft_pick, undrafted, season | 60.8% | 54.1% | 12 (4 correct) | Below baseline. Mostly guesses "stays". |
