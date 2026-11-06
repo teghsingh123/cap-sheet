@@ -253,5 +253,40 @@ recent windows.
 four windows. `prev_ts`, `prev_dbpm`, `drop_pct` and `days_after_july1` made it in
 three. No column dominates, and `prev_ppg` only made it once.
 
-Next: try a smaller version with just those 7 columns, since 25 is a lot for
-training sets this small.
+### V8: the best 7 columns
+
+V8 is only `age`, `prev_usg`, `prev_games_pct`, `prev_ts`, `prev_dbpm`, `drop_pct`
+and `days_after_july1`, since 25 columns is a lot for training sets this small.
+
+| Window | Baseline | V7 accuracy | V8 accuracy | V7 ranking | V8 ranking |
+|---|---|---|---|---|---|
+| 2006-08 | 55.8% | 57.7% | 60.5% | 62.8% | 63.0% |
+| 2009-11 | 54.3% | 56.3% | 56.0% | 58.7% | 56.5% |
+| 2012-14 | 67.0% | 64.9% | 66.8% | 57.8% | 60.6% |
+| 2015-17 | 54.9% | 56.3% | 57.6% | 52.1% | 55.7% |
+| Overall | 58.9% | 59.4% | 60.7% | 57.8% | 59.0% |
+
+Fewer columns did better in 3 of 4 windows on both measures. V8 is about 5
+signings above the baseline, but luck alone can move accuracy by about 8 on 292
+signings. These columns were also picked using these same windows, so the score
+is probably a little high.
+
+### Gradient boosting
+
+Boosting on the V8 columns, with `n_estimators=100`, `learning_rate=0.03`,
+`max_depth=2`, `subsample=0.8` and `min_samples_leaf=10`, chosen once up front:
+
+| Window | Baseline | Forest accuracy | Boost accuracy | Forest ranking | Boost ranking |
+|---|---|---|---|---|---|
+| 2006-08 | 55.8% | 60.5% | 60.9% | 63.0% | 63.9% |
+| 2009-11 | 54.3% | 56.0% | 53.4% | 56.5% | 57.2% |
+| 2012-14 | 67.0% | 66.8% | 66.2% | 60.6% | 60.9% |
+| 2015-17 | 54.9% | 57.6% | 55.6% | 55.7% | 55.2% |
+| Overall | 58.9% | 60.7% | 59.4% | 59.0% | 59.3% |
+
+It's about a tie, so Forest V8 stays the best model. Two methods stopping near 59%
+suggests the model type isn't the limit.
+
+Forest V8 is still short of the target and hasn't been run on the test set.
+
+Next: try games played across the last three seasons, then run one final test.
